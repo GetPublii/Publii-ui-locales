@@ -1,0 +1,8 @@
+{
+	"name": "Ukrainian",
+	"version": "1.0.0",
+	"author": "Andrew Notea",
+	"publiiSupport": "0.39.0",
+  "momentLocale": "uk-ua",
+  "wysiwygTranslation": true
+}

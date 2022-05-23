@@ -182,6 +182,7 @@
     "Lower Greek": "Lettere greche minuscole",
     "Lower Roman": "Numeri romani minuscoli",
     "Match case": "Mantieni maiuscolo/minuscolo",
+    "Find in selection": "Trova nella selezione",
     "Mathematical": "Matematico",
     "Media": "Media",
     "Media poster (Image URL)": "Poster (URL immagine)",
@@ -199,7 +200,7 @@
     "Next": "Successivo",
     "No": "No",
     "No color": "Nessun colore",
-    "Nonbreaking space": "Spazio invisibile (nbsp)",
+    "Nonbreaking space": "Spazio unificatore '&nbsp;'",
     "None": "Nessuno",
     "Numbered list": "Elenco numerato",
     "OR": "O",
@@ -256,7 +257,7 @@
     "Select...": "Seleziona...",
     "Selection": "Selezione",
     "Shortcut": "Scorciatoia",
-    "Show caption": "Mostra didascalia",
+    "Show caption": "Mostra la didascalia",
     "Show invisible characters": "Mostra caratteri invisibili",
     "Size": "Dimensione",
     "Source": "URL di origine",
@@ -322,6 +323,22 @@
     "permanent pen": "penna permanente",
     "styles": "stili",
     "{0} characters": "{0} caratteri",
-    "{0} words": "{0} parole"	
+    "{0} words": "{0} parole",
+
+    "⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇":"⬇ New strigs added ⬇:",
+
+    "Cut column": "Taglia colonna",	
+    "Copy column": "Copia colonna",
+    "Paste column before": "Incolla la colonna prima",
+    "Paste column afer": "Incolla la colonna dopo",
+    "grinning": "sorridente",
+    "Blocks": "Blocchi",
+    "Insert template": "Inserisci template",
+    "Full image": "image--full (intera)",
+    "Wide image":"image--wide (tutta larghezza)",
+    "Left-aligned image":"image--left (allineata a sinistra)", 
+    "Right-aligned image":"image--right (allineata a Destra",
+    "Centered image":"image--center (centrata)",
+    "Alternative description":"Descrizione alternativa"
     }
     

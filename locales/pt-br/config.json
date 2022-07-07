@@ -1,8 +1,8 @@
 {
-	"name": "Brazilian Portuguese",
-	"version": "1.1.0",
-	"author": "Marcio Duarte",
-	"publiiSupport": "0.39.0",
+    "name": "Brazilian Portuguese",
+    "version": "1.2.0",
+    "author": "Marcio Duarte",
+    "publiiSupport": "0.40.0",
     "momentLocale": "pt-br",
     "wysiwygTranslation": true
 }

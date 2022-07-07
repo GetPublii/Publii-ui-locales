@@ -833,7 +833,7 @@
         "versionParameterInfo": "Adiciona o parâmetro de versão nas URLs dos arquivos CSS e JS vinculados para ignorar o cache do navegador. Essa opção pode fazer com que mais arquivos sejam sincronizados durante a implantação do que o normal.",
         "vimeoNoTrack": "Habilitar o modo “Não rastrear” para vídeos do Vimeo",
         "websiteSpeed": "Velocidade do site",
-        "whatsApp": "WhatsApp"
+        "whatsApp": "WhatsApp",
         "youMustReviewGdprSettings": "Certifique-se de conferir e revisar suas configurações de privacidade – especialmente as configurações do banner de cookies – devido a mudanças significativas no Publii v.0.40. <a href=\"https://getpublii.com/blog/release-040.html#cookie-banner\" target=\"_blank\">Leia mais...</a>",
         "ytNoCookies": "Ativar o modo de privacidade aprimorada para vídeos do YouTube"
         
@@ -1269,7 +1269,7 @@
         "theme": "Tema",
         "tools": "Ferramentas e plug-ins",
         "unhide": "Mostrar",
-        "uploadInProgress": "Envio em andamento..."
+        "uploadInProgress": "Envio em andamento...",
         "whatsNew": "Novidades"
     }
 }

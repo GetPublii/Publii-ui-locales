@@ -1,8 +1,8 @@
 {
-	"name": "Italiano - beta",
-	"version": "1.0.2",
+	"name": "Italiano",
+	"version": "1.1.0",
 	"author": "Vittorio Ramponi",
-	"publiiSupport": "0.39.0",
+	"publiiSupport": "0.40.0",
     "momentLocale": "it",
     "wysiwygTranslation": true
 }

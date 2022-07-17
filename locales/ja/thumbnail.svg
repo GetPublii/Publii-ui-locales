@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="flag-icons-gb"
+   viewBox="0 0 640 480"
+   version="1.1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs160" /><path
+     fill="#FFF"
+     d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"
+     id="path149" /><rect
+     fill="#ffffff"
+     height="478.10809"
+     width="638.10809"
+     id="rect320"
+     x="0.94595337"
+     y="0.94595337"
+     style="stroke-width:0.751646" /><circle
+     fill="#bc002d"
+     cx="320"
+     cy="240"
+     r="144.32433"
+     id="circle322"
+     style="stroke-width:0.801802" /></svg>

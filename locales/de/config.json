@@ -1,0 +1,8 @@
+{
+	"name": "German - default",
+	"version": "1.0.0",
+	"author": "Johannes Keyser",
+	"publiiSupport": "0.39.0",
+    "momentLocale": "de",
+    "wysiwygTranslation": false
+}

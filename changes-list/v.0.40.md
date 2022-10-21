@@ -1,6 +1,7 @@
 # Modified translations between Publii v.0.39 and v.0.40 
 
 ⚠️ This file contains only important modifications with context changes. 
+
 ⚠️ Typos or semantic improvements are not included.
 
 | Translation key                           | Previous translation (v.0.39) | New translation (v.0.40) |

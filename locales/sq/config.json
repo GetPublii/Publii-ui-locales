@@ -1,8 +1,8 @@
 {
     "name": "Albanian",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "author": "Besmir Godole",
-    "publiiSupport": "0.40.0",
+    "publiiSupport": "0.41.0",
     "momentLocale": "sq",
     "wysiwygTranslation": true
 }

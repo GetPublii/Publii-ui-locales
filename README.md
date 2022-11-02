@@ -29,6 +29,8 @@ You can find all existing language packages under [downloads directory](https://
 * 07.07.2022 - Publii v.0.40.0 - [diff file](https://github.com/GetPublii/Publii-ui-locales/blob/main/diff-files/v.0.40.0.diff)
 * 01.11.2022 - Publii v.0.41.0 - [diff file](https://github.com/GetPublii/Publii-ui-locales/blob/main/diff-files/v.0.41.0.diff)
 
+You can also find context changes between Publii versions [here](https://github.com/GetPublii/Publii-ui-locales/tree/main/changes-list).
+
 ## Language Tools
 
 We are currently working on few tools which will make working with Publii language files easier - stay tuned!

@@ -31,6 +31,7 @@ You can find all existing language packages under [downloads directory](https://
 
 You can also find context changes between Publii versions [here](https://github.com/GetPublii/Publii-ui-locales/tree/main/changes-list).
 
-## Language Tools
+## Language Tools:
 
-We are currently working on few tools which will make working with Publii language files easier - stay tuned!
+### 1. Language File Checker
+A simple tool that allows translators to directly compare their own language files with the base English language &rarr; https://getpublii.github.io/language-file-checker/

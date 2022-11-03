@@ -36,43 +36,43 @@
     },
     "core": {
         "archive": {
-        "destinationNotExists": "O destino de saída especificado não existe",
-        "errorDuringCreatingTAR": "Ocorreu um erro durante a criação do arquivo TAR. Tente novamente.",
-        "errorDuringCreatingZIP": "Ocorreu um erro durante a criação do arquivo ZIP. Tente novamente."
+            "destinationNotExists": "O destino de saída especificado não existe",
+            "errorDuringCreatingTAR": "Ocorreu um erro durante a criação do arquivo TAR. Tente novamente.",
+            "errorDuringCreatingZIP": "Ocorreu um erro durante a criação do arquivo ZIP. Tente novamente."
         },
         "backup": {
-        "destinationDirectoryDoesNotExists": "O diretório de destino não existe.",
-        "errorDuringFileSaveProcess": "Ocorreu um erro durante o processo de salvamento do arquivo.",
-        "errorDuringReadingBackupFile": "Ocorreu um erro durante a leitura do arquivo de backup.",
-        "fileDoesNotExists": "O arquivo de backup não existe.",
-        "fileIsCorrupted": "O arquivo de backup está corrompido. Abortando o processo de restauração.",
-        "locationDoesNotExists": "O local de backup não existe.",
-        "temporaryDirectoryDoesNotExists": "O diretório temporário não existe."
+            "destinationDirectoryDoesNotExists": "O diretório de destino não existe.",
+            "errorDuringFileSaveProcess": "Ocorreu um erro durante o processo de salvamento do arquivo.",
+            "errorDuringReadingBackupFile": "Ocorreu um erro durante a leitura do arquivo de backup.",
+            "fileDoesNotExists": "O arquivo de backup não existe.",
+            "fileIsCorrupted": "O arquivo de backup está corrompido. Abortando o processo de restauração.",
+            "locationDoesNotExists": "O local de backup não existe.",
+            "temporaryDirectoryDoesNotExists": "O diretório temporário não existe."
         },
         "credits": {
-        "errorLoadingLicenseMsg": "Ocorreu um erro durante o carregamento da licença. Tente novamente."
+            "errorLoadingLicenseMsg": "Ocorreu um erro durante o carregamento da licença. Tente novamente."
         },
         "images": {
-        "responsiveImagesDisabled": "As imagens responsivas foram desativadas nas configurações do site. Todas as imagens responsivas foram removidas."
+            "responsiveImagesDisabled": "As imagens responsivas foram desativadas nas configurações do site. Todas as imagens responsivas foram removidas."
         },
         "rendering": {
-        "renderingProcessCrashed": "O processo de renderização falhou.",
-        "renderingProcessCrashedMsg": "Para obter mais informações, verifique os arquivos rendering-errors.log e rendering-process.log em Ferramentas &gt; Visualizador de arquivos de log.",
-        "renderingProcessFailed": "Falha no processo de renderização."
+            "renderingProcessCrashed": "O processo de renderização falhou.",
+            "renderingProcessCrashedMsg": "Para obter mais informações, verifique os arquivos rendering-errors.log e rendering-process.log em Ferramentas &gt; Visualizador de arquivos de log.",
+            "renderingProcessFailed": "Falha no processo de renderização."
         },
         "server": {
-        "branchDoesNotExist": "O branch selecionado não existe.",
-        "creatingNewRemoteFilesTree": "Criando uma nova árvore de arquivos remotos...",
-        "finishingDeploymentProcess": "Finalizando o processo de implantação...",
-        "getInfoAboutLatestCommit": "Obtendo informações sobre o último commit...",
-        "preparingFilesTreeToUpload": "Preparando árvore de arquivos para upload...",
-        "repositoryDoesNotExist": "O repositório selecionado não existe.",
-        "requestLimitExceededInfo": "Seu limite de solicitações à API foi excedido ({remaining} solicitações restantes). Aguarde até {resetTime} UTC e tente novamente.",
-        "requestTimeout": "Solicitar tempo limite.",
-        "retrievingHandlerOfRemoteFilesTree": "Recuperando o manipulador da árvore de arquivos remota...",
-        "retrievingRemoteFilesTree": "Recuperando a árvore de arquivos remota...",
-        "tokenOrServerAddressInvalid": "O token ou o endereço do servidor fornecido é inválido.",
-        "tooManyFilesInfo": "Seu site contém mais de 4.000 itens ({numberOfFiles} arquivos e diretórios). Atualmente, nossa implementação do Github Pages suporta apenas sites com até 4.000 itens."
+            "branchDoesNotExist": "O branch selecionado não existe.",
+            "creatingNewRemoteFilesTree": "Criando uma nova árvore de arquivos remotos...",
+            "finishingDeploymentProcess": "Finalizando o processo de implantação...",
+            "getInfoAboutLatestCommit": "Obtendo informações sobre o último commit...",
+            "preparingFilesTreeToUpload": "Preparando árvore de arquivos para upload...",
+            "repositoryDoesNotExist": "O repositório selecionado não existe.",
+            "requestLimitExceededInfo": "Seu limite de solicitações à API foi excedido ({remaining} solicitações restantes). Aguarde até {resetTime} UTC e tente novamente.",
+            "requestTimeout": "Solicitar tempo limite.",
+            "retrievingHandlerOfRemoteFilesTree": "Recuperando o manipulador da árvore de arquivos remota...",
+            "retrievingRemoteFilesTree": "Recuperando a árvore de arquivos remota...",
+            "tokenOrServerAddressInvalid": "O token ou o endereço do servidor fornecido é inválido.",
+            "tooManyFilesInfo": "Seu site contém mais de 4.000 itens ({numberOfFiles} arquivos e diretórios). Atualmente, nossa implementação do Github Pages suporta apenas sites com até 4.000 itens."
         },
         "site": {
             "noConfigurationForResponsiveImages": "Não há dados de configuração para imagens responsivas.",
@@ -125,52 +125,52 @@
         "alignTextRight": "Alinhar à direita",
         "blockEditorHelpPanelDesc": "Você pode inserir um bloco pressionando no botão <span>+</span> ou <span>TAB</span> em uma nova linha ou digitando os seguintes atalhos – ou sintaxe de markdown – em uma nova linha:",
         "blocks": {
-        "code": {
-            "idTooltip": "Este valor será utilizado como o ID do código."
-        },
-        "cssClassesLabel": "Classe CSS",
-        "cssClassesTooltip": "Essas classes CSS serão adicionadas ao atributo “class” do campo.",
-        "embed": {
-            "idTooltip": "Este valor será utilizado como o ID da incorporação."
-        },
-        "gallery": {
-            "idTooltip": "Este valor será utilizado como o ID da galeria."
-        },
-        "header": {
-            "customIdLabel": "Utilizar ID personalizado",
-            "customIdTooltip": "Ative esta opção se quiser utilizar seu próprio ID, em vez do ID gerado automaticamente",
-            "idTooltip": "Este valor será utilizado como o ID do cabeçalho."
-        },
-        "html": {
-            "idTooltip": "Este valor será utilizado como o ID do HTML."
-        },
-        "idLabel": "ID",
-        "image": {
-            "idTooltip": "Este valor será utilizado como o ID da imagem."
-        },
-        "list": {
-            "idTooltip": "Este valor será utilizado como o ID da lista."
-        },
-        "paragraph": {
-            "idTooltip": "Este valor será utilizado como o ID do parágrafo.",
-            "styleLabel": "Estilo de parágrafo",
-            "styles": {
-            "highlight": "Realçar",
-            "info": "Informações",
-            "success": "Sucesso",
-            "warning": "Aviso"
+            "code": {
+                "idTooltip": "Este valor será utilizado como o ID do código."
             },
-            "styleTooltip": "Selecione um estilo adicional para o bloco de parágrafo."
-        },
-        "quote": {
-            "idTooltip": "Este valor será utilizado como o ID da citação."
-        },
-        "separator": {
-            "idTooltip": "Este valor será utilizado como o ID do separador."
-        },
-        "toc": {
-            "idTooltip": "Este valor será utilizado como o ID do sumário."
-        }
+            "cssClassesLabel": "Classe CSS",
+            "cssClassesTooltip": "Essas classes CSS serão adicionadas ao atributo “class” do campo.",
+            "embed": {
+                "idTooltip": "Este valor será utilizado como o ID da incorporação."
+            },
+            "gallery": {
+                "idTooltip": "Este valor será utilizado como o ID da galeria."
+            },
+            "header": {
+                "customIdLabel": "Utilizar ID personalizado",
+                "customIdTooltip": "Ative esta opção se quiser utilizar seu próprio ID, em vez do ID gerado automaticamente",
+                "idTooltip": "Este valor será utilizado como o ID do cabeçalho."
+            },
+            "html": {
+                "idTooltip": "Este valor será utilizado como o ID do HTML."
+            },
+            "idLabel": "ID",
+            "image": {
+                "idTooltip": "Este valor será utilizado como o ID da imagem."
+            },
+            "list": {
+                "idTooltip": "Este valor será utilizado como o ID da lista."
+            },
+            "paragraph": {
+                "idTooltip": "Este valor será utilizado como o ID do parágrafo.",
+                "styleLabel": "Estilo de parágrafo",
+                "styles": {
+                    "highlight": "Realçar",
+                    "info": "Informações",
+                    "success": "Sucesso",
+                    "warning": "Aviso"
+                },
+                "styleTooltip": "Selecione um estilo adicional para o bloco de parágrafo."
+            },
+            "quote": {
+                "idTooltip": "Este valor será utilizado como o ID da citação."
+            },
+            "separator": {
+                "idTooltip": "Este valor será utilizado como o ID do separador."
+            },
+            "toc": {
+                "idTooltip": "Este valor será utilizado como o ID do sumário."
+            }
         },
         "cantSavePostWithEmptyTitle": "Você não pode salvar um post com um título vazio.",
         "changesSaved": "As mudanças foram salvas",
@@ -178,12 +178,12 @@
         "clickToConfirm": "Clique para confirmar",
         "code": "Código",
         "conversions": {
-        "toCode": "Código",
-        "toHeader": "Cabeçalho",
-        "toHTML": "HTML",
-        "toList": "Lista",
-        "toParagraph": "Parágrafo",
-        "toQuote": "Citação"
+            "toCode": "Código",
+            "toHeader": "Cabeçalho",
+            "toHTML": "HTML",
+            "toList": "Lista",
+            "toParagraph": "Parágrafo",
+            "toQuote": "Citação"
         },
         "convertTo": "Converter para:",
         "custom": "Personalizado",
@@ -218,6 +218,8 @@
         "markdownHelpPanelDesc": "Você pode gerenciar facilmente títulos, estilos de texto ou criar outros elementos HTML utilizando os seguintes atalhos de teclado ou sintaxe de markdown:",
         "newDraftCreated": "Um novo rascunho foi criado",
         "newPostCreated": "Um novo post foi criado",
+        "nothingFound": "Nenhum bloco encontrado",
+        "paragraph": "Parágrafo",
         "quote": "Citar",
         "quoteAuthor": "Autor da citação",
         "quoteText": "Texto de citação",
@@ -227,6 +229,7 @@
         "separator": "Separador",
         "shortcuts": "Atalhos",
         "sourceCode": "Código fonte",
+        "searchForABlock": "Procure um bloco...",
         "startWriting": "Comece a escrever...",
         "startWritingOrPressTabToChooseBlock": "Comece a escrever ou pressione a tecla TAB para escolher um bloco.",
         "toc": "Sumário",
@@ -393,6 +396,10 @@
         "externalLink": "Link externo",
         "externalURL": "URL externo",
         "hideThisMenuItem": "Ocultar este item de menu",
+        "insertActions": "Inserir item selecionado:",
+        "insertAfter": "após",
+        "insertAsChild": "como submenu",
+        "insertBefore": "antes",
         "internalLink": "Link interno",
         "items": "Itens",
         "label": "Rótulo",
@@ -408,6 +415,7 @@
         "menuNameInUseErrorMessage": "O nome do menu especificado está em uso. Insira um novo nome de menu.",
         "menusRemoveMessage": "Deseja realmente remover os menus selecionados?",
         "menusRemoveSuccessMessage": "Os menus selecionados foram removidos.",
+        "moveItem": "Mover",
         "newMenuCreated": "Novo menu foi criado",
         "noMenusAvailable": "Nenhum menu disponível",
         "noMenusCreateNewOne": "Você ainda não tem menus. Vamos criar o primeiro?",
@@ -419,7 +427,8 @@
         "showThisMenuItem": "Exibir este item de menu",
         "textSeparator": "Separador de texto",
         "type": "Tipo",
-        "unassigned": "Não atribuído"
+        "unassigned": "Não atribuído",
+        "unselectItem": "Desmarcar"
     },
     "plugins": {
         "addPluginSuccessMessage": "O plug-in foi adicionado",
@@ -487,6 +496,7 @@
         "postSlug": "Slug do post",
         "postSlugLengthWarning": "Slugs (o trecho que aparece após o domínio na barra de endereços do navegador) com mais de 250 caracteres podem levar à criação de arquivos quebrados durante a renderização do site.",
         "postSlugTooLong": "O slug do post é muito longo",
+        "postSlugUpdateButton": "Atualizar",
         "postState": "Situação do post",
         "postStatusChangeSuccessMessage": "A situação dos posts selecionados foi alterada.",
         "postTemplate": "Modelo de post",
@@ -510,6 +520,7 @@
         "trashed": "Descartado",
         "uniqueWords": "Palavras únicas",
         "updatedOn": "Atualizado em",
+        "updateSlug": "Atualizar slug",
         "url": "URL",
         "words": "Palavras"
     },
@@ -529,7 +540,7 @@
     },
     "rendering": {
         "errorDuringPreviewCreatingMsg": "Ocorreu um erro durante a criação da visualização.",
-        "rendering": "Renderização...",
+        "rendering": "Renderizando...",
         "renderingErrorText": "Ocorreu um erro durante o processo de renderização do site.",
         "renderingPleaseWait": "Aguarde enquanto o processo de renderização é concluído.",
         "selectThemeBeforeCreatingPreviewMsg": "Você precisa selecionar um tema antes de tentar criar uma visualização do seu site. Acesse a seção de configurações do site e selecione um tema."
@@ -570,6 +581,9 @@
         "codeEditor": "Editor de código (CodeMirror)",
         "colorTheme": "Cor do tema",
         "content": "Conteúdo",
+        "convertToWebp": "Converter para o formato WebP",
+        "convertToWebpInfo": "Ative esta opção se você quiser converter todas as imagens JPG, JPEG e PNG para o formato WebP. Uma vez ativada, suas miniaturas de imagem precisarão ser geradas novamente. Note que este recurso funciona apenas se você estiver utilizando a biblioteca Sharp para gerar os thumbnails.",
+        "convertToWebpJimpWarning": "Esta opção não funciona com o mecanismo de redimensionamento de imagem atualmente utilizado, o Jimp. Ao invés disso, mude para o Sharp nas configurações do aplicativo.",
         "cookieGroups": "Grupos de cookies",
         "cookieBanner": "Banner de cookie",
         "cookieBasic": "Básico",
@@ -585,7 +599,7 @@
         "defaultOrderingOnLists": "Classificação padrão de listas:",
         "defaultPostsOrdering": "Classificação padrão de posts:",
         "defaultTagsOrdering": "Classificação padrão de tags:",
-        "descending": "descendente",
+        "descending": "Descendente",
         "disableAuthorsPagination": "Desativar paginação de autores",
         "disableAuthorsPaginationIndexing": "Desativar a indexação da paginação de autores",
         "disableAuthorsPaginationIndexingInfo": "Quando habilitado, os arquivos de paginação de autores serão excluídos do mapa do site e terão a metatag “robots” <strong>noindex, follow</strong> adicionada.",
@@ -611,6 +625,7 @@
         "enableAdvancedPreview": "Ativar visualização avançada",
         "enableAMP": "Ativar AMP",
         "enableAMPInfo": "AMP (Accelerated Mobile Pages) cria páginas otimizadas para dispositivos móveis com conteúdo estático que é renderizado rapidamente.<br/> <strong>Observação:</strong> quando esta opção estiver ativada, seu site carregará scripts de terceiros fornecidos pelo CDN do Google AMP.",
+        "ampDeprecatedMessage": "A partir da próxima versão do aplicativo, o recurso AMP será descontinuado. Visite o blog oficial do Publii para mais detalhes.",
         "enableAutoIndent": "Ativar recuo automático",
         "enableCSSCompression": "Ativar compactação de CSS",
         "enableHTMLCompression": "Ativar compactação de HTML",
@@ -685,6 +700,7 @@
         "howVimeoNoTrackWorks": "Quando habilitado, o parâmetro adicional dnt=1 será adicionado à URL embutida do Vimeo (player.vimeo.com/video) a fim de evitar que o player embutido rastreie quaisquer dados da sessão, incluindo todos os cookies e demais análises. Para saber mais sobre os parâmetros do Vimeo player, visite <a href=\"https://vimeo.zendesk.com/hc/en-us/articles/360001494447-Player-parameters-overview\">a página de ajuda do Vimeo</a>.",
         "imageResizeEngineInfo": "O mecanismo de redimensionamento Sharp é muito mais rápido que o Jimp, mas pode causar problemas com algumas imagens. Se você estiver encontrando problemas ao criar ou gerar novamente as miniaturas das imagens, tente alternar para o mecanismo de redimensionamento Jimp. Se você deseja utilizar imagens WebP, precisará utilizar o mecanismo de redimensionamento Sharp. Observe que o mecanismo de redimensionamento Sharp não está disponível no Linux.",
         "imagesResizeEngine": "Mecanismo de redimensionamento de imagens:",
+        "imageResizeEngineWarning": "O mecanismo de redimensionamento Jimp e a opção de converter imagens para o formato WebP não funcionam corretamente em conjunto. Certifique-se de que todos os seus sites tenham a opção “Velocidade do site / Converter para o formato WebP” desativada e que as miniaturas sejam geradas novamente para fins de consistência.",
         "indentSize": "Tamanho do recuo (espaços)",
         "internalPage": "Página interna",
         "leaveBlankForDefaultBackupsDir": "Deixe em branco para utilizar o diretório de backups padrão",
@@ -695,7 +711,7 @@
         "linkedIn": "LinkedIn",
         "linkLabel": "Rótulo do link",
         "loadAtStart": "Carregar no início:",
-        "metaDescription": "Meta Descrição:",
+        "metaDescription": "Meta descrição:",
         "metaRobots": "Meta Robots:",
         "noIndexWebsite": "Não indexar este site",
         "notSelected": "Não selecionado",
@@ -708,20 +724,20 @@
         "optionsForEditors": "Opções para editores",
         "optionsForExperimentalFeatures": "Recursos experimentais",
         "ordering": {
-        "authorASC": "Por autor (ascendente)",
-        "authorDESC": "Por autor (descendente)",
-        "createdASC": "Por data de criação (crescente)",
-        "createdDESC": "Por data de criação (descendente)",
-        "idASC": "Por ID (crescente)",
-        "idDESC": "Por ID (descendente)",
-        "modifiedASC": "Por data de modificação (crescente)",
-        "modifiedDESC": "Por data de modificação (descendente)",
-        "nameASC": "Por nome (ascendente)",
-        "nameDESC": "Por nome (descendente)",
-        "postsCounterASC": "Por contagem de posts (crescente)",
-        "postsCounterDESC": "Por contagem de posts (decrescente)",
-        "titleASC": "Por título (ascendente)",
-        "titleDESC": "Por título (descendente)"
+            "authorASC": "Por autor (ascendente)",
+            "authorDESC": "Por autor (descendente)",
+            "createdASC": "Por data de criação (crescente)",
+            "createdDESC": "Por data de criação (descendente)",
+            "idASC": "Por ID (crescente)",
+            "idDESC": "Por ID (descendente)",
+            "modifiedASC": "Por data de modificação (crescente)",
+            "modifiedDESC": "Por data de modificação (descendente)",
+            "nameASC": "Por nome (ascendente)",
+            "nameDESC": "Por nome (descendente)",
+            "postsCounterASC": "Por contagem de posts (crescente)",
+            "postsCounterDESC": "Por contagem de posts (decrescente)",
+            "titleASC": "Por título (ascendente)",
+            "titleDESC": "Por título (descendente)"
         },
         "pageName": "Nome da página",
         "pageTitle": "Título da página",
@@ -730,11 +746,11 @@
         "paginationPhraseCannotBeEmpty": "A frase de paginação não pode estar vazia.",
         "paginationPhraseInfo": "Define a frase utilizada antes do número da página em um URL, por exemplo, <strong>https://exemplo.com/tags/slug-da-tag/page/2</strong> .<br>",
         "password": {
-        "alwaysAskForPassword": "Sempre solicite a senha",
-        "hidePassword": "Esconder a senha",
-        "password": "Senha",
-        "passwordFieldCantBeEmpty": "O campo de senha não pode permanecer vazio.",
-        "showPassword": "Exibir senha"
+            "alwaysAskForPassword": "Sempre solicite a senha",
+            "hidePassword": "Esconder a senha",
+            "password": "Senha",
+            "passwordFieldCantBeEmpty": "O campo de senha não pode permanecer vazio.",
+            "showPassword": "Exibir senha"
         },
         "pinterest": "Pinterest",
         "postCreationDate": "Data de criação do post",
@@ -760,6 +776,7 @@
         "relatedPostsSelectionMechanism": "Mecanismo de seleção dos posts relacionados:",
         "removeHTMLComments": "Remover comentários HTML",
         "responsiveImagesQuality": "Qualidade das imagens responsivas",
+        "responsiveImagesAlphaQuality": "Qualidade do alfa das imagens responsivas (apenas WebP)",
         "RSSJSONFeed": "Feed RSS/JSON",
         "saveButtonLabel": "Rótulo do botão de salvar",
         "saveSearchStateInfo": "Quando ativado, o Publii salvará os resultados da pesquisa atual mesmo ao criar um novo post, permitindo que você retorne à listagem. Por padrão, o Publii só salva os resultados da pesquisa ao abrir um post para edição.",
@@ -832,11 +849,11 @@
         "versionParameter": "Parâmetro de versão",
         "versionParameterInfo": "Adiciona o parâmetro de versão nas URLs dos arquivos CSS e JS vinculados para ignorar o cache do navegador. Essa opção pode fazer com que mais arquivos sejam sincronizados durante a implantação do que o normal.",
         "vimeoNoTrack": "Habilitar o modo “Não rastrear” para vídeos do Vimeo",
+        "webpLossless": "Ativar a compactação sem perdas para imagens WebP responsivas",
         "websiteSpeed": "Velocidade do site",
         "whatsApp": "WhatsApp",
         "youMustReviewGdprSettings": "Certifique-se de conferir e revisar suas configurações de privacidade – especialmente as configurações do banner de cookies – devido a mudanças significativas no Publii v.0.40. <a href=\"https://getpublii.com/blog/release-040.html#cookie-banner\" target=\"_blank\">Leia mais...</a>",
         "ytNoCookies": "Ativar o modo de privacidade aprimorada para vídeos do YouTube"
-        
     },
     "site": {
         "addNewWebsite": "Adicionar novo site",
@@ -854,6 +871,19 @@
         "erroOcurredDuringSiteDatabaseCreationInfo": "Ocorreu um erro durante a criação do banco de dados do site. Verifique o seu software antivírus e tente novamente. Pode ser preciso também remover a pasta do site inválido do diretório de sites do Publii.",
         "installFromBackup": "Instalar a partir do backup",
         "removeWebsite": "Remover site",
+        "restoreFromBackup": {
+            "createWebsite": "Criar site",
+            "invalidBackupContent": "O arquivo enviado não é um backup válido.",
+            "invalidSiteData": "O backup enviado está corrompido.",
+            "iWantChangeName": "Alterar nome do site",
+            "restoreFailed": "Um erro ocorreu durante a criação do site a partir do backup. Tente novamente.",
+            "selectSiteName": "Especifique um nome para o site",
+            "siteExistsWantOverride": "Existem sites no diretório selecionado. Gostaria de continuar e potencialmente perder todos os dados prévios dos sites? O site do backup sobrescreverá o site existente com o mesmo nome.",
+            "siteNameCannotBeEmpty": "No nome do site não pode estar vazio",
+            "unsupportedFormat": "Arquivo não suportado - utilize um backup no formato TAR.",
+            "unpackError": "Ocorreu um erro durante a descompactação do backup - tente novamente.",
+            "yesPleaseOverride": "Sim, sobrescrever"
+        },
         "selectedBackupFile": "Arquivo de backup selecionado:",
         "siteLoadingErrorMsg": "Ocorreu um erro durante o carregamento do site selecionado. Verifique os arquivos do site e tente novamente.",
         "siteName": "Nome do site:",
@@ -935,10 +965,11 @@
         "ftp": "FTP",
         "ftps": "FTPS",
         "ftpWithSSLTLS": "FTP com SSL/TLS",
+        "generatePreviewFiles": "Gerar arquivos de pré-visualização",
         "getWebsiteFiles": "Obter arquivos do site",
-        "githubPages": "Páginas do Github",
+        "github": "GitHub",
         "githubSyncedPart1": "As alterações nas páginas do Github podem não permanecer visíveis por alguns minutos após a conclusão da implantação,",
-        "githubSyncedPart2": "então, por favor, seja paciente.",
+        "githubSyncedPart2": "então, seja paciente.",
         "gitlabPages": "Páginas do Gitlab",
         "gitlabSyncedPart1": "As alterações nas páginas do Gitlab podem não ser visíveis por alguns minutos após a conclusão da implantação,",
         "gitlabSyncedPart2": "então, por favor, seja paciente.",
@@ -1111,11 +1142,11 @@
     },
     "tools": {
         "css": {
-        "customCSS": "CSS personalizado",
-        "customCSSSaveSuccessMsg": "O CSS personalizado foi salvo com sucesso.",
-        "normal": "Normal",
-        "putCustomCSSAMPComment": "Coloque seu código CSS personalizado aqui (ele será utilizado apenas no modo AMP)",
-        "putCustomCSSComment": "Coloque seu código CSS personalizado aqui"
+            "customCSS": "CSS personalizado",
+            "customCSSSaveSuccessMsg": "O CSS personalizado foi salvo com sucesso.",
+            "normal": "Normal",
+            "putCustomCSSAMPComment": "Coloque seu código CSS personalizado aqui (ele será utilizado apenas no modo AMP)",
+            "putCustomCSSComment": "Coloque seu código CSS personalizado aqui"
         },
         "customHTML": "HTML personalizado",
         "find": "Localizar:",
@@ -1131,37 +1162,37 @@
         "pluginDeactivationError": "Não foi possível desativar o plug-in. Tente novamente.",
         "selectFileToLoad": "Selecione o arquivo a ser carregado",
         "thumbnails": {
-        "listRegeneratedFiles": "Lista de arquivos recriados:",
-        "processingRegenerateThumbnailsInfo": "Pressionar o botão “Recriar miniaturas” iniciará a geração de novos tamanhos de imagem, conforme definido pelo seu novo tema.",
-        "progress": "Progresso:",
-        "regenerateThumbnails": "Recriar miniaturas",
-        "regenerateThumbnailsInfo": "Se você alterou seu tema ou está tendo problemas com suas imagens responsivas, você pode recriá-las pressionando o botão abaixo. Isso pode demorar um pouco se o seu site tiver muitas imagens. Portanto, seja paciente.",
-        "regenerateThumbnailsNotNecessaryInfo": "Atualmente você não tem nenhum tema selecionado para este site. A recriação de miniaturas não é necessária.",
-        "regeneratingThumbnails": "Recriando as miniaturas...",
-        "skipRegeneration": "Pular recriação",
-        "themeOrThumbnailsSettingsChanged": "Suas configurações de tema ou miniatura foram alteradas.",
-        "thumbnailsCreated": "Todas as miniaturas foram criadas.",
-        "thumbnailsRegenerationCancelled": "A recriação de miniaturas foi cancelada."
+            "listRegeneratedFiles": "Lista de arquivos recriados:",
+            "processingRegenerateThumbnailsInfo": "Pressionar o botão “Recriar miniaturas” iniciará a geração de novos tamanhos de imagem, conforme definido pelo seu novo tema.",
+            "progress": "Progresso:",
+            "regenerateThumbnails": "Recriar miniaturas",
+            "regenerateThumbnailsInfo": "Se você alterou seu tema ou está tendo problemas com suas imagens responsivas, você pode recriá-las pressionando o botão abaixo. Isso pode demorar um pouco se o seu site tiver muitas imagens. Portanto, seja paciente.",
+            "regenerateThumbnailsNotNecessaryInfo": "Atualmente você não tem nenhum tema selecionado para este site. A recriação de miniaturas não é necessária.",
+            "regeneratingThumbnails": "Recriando as miniaturas...",
+            "skipRegeneration": "Pular recriação",
+            "themeOrThumbnailsSettingsChanged": "Suas configurações de tema ou miniatura foram alteradas.",
+            "thumbnailsCreated": "Todas as miniaturas foram criadas.",
+            "thumbnailsRegenerationCancelled": "A recriação de miniaturas foi cancelada."
         },
         "wpImport": {
-        "addTagsToContentAutomatically": "Adicionar tags <p> e <br> automaticamente ao conteúdo do post",
-        "categories": "Categorias",
-        "checkingWXRFile": "Verificando o arquivo WXR selecionado",
-        "contentFormatting": "Formatação do conteúdo:",
-        "duringWXRAnalyzeWeHaveFound": "Durante a análise do arquivo WXR encontramos",
-        "importAuthors": "Importar autores",
-        "importData": "Importar dados",
-        "importingData": "Importando dados",
-        "importNote": "Os posts serão importados em um formato compatível com o editor WYSIWYG.",
-        "importSelectedTypesOfPosts": "Importar os tipos de post selecionados:",
-        "pages": "Páginas",
-        "postAuthors": "Autores do post",
-        "selectWXRFileLabel": "Selecione o arquivo WXR:",
-        "selectWXRFilePlaceholder": "Selecione um arquivo WXR para importar",
-        "usedTaxonomyForPosts": "Taxonomia utilizada para os posts:",
-        "useMainAuthor": "Utilizar o autor principal do Publii",
-        "wpImporter": "Importador do WP",
-        "wpImportGoToRegenerateMsg": "Seus dados do WordPress foram importados. A recriação das miniaturas de imagem pode ser necessária se você já tiver selecionado um tema."
+            "addTagsToContentAutomatically": "Adicionar tags <p> e <br> automaticamente ao conteúdo do post",
+            "categories": "Categorias",
+            "checkingWXRFile": "Verificando o arquivo WXR selecionado",
+            "contentFormatting": "Formatação do conteúdo:",
+            "duringWXRAnalyzeWeHaveFound": "Durante a análise do arquivo WXR encontramos",
+            "importAuthors": "Importar autores",
+            "importData": "Importar dados",
+            "importingData": "Importando dados",
+            "importNote": "Os posts serão importados em um formato compatível com o editor WYSIWYG.",
+            "importSelectedTypesOfPosts": "Importar os tipos de post selecionados:",
+            "pages": "Páginas",
+            "postAuthors": "Autores do post",
+            "selectWXRFileLabel": "Selecione o arquivo WXR:",
+            "selectWXRFilePlaceholder": "Selecione um arquivo WXR para importar",
+            "usedTaxonomyForPosts": "Taxonomia utilizada para os posts:",
+            "useMainAuthor": "Utilizar o autor principal do Publii",
+            "wpImporter": "Importador do WP",
+            "wpImportGoToRegenerateMsg": "Seus dados do WordPress foram importados. A recriação das miniaturas de imagem pode ser necessária se você já tiver selecionado um tema."
         }
     },
     "toolsPlugin": {
@@ -1212,6 +1243,8 @@
         "ifCanonicalUrlIsSetMetaRobotsTagIsIgnored": "Caso os URLs canônicos estejam ativos, a metatag “robots” será ignorada.",
         "indexFollow": "index, follow",
         "indexNofollow": "index, nofollow",
+        "indexFollowNoArchive": "index, follow, noarchive",
+        "indexNofollowNoArchive": "index, nofollow, noarchive",
         "iUnderstand": "Ok, eu entendo",
         "lastModified": "Modificação mais recente",
         "leaveBlankToUseDefaultPageTitle": "Deixe em branco para utilizar um título de página padrão",

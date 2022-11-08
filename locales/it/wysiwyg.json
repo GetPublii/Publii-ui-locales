@@ -325,7 +325,7 @@
     "{0} characters": "{0} caratteri",
     "{0} words": "{0} parole",
 
-    "⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇": "⬇ New strigs added ⬇:",
+    "⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇": "⬇ New strigs added here ⬇:",
     
     "Cut column": "Taglia colonna",
     "Copy column": "Copia colonna",
@@ -334,10 +334,10 @@
     "grinning": "sorridente",
     "Blocks": "Blocchi",
     "Insert template": "Inserisci template",
-    "Full image": "image--full (intera)",
-    "Wide image": "image--wide (tutta larghezza)",
-    "Left-aligned image": "image--left (allineata a sinistra)",
-    "Right-aligned image": "image--right (allineata a Destra",
-    "Centered image": "image--center (centrata)",
+    "Full image": "Molto larga (full)",
+    "Wide image": "Larga (wide)",
+    "Left-aligned image": "Allineata a Sinistra",
+    "Right-aligned image": "Allineata a Destra",
+    "Centered image": "Allineata al Centro",
     "Alternative description": "Descrizione alternativa"
 }

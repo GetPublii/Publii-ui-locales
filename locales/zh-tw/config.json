@@ -2,7 +2,7 @@
     "name": "Chinese - Traditional",
     "version": "1.0.1",
     "author": "Dyxang",
-    "publiiSupport": "0.40.1",
+    "publiiSupport": "0.41.0",
     "momentLocale": "zh-tw",
     "wysiwygTranslation": true
 }

@@ -1238,7 +1238,7 @@
     "hide": "Ausblenden",
     "hideThisNotification": "Diese Benachrichtigung ausblenden",
     "id": "ID",
-    "ifCanonicalUrlIsSetMetaRobotsTagIsIgnored": "Wenn kanonische URLs aktiviert sind, wird der robot Metatag ignoriert",
+    "ifCanonicalUrlIsSetMetaRobotsTagIsIgnored": "Wenn kanonische URLs aktiviert sind, wird das Meta-Robots-Tag ignoriert.",
     "indexFollow": "index, follow",
     "indexNofollow": "index, nofollow",
     "indexFollowNoArchive": "index, follow, noarchive",

@@ -2,7 +2,7 @@
     "name": "German - default",
     "version": "1.0.0",
     "author": "Johannes Keyser",
-    "publiiSupport": "0.40.0",
+    "publiiSupport": "0.41.0",
     "momentLocale": "de",
     "wysiwygTranslation": true
 }

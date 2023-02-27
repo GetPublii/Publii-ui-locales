@@ -1,7 +1,7 @@
 {
     "name": "German - default",
     "version": "1.0.0",
-    "author": "Johannes Keyser",
+    "author": "Johannes Keyser, Sebastian Wiemer",
     "publiiSupport": "0.41.0",
     "momentLocale": "de",
     "wysiwygTranslation": true

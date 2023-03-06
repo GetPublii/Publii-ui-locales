@@ -128,7 +128,7 @@
             "code": {
                 "idTooltip": "This value will be used as the code ID"
             },
-            "cssClassesLabel"CSS osztály,
+            "cssClassesLabel": "CSS osztály",
             "cssClassesTooltip": "Ezek a CSS osztályok a mező class attribútumába kerülnek be",
             "embed": {
                 "idTooltip": "This value will be used as the embed ID"
@@ -230,7 +230,7 @@
         "shortcuts": "Shortcuts",
         "sourceCode": "Forráskód",
         "searchForABlock": "Keress egy blokkot...",
-        "startWriting": "Kezdj el írni..."
+        "startWriting": "Kezdj el írni...",
         "startWritingOrPressTabToChooseBlock": "Kezdje el az írást, vagy nyomja meg a TAB billentyűt a blokk kiválasztásához.",
         "toc": "TOC",
         "tocAutoGenerationInfo": "The table of contents is generated automatically based on the headings (H1-H6) of your content.",
@@ -386,7 +386,7 @@
         "addSubmenu": "Almenü hozzáadása",
         "addSubmenuItem": "Almenüelem hozzáadása",
         "assignedMenu": "Hozzárendelt menü",
-        "classCSS"CSS osztály,
+        "classCSS": "CSS osztály",
         "createNewMenu": "Új menü létrehozása",
         "deleteThisMenuItem": "A menüpont törlése",
         "duplicateThisMenuItem": "Duplikálja ezt a menüpontot",
@@ -535,12 +535,12 @@
         "license": "License",
         "licensingInformation": "Licencelési információk",
         "openSourceSoftware": "Nyílt forráskódú szoftver",
-        "publiiLicenseAgreement": "Publii licencszerződés."
+        "publiiLicenseAgreement": "Publii licencszerződés",
         "publiiLicenseAgreementInfo": "This software is licensed under GNU GPL version 3.<br>By clicking \"Accept\" you agree to the"
     },
     "rendering": {
         "errorDuringPreviewCreatingMsg": "Hiba történt az előnézet létrehozása során.",
-        "rendering": "Rendering..."
+        "rendering": "Rendering...",
         "renderingErrorText": "Hiba történt a weboldal megjelenítési folyamata során.",
         "renderingPleaseWait": "Kérjük, várjon, amíg a renderelési folyamat befejeződik.",
         "selectThemeBeforeCreatingPreviewMsg": "You have to select a theme before trying to create a preview of your website. Please go to the website settings section and select a theme."
@@ -969,7 +969,7 @@
         "getWebsiteFiles": "Get website files",
         "github": "GitHub",
         "githubSyncedPart1": "Changes on Github Pages may not be visible for a few minutes after completing deployment, ",
-        "githubSyncedPart2": "úgyhogy kérem, legyen türelemmel."
+        "githubSyncedPart2": "úgyhogy kérem, legyen türelemmel.",
         "gitlabPages": "Gitlab Pages",
         "gitlabSyncedPart1": "Changes on Gitlab Pages may not be visible for a few minutes after completing deployment, ",
         "gitlabSyncedPart2": "úgyhogy kérem, legyen türelemmel.",
@@ -1251,13 +1251,13 @@
         "linkTarget": "Link target",
         "loading": "Loading...",
         "menus": "Menük",
-        "metaDescription"Meta leírás,
+        "metaDescription": "Meta leírás",
         "metaRobotsIndex": "Meta robots index",
         "minimize": "Minimalizálás",
         "more": "Több",
         "moreInformationOnPublii": "További információk a Publiiról",
         "moreItems": "További tételek",
-        "name"}, "name",
+        "name": "name",
         "newWindow": "Új ablak",
         "noindexFollow": "noindex, follow",
         "noindexNofollow": "noindex, nofollow",
@@ -1299,7 +1299,7 @@
         "slug": "Slug",
         "supportPublii": "Support Publii and donate today!",
         "tags": "Címkék",
-        "theme"Téma,
+        "theme": "Téma",
         "tools": "Tools & Plugins",
         "unhide": "Unhide",
         "uploadInProgress": "Feltöltés folyamatban...",

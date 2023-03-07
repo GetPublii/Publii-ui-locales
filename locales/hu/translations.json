@@ -2,13 +2,13 @@
     "author": {
         "addNewAuthor": "Új szerző hozzáadása",
         "author": "Szerző",
-        "authorDataParsingErrorMessage": "An error occurred during parsing of author data for ID: ",
+        "authorDataParsingErrorMessage": "Hiba történt a szerzői adatok elemzése során az ID: ",
         "authorHasBeenUpdated": "A szerzőt frissítették",
         "authorLink": "Szerzői link",
         "authorName": "Szerző neve",
         "authorNameCannotBeEmptyErrorMessage": "A szerző neve nem lehet üres. Kérjük, adjon meg egy nevet",
         "authorNameInUseErrorMessage": "A megadott szerzői név már használatban van. Kérjük, próbáljon meg egy másik nevet.",
-        "authorNameSimilarInUseErrorMessage": "Provided author name is in use; author names are not case-sensitive. Please try another name.",
+        "authorNameSimilarInUseErrorMessage": "A megadott szerzői név használatban van; a szerzői nevek esetében a nagy- és kisbetűket nem kell megkülönböztetni. Kérjük, próbálkozzon más névvel.",
         "authorPage": "Szerzői oldal",
         "authorSlugCannotBeEmpty": "A szerző slug nem lehet üres",
         "avatar": "Avatar",
@@ -23,42 +23,42 @@
         "mainAuthorCannotBeRemoved": "Ez a honlap fő szerzője. Nem lehet eltávolítani.",
         "newAuthorHasBeenCreated": "Új szerzőt hoztunk létre",
         "noAuthorsMatchingYourCriteria": "Nincs olyan szerző, aki megfelelne az Ön kritériumainak.",
-        "removeAuthorsMessage": "Do you really want to remove selected authors?",
+        "removeAuthorsMessage": "Tényleg el akarja távolítani a kiválasztott szerzőket?",
         "removeAuthorsSuccessMessage": "A kiválasztott szerzőket eltávolítottuk",
         "selectAuthor": "Válassza ki a szerzőt",
         "selectAuthorPage": "Válassza ki a szerző oldalát",
         "themeDoesNotSupportFeaturedImagesForAuthors": "Az Ön témája nem támogatja a szerzők kiemelt képeit",
-        "whenYouUseGravatarYourSiteVisitorsWillQueryAThirdPartyServer": "When you use the Gravatar service, please note, that your site visitors need to query a third-party server to load your avatar image.",
-        "toUseThisOptionEnableIndexingAuthorPages": "To use this option, first enable indexing of author pages in SEO settings.",
+        "whenYouUseGravatarYourSiteVisitorsWillQueryAThirdPartyServer": "Ha a Gravatar szolgáltatást használja, kérjük, vegye figyelembe, hogy a webhely látogatóinak egy harmadik féltől származó szervert kell lekérdezniük az avatárkép betöltéséhez.",
+        "toUseThisOptionEnableIndexingAuthorPages": "A lehetőség használatához először engedélyezze a szerzői oldalak indexelését a SEO-beállításokban.",
         "useGravatarMessage": "Use <a href=\"https://gravatar.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Gravatar </a> to provide your author avatar",
-        "useGravatarServiceMessage": "In order to use Gravatar service first provide the author's e-mail.",
-        "website": "Website"
+        "useGravatarServiceMessage": "A Gravatar szolgáltatás használatához először adja meg a szerző e-mail címét.",
+        "website": "Weboldal"
     },
     "core": {
         "archive": {
             "destinationNotExists": "A megadott kimeneti célállomás nem létezik",
             "errorDuringCreatingTAR": "Hiba történt a TAR-archívum létrehozása során. Kérjük, próbálja újra.",
-            "errorDuringCreatingZIP": "An error occurred during ZIP archive creation. Please try again."
+            "errorDuringCreatingZIP": "Hiba történt a ZIP-archívum létrehozása során. Kérjük, próbálja meg újra."
         },
         "backup": {
             "destinationDirectoryDoesNotExists": "A célkönyvtár nem létezik",
             "errorDuringFileSaveProcess": "Hiba történt a fájl mentése során",
             "errorDuringReadingBackupFile": "Hiba történt a mentési fájl olvasása közben",
             "fileDoesNotExists": "A biztonsági másolat fájl nem létezik",
-            "fileIsCorrupted": "The backup file is corrupted - aborting the restore process.",
+            "fileIsCorrupted": "A biztonsági mentési fájl sérült - a visszaállítási folyamat megszakad.",
             "locationDoesNotExists": "A biztonsági mentés helye nem létezik",
-            "temporaryDirectoryDoesNotExists": "Temporary directory does not exist"
+            "temporaryDirectoryDoesNotExists": "Az ideiglenes könyvtár nem létezik"
         },
         "credits": {
-            "errorLoadingLicenseMsg": "An error occurred during loading of the license. Please try again."
+            "errorLoadingLicenseMsg": "Hiba történt a licenc betöltése során. Kérjük, próbálja meg újra."
         },
         "images": {
-            "responsiveImagesDisabled": "Responsive images are disabled under site settings - all responsive images have been removed."
+            "responsiveImagesDisabled": "A reszponzív képek le vannak tiltva az oldal beállításai között - az összes reszponzív képet eltávolítottuk."
         },
         "rendering": {
             "renderingProcessCrashed": "A renderelési folyamat összeomlott",
             "renderingProcessCrashedMsg": "For more information, check the rendering-errors.log and rendering-process.log files under Tools -> Log viewer.",
-            "renderingProcessFailed": "Rendering process failed"
+            "renderingProcessFailed": "A renderelési folyamat sikertelen"
         },
         "server": {
             "branchDoesNotExist": "A kiválasztott ág nem létezik.",
@@ -77,13 +77,13 @@
         "site": {
             "noConfigurationForResponsiveImages": "Nincsenek konfigurációs adatok a reszponzív képekhez",
             "noImagesToRegenerate": "Nincsenek megújítandó képek",
-            "noThemeSelected": "No theme selected"
+            "noThemeSelected": "Nincs kiválasztott téma"
         },
-        "sureYouWantQuit": "Are you sure you want to quit? \nAll unsaved changes will be lost.",
+        "sureYouWantQuit": "Biztos, hogy ki akarsz lépni? \nMinden el nem mentett módosítás elveszik.",
         "wpImport": {
-            "authorsProgressInfo": "Importing authors ({progress} / {total})",
-            "imageDownloadError": "An error occurred during downloading of the image: {image}",
-            "imagesProgressInfo": "Downloading images ({progress} / {total})",
+            "authorsProgressInfo": "Szerzők importálása ({progress} / {total})",
+            "imageDownloadError": "Hiba történt a kép letöltése során: {image}",
+            "imagesProgressInfo": "Képek letöltése ({progress} / {total})",
             "postsProgressInfo": "Importing posts ({progress} / {total})",
             "tagsProgressInfo": "Importing tags ({progress} / {total})"
         }
@@ -103,19 +103,19 @@
         }
     },
     "date": {
-        "apr": "Apr",
+        "apr": "Ápr",
         "aug": "Aug",
-        "changePostPublicationDate": "Change post publication date",
+        "changePostPublicationDate": "A közzététel utáni dátum módosítása",
         "dec": "Dec",
         "feb": "Feb",
         "jan": "Jan",
-        "jul": "Jul",
-        "jun": "Jun",
-        "mar": "Mar",
-        "may": "May",
+        "jul": "Júl",
+        "jun": "Jún",
+        "mar": "Már",
+        "may": "Máj",
         "nov": "Nov",
-        "oct": "Oct",
-        "sep": "Sep"
+        "oct": "Okt",
+        "sep": "Szep"
     },
     "editor": {
         "addHeading": "Add heading",
@@ -126,50 +126,50 @@
         "blockEditorHelpPanelDesc": "You can insert a block either by clicking the <span>+</span> or <span>TAB</span> button on a new line, or typing the following shortcuts or markdown syntax on a new line:",
         "blocks": {
             "code": {
-                "idTooltip": "This value will be used as the code ID"
+                "idTooltip": "Ez az érték lesz a kód azonosítója"
             },
             "cssClassesLabel": "CSS osztály",
             "cssClassesTooltip": "Ezek a CSS osztályok a mező class attribútumába kerülnek be",
             "embed": {
-                "idTooltip": "This value will be used as the embed ID"
+                "idTooltip": "Ez az érték lesz a beágyazási azonosító"
             },
             "gallery": {
-                "idTooltip": "This value will be used as the gallery ID"
+                "idTooltip": "Ez az érték lesz a galéria azonosítója"
             },
             "header": {
                 "customIdLabel": "Egyéni azonosító használata",
-                "customIdTooltip": "Enable this option if you want to use your own ID, instead of the auto-generated ID",
-                "idTooltip": "This value will be used as the header ID"
+                "customIdTooltip": "Ha az automatikusan generált azonosító helyett a saját azonosítóját szeretné használni, engedélyezze ezt a lehetőséget.",
+                "idTooltip": "Ez az érték lesz a fejléc azonosítója."
             },
             "html": {
-                "idTooltip": "This value will be used as the HTML ID"
+                "idTooltip": "Ez az érték lesz a HTML ID"
             },
             "idLabel": "ID",
             "image": {
-                "idTooltip": "This value will be used as the image ID"
+                "idTooltip": "Ez az érték lesz a kép azonosítója"
             },
             "list": {
-                "idTooltip": "This value will be used as the list ID"
+                "idTooltip": "Ez az érték lesz a lista azonosítója"
             },
             "paragraph": {
                 "idTooltip": "Ez az érték lesz a bekezdés azonosítója",
                 "styleLabel": "bekezdés stílus",
                 "styles": {
-                    "highlight": "Highlight",
-                    "info": "Info",
+                    "highlight": "Kiemelés",
+                    "info": "Infó",
                     "success": "Siker",
-                    "warning": "Warning"
+                    "warning": "Figyelmeztetés"
                 },
-                "styleTooltip": "Select additional styling for the paragraph block"
+                "styleTooltip": "Válassza ki a bekezdésblokk további stílusát"
             },
             "quote": {
-                "idTooltip": "This value will be used as the quote ID"
+                "idTooltip": "Ez az érték lesz az idézet azonosítója"
             },
             "separator": {
-                "idTooltip": "This value will be used as the separator ID"
+                "idTooltip": "Ez az érték lesz az elválasztó azonosítója."
             },
             "toc": {
-                "idTooltip": "This value will be used as the ID of the table of contents"
+                "idTooltip": "Ez az érték lesz a tartalomjegyzék azonosítója."
             }
         },
         "cantSavePostWithEmptyTitle": "Nem menthetsz üres címmel ellátott bejegyzést.",
@@ -181,9 +181,9 @@
             "toCode": "Kód",
             "toHeader": "Header",
             "toHTML": "HTML",
-            "toList": "List",
-            "toParagraph": "Paragraph",
-            "toQuote": "Quote"
+            "toList": "Lista",
+            "toParagraph": "bekezdés",
+            "toQuote": "Idézet"
         },
         "convertTo": "Convert to:",
         "custom": "Custom",
@@ -197,10 +197,10 @@
         "element": "Elem",
         "emptyGalleryBlock": "Üres galéria blokk",
         "emptyImageBlock": "Üres képblokk",
-        "enterAltText": "Enter alternative text",
-        "enterCaption": "Enter caption",
+        "enterAltText": "Alternatív szöveg megadása",
+        "enterCaption": "Adja meg a feliratot",
         "enterUrlOrEmbedCode": "Adja meg az URL-t vagy a beágyazási kódot...",
-        "errorOccurred": "An error occurred - please try again.",
+        "errorOccurred": "Hiba történt - kérjük, próbálja meg újra.",
         "gallery": "Galéria",
         "header": "Fejléc",
         "heading1": "Heading 1",
@@ -212,49 +212,49 @@
         "hideHelp": "Segítség elrejtése",
         "hideStats": "Statisztikák elrejtése",
         "html": "HTML",
-        "insertGallery": "Insert gallery",
-        "list": "List",
+        "insertGallery": "Galéria beillesztése",
+        "list": "Lista",
         "markdown": "Markdown",
-        "markdownHelpPanelDesc": "You can easily manage headings, text styles or create other HTML elements by using the following keyboard shortcuts or markdown syntax:",
+        "markdownHelpPanelDesc": "A következő billentyűparancsok vagy a markdown szintaxis használatával könnyen kezelheti a címsorokat, a szövegstílusokat vagy létrehozhat más HTML-elemeket:",
         "newDraftCreated": "Új tervezetet hoztunk létre",
         "newPostCreated": "Új posztot hoztunk létre",
-        "nothingFound": "No blocks found",
-        "paragraph": "Paragraph",
+        "nothingFound": "Nem találtam blokkokat",
+        "paragraph": "Bekezdés",
         "quote": "Idézet",
         "quoteAuthor": "Idézet szerzője",
         "quoteText": "Idézet szövege",
         "readMore": "Bővebben",
-        "readMoreBlockName": "Readmore",
+        "readMoreBlockName": "Olvass tovább",
         "selectFiles": "Fájlok kiválasztása",
         "separator": "Elválasztó",
-        "shortcuts": "Shortcuts",
+        "shortcuts": "Rövidítések",
         "sourceCode": "Forráskód",
         "searchForABlock": "Keress egy blokkot...",
         "startWriting": "Kezdj el írni...",
         "startWritingOrPressTabToChooseBlock": "Kezdje el az írást, vagy nyomja meg a TAB billentyűt a blokk kiválasztásához.",
         "toc": "TOC",
-        "tocAutoGenerationInfo": "The table of contents is generated automatically based on the headings (H1-H6) of your content.",
-        "togglePostStatsPanel": "Toggle post statistics panel",
-        "unableToSetSpellCheckerForLanguage": "(!) Unable to set spellchecker to use the selected language - ",
+        "tocAutoGenerationInfo": "A tartalomjegyzék automatikusan generálódik a tartalom címszavai (H1-H6) alapján.",
+        "togglePostStatsPanel": "Hozzászólás-statisztika panel átkapcsolása",
+        "unableToSetSpellCheckerForLanguage": "(!) Nem sikerült beállítani a helyesírás-ellenőrzőt a kiválasztott nyelv használatára -",
         "useOrderedList": "Rendezett lista használata",
         "useUnorderedList": "Rendezetlen lista használata",
         "viewHelp": "Súgó megtekintése",
         "viewStats": "Statisztikák megtekintése",
-        "wideLine": "Wide line"
+        "wideLine": "Széles vonal"
     },
     "file": {
         "addNewFile": "Új fájl hozzáadása",
         "backups": "Biztonsági mentések",
         "createBackup": "Biztonsági mentés létrehozása",
-        "createBackupConfirmMsg": "Select a name for your backup - filename can contain only alphanumeric characters, dashes and underscores:",
+        "createBackupConfirmMsg": "Válasszon nevet a biztonsági mentésnek - a fájlnév csak alfanumerikus karaktereket, kötőjeleket és aláhúzásokat tartalmazhat:",
         "createBackupErrorMsg": "Hiba történt a biztonsági mentés készítése során. Kérjük, próbálja meg újra.",
         "createBackupNameEmptyMsg": "A megadott fájlnév nem lehet üres. Kérjük, adjon meg egy nevet.",
-        "createBackupNameInUseMsg": "Provided filename (<strong>{filename}</strong>) is already in use by an existing backup. Please try again with a different name.",
+        "createBackupNameInUseMsg": "Megadott fájlnév (<strong>{filename}</strong>) már egy meglévő biztonsági mentés használja. Kérjük, próbálja meg újra egy másik névvel.",
         "createBackupSuccessMsg": "A biztonsági másolat elkészült.",
-        "createFirstBackupMsg": "You don't have any backups, yet. Let's create the first one!",
+        "createFirstBackupMsg": "Még nincsenek biztonsági másolatai. Hozzuk létre az elsőt!",
         "creatingBackup": "Biztonsági mentés létrehozása",
         "creationDate": "Létrehozás dátuma",
-        "deleteBackupsConfirmMsg": "Do you really want to remove the selected backups? This action cannot be undone.",
+        "deleteBackupsConfirmMsg": "Tényleg el akarja távolítani a kiválasztott biztonsági mentéseket? Ez a művelet nem vonható vissza.",
         "deleteBackupsErrorMsg": "Hiba történt a kiválasztott biztonsági mentések eltávolítása során. Kérjük, próbálja meg újra.",
         "deleteBackupsSuccessMsg": "A kiválasztott biztonsági mentések eltávolításra kerültek",
         "dragAndDropBackupFile": "Húzza ide a mentési fájlt, vagy",
@@ -266,10 +266,10 @@
         "files": "Fájlok",
         "fileSemicolon": "File:",
         "fileSize": "Fájlméret",
-        "filterOrSearchFiles": "Filter or search files...",
+        "filterOrSearchFiles": "Fájlok szűrése vagy keresése...",
         "mediaFiles": "media/files",
         "noBackupsAvailable": "Nincsenek elérhető biztonsági mentések",
-        "noFileInMediaFilesDirInfo": "There are no files in the media/files directory...",
+        "noFileInMediaFilesDirInfo": "A media/files könyvtárban nincsenek fájlok...",
         "noFileInRootDirInfo": "Nincsenek fájlok a gyökérkönyvtárban...",
         "noFileMatchingCriteriaInfo": "Nincsenek a kritériumoknak megfelelő fájlok.",
         "operations": "Műveletek",
@@ -287,15 +287,15 @@
         "renameBackupSuccessMsg": "A biztonsági másolat sikeresen átnevezése megtörtént.",
         "restore": "Helyreállítás",
         "restoreBackupConfirmLabel": "Biztonsági mentés visszaállítása",
-        "restoreBackupConfirmMsg": "Do you really want to restore the selected backup? Existing files will be overwritten.",
-        "restoreBackupErrorMsg": "An error occurred while restoring the selected backup file: ",
+        "restoreBackupConfirmMsg": "Tényleg vissza szeretné állítani a kiválasztott biztonsági másolatot? A meglévő fájlok felülírásra kerülnek.",
+        "restoreBackupErrorMsg": "Hiba történt a kiválasztott biztonsági mentési fájl visszaállítása közben:",
         "restoreBackupSuccessMsg": "A weboldal sikeresen helyreállt.",
         "rootDirectory": "gyökérkönyvtár",
         "selectedFileExistsMsg": "A következő fájlok nem másolhatók, mivel már léteznek a kiválasztott könyvtárban: ",
         "selectedFilenameInUseMsg": "A kiválasztott fájlnév használatban van. Kérjük, használjon másik fájlnevet.",
-        "selectFile": "Select file",
+        "selectFile": "Fájl kiválasztása",
         "selectFileFromFileManager": "Fájl kiválasztása a Fájlkezelőből",
-        "uploadFiles": "Upload files"
+        "uploadFiles": "Fájlok feltöltése"
     },
     "gdpr": {
         "addGroup": "Add group",

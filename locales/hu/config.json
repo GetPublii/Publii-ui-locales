@@ -1,0 +1,8 @@
+{
+	"name": "Magyar",
+	"version": "1.2.0",
+	"author": "zslaszlo",
+	"publiiSupport": "0.41.0",
+    "momentLocale": "hu",
+    "wysiwygTranslation": false
+}

@@ -93,11 +93,11 @@
             "head": "Head",
             "body": "Body",
             "comments": "megjegyzések",
-            "searchInput": "Search input",
-            "searchContent": "Search content",
-            "footer": "Footer",
-            "ampHead": "AMP Head",
-            "ampFooter": "AMP Footer",
+            "searchInput": "Keresési bemenet",
+            "searchContent": "Keresés a tartalomban",
+            "footer": "Lábléc",
+            "ampHead": "AMP fejrész",
+            "ampFooter": "AMP lábléc",
             "beforePost": "Minden hozzászólás előtt",
             "afterPost": "Minden bejegyzés után"
         }
@@ -179,7 +179,7 @@
         "code": "Kód",
         "conversions": {
             "toCode": "Kód",
-            "toHeader": "Header",
+            "toHeader": "Fejléc",
             "toHTML": "HTML",
             "toList": "Lista",
             "toParagraph": "bekezdés",
@@ -192,8 +192,8 @@
         "dot": "Pont",
         "dots": "Pontok",
         "dragAndDropImgToEditor": "Húzzon egy képet a szerkesztőbe",
-        "dropToUploadYourPhotoOr": "Dobja fel a fényképét vagy",
-        "dropToUploadYourPhotosOr": "Dobja fel a fényképeket, vagy",
+        "dropToUploadYourPhotoOr": "Húzza ide a fényképét vagy",
+        "dropToUploadYourPhotosOr": "Húzza ide a fényképeket, vagy",
         "element": "Elem",
         "emptyGalleryBlock": "Üres galéria blokk",
         "emptyImageBlock": "Üres képblokk",
@@ -356,13 +356,13 @@
         "isOutdatedTitle": "Ez a nyelv támogatja a Publiit egészen a {supportedVersion} verzióig, miközben Ön a Publii {currentVersion} verzióját használja - kérjük, frissítse a Publiit, hogy ezt a nyelvet használja.",
         "language": "Language:",
         "languageChangedMsg": "Az alkalmazás nyelve megváltozott",
-        "languageChangeError": "Language change error occurred - please try again.",
+        "languageChangeError": "Hiiba történt a nyelv módosításakor – próbálja újra.",
         "languageLoadingError": "Hiba történt az alkalmazás nyelvének betöltése közben. Ehelyett az alapértelmezett nyelv (angol) lesz használatban. Nyissa meg a nyelvi beállításokat egy másik kiválasztásához.",
         "languages": "Nyelvek",
         "removeLanguageMessage": "Valóban el akarja távolítani a {languageName} nyelvet?",
         "removeLanguageSuccessMessage": "A kiválasztott nyelv eltávolításra került",
         "updatedLanguageSuccessMessage": "A kiválasztott nyelv frissült",
-        "uploadLanguageErrorMessage": "Hiba történt a telepítés során. Kérlek próbáld újra."
+        "uploadLanguageErrorMessage": "Hiba történt a telepítés során. Kérem próbája újra."
     },
     "link": {
         "addDownloadAttr": "\"letöltés\" attribútum hozzáadása",
@@ -443,7 +443,7 @@
         "removePluginMessage": "Valóban el akarja távolítani a {pluginName} bővítményt?",
         "removePluginSuccessMessage": "A kiválasztott bővítményt eltávolítottuk",
         "updatedPluginSuccessMessage": "A kiválasztott bővítmény frissült",
-        "uploadPluginErrorMessage": "Hiba történt a telepítés során. Kérlek próbáld újra."
+        "uploadPluginErrorMessage": "Hiba történt a telepítés során. Kérlem próbálja újra."
     },
     "post": {
         "addNewPost": "Új bejegyzés hozzáadása",
@@ -568,8 +568,8 @@
         "backupLocation": "Biztonsági mentés helye",
         "backupLocationChangedConfirmMsg": "A biztonsági mentések tárolási helye megváltozott. Minden új biztonsági másolat ebben a könyvtárban lesz tárolva. Ha hozzáférésre van szüksége a korábbi biztonsági másolatokhoz, akkor azokat manuálisan áthelyezheti az új könyvtárba.",
         "badge": "Jelvény",
-        "badgeAndCustomLink": "Badge + custom link",
-        "badgeLabel": "Badge label",
+        "badgeAndCustomLink": "Jelvény + egyéni link",
+        "badgeLabel": "Jelvénycímke",
         "bannerPosition": "Banner pozíció",
         "basicSettings": "Alapbeállítások",
         "byIDAscending": "Azonosító szerint növekvő",

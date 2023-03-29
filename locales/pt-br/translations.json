@@ -554,7 +554,7 @@
     "settings": {
         "addGDPRCookieBanner": "Habilitar o banner",
         "additionalValidElementsInWYSIWYGEditor": "Elementos válidos adicionais no editor WYSIWYG",
-        "additionalValidElementsInWYSIWYGEditorInfo": "Se o editor WYSIWYG remover automaticamente algumas tags do seu código HTML, você poderá adicioná-las aqui como elementos permitidos.<br> Por exemplo: <strong>v-select[*],v-dropdown[*]</strong> permitirá as tags v-select e v-dropdown personalizadas com quaisquer atributos.",
+        "additionalValidElementsInWYSIWYGEditorInfo": "Caso o editor WYSIWYG remova automaticamente algumas tags do seu código HTML, você pode adicioná-las aqui como elementos permitidos.<br> Por exemplo: <strong>v-select[*],v-dropdown[*]</strong> permitirá as tags v-select e v-dropdown personalizadas com quaisquer atributos.",
         "advancedOptions": "Opções avançadas",
         "advancedPreviewDesc": "A visualização avançada permite renderizar um site sem abrir o navegador",
         "alwaysAddIndexHTMLInURLs": "Sempre adicionar o trecho “index.html” em URLs",

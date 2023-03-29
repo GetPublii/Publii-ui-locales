@@ -96,8 +96,6 @@
             "searchInput": "Search input",
             "searchContent": "Search content",
             "footer": "Footer",
-            "ampHead": "AMP Head",
-            "ampFooter": "AMP Footer",
             "beforePost": "Before every post",
             "afterPost": "After every post"
         }
@@ -209,6 +207,7 @@
         "heading4": "Heading 4",
         "heading5": "Heading 5",
         "heading6": "Heading 6",
+        "hideBulkEdit": "Hide Bulk Edit",
         "hideHelp": "Hide Help",
         "hideStats": "Hide Stats",
         "html": "HTML",
@@ -238,6 +237,7 @@
         "unableToSetSpellCheckerForLanguage": "(!) Unable to set spellchecker to use the selected language - ",
         "useOrderedList": "Use ordered list",
         "useUnorderedList": "Use unordered list",
+        "viewBulkEdit": "Bulk Edit",
         "viewHelp": "View Help",
         "viewStats": "View Stats",
         "wideLine": "Wide line"
@@ -430,6 +430,13 @@
         "unassigned": "Unassigned",
         "unselectItem": "Unselect"
     },
+    "menuPositionPopup": {
+        "invalidValue": "Invalid value: the entered value cannot be 0 and exceed the theme's default maximum limit. Use -1 for no restrictions.",
+        "maxLevels": "Max level:",
+        "themeDefaultValue": "Theme default value:",
+        "title": "Configure menu position",
+        "usedBy": "Used by other menu:"
+    },
     "plugins": {
         "addPluginSuccessMessage": "Plugin has been added",
         "deletePlugin": "Delete plugin",
@@ -520,7 +527,6 @@
         "trashed": "Trashed",
         "uniqueWords": "Unique words",
         "updatedOn": "Updated on",
-        "updateSlug": "Update slug",
         "url": "URL",
         "words": "Words"
     },
@@ -528,7 +534,7 @@
         "aboutPublii": "About Publii",
         "currentPubliiVersion": "Version",
         "accept": "Accept",
-        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team with cooperation with <a href=\"https://github.com/dziudek\" target=\"_blank\" rel=\"noopener noreferrer\">Dev Zen</a> and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
         "creditsIntro": "Publii uses the following third-party Open Source Software:",
         "dataCollectionInfo": "<strong>We do not collect any </strong>personal data while you use Publii app; we do not store, track, or allow third parties to collect, personally identifiable information about you. ",
         "homepage": "Homepage",
@@ -592,6 +598,8 @@
         "cookieAdvancedDescription": "This section contains options for displaying a modal pop-up with advanced cookie settings, which lets visitors manage consents for a specific group of cookies.",
         "createXMLSitemap": "Create XML Sitemap",
         "currentTheme": "Current theme:",
+        "customElementsInWYSIWYGEditor": "Custom elements available in the WYSIWYG editor",
+        "customElementsInWYSIWYGEditorInfo": "If the WYSIWYG editor automatically removes some tags from your HTML code, you may add them here as custom elements.<br> For example: <strong>v-select,v-dropdown</strong>",
         "customFeedTitle": "Custom feed title",
         "customLanguageCode": "Custom language code:",
         "darkMode": "Dark mode",
@@ -623,9 +631,6 @@
         "embedConsentsDescription": "This section allows you to block content loaded in iframes from third-party content providers that may set cookies. By providing the domain of the iframe URL e.g. <strong>youtube.com</strong>, filling out the required elements such as a message, an accept button, and assigning it to an existing cookie group, iframes will be replaced with a placeholder informing visitors that the content is blocked due to their consent settings (i.e. that the visitor has not consented to the types of cookies used by the iframe in the cookie banner).",
         "embedVideos": "Embedding Videos",
         "enableAdvancedPreview": "Enable advanced preview",
-        "enableAMP": "Enable AMP",
-        "enableAMPInfo": "AMP (accelerated mobile pages) creates mobile-optimized pages for your static content that render fast. <br/><strong>Please note:</strong> when this option is enabled your website will load third-party scripts provided by Google's AMP CDN.",
-        "ampDeprecatedMessage": "Starting with the next app release, the AMP feature will be deprecated. More on this can be found on the official Publii blog.",
         "enableAutoIndent": "Enable auto-indent",
         "enableCSSCompression": "Enable CSS compression",
         "enableHTMLCompression": "Enable HTML compression",
@@ -926,7 +931,7 @@
         "authenticationMethod": "Authentication method",
         "branch": "Branch",
         "branchExampleGitHubNote": "Examples: <strong>gh-pages</strong>, <strong>docs</strong> or <strong>main</strong>.",
-        "branchExampleGitLabeNote": "Examples: <strong>docs</strong>, <strong>main</strong> or <strong>master</strong>.",
+        "branchExampleGitLabeNote": "Example: <strong>main</strong>",
         "branchFieldCantBeEmpty": "The branch field cannot be empty",
         "bucket": "Bucket",
         "bucketFieldCantBeEmpty": "The bucket field cannot be empty",
@@ -1106,6 +1111,8 @@
     },
     "theme": {
         "addThemeSuccessMessage": "Theme has been successfully added.",
+        "authorOptions": "Author options",
+        "authorOptionsInfo": "The author options section allows you to set global options for what extra information should be included in your authors. Changes made in this section will affect all authors on your site, but you can also override the Theme Settings on the Author Edit screen for each individual author if necessary.",
         "authorsPostsPerPage": "Authors posts per page:",
         "authorsPostsPerPageInfo": "Use -1 as value if you need to display all authors' posts on the page.",
         "changeAppTheme": "Change application theme",
@@ -1130,6 +1137,8 @@
         "selectTheme": "Select theme",
         "settingsResetMessage": "Do you really want to reset the theme settings?",
         "settingsResetSuccessMessage": "Theme settings has been reset.",
+        "tagOptions": "Tag options",
+        "tagOptionsInfo": "The Tag options section allows you to set global options for what extra information should be included in your tags. Changes made in this section will affect all tags on your site, but you can also override the Theme Settings on the Tag Edit screen for each individual tag if necessary.",
         "tagsPostsPerPage": "Tags posts per page:",
         "tagsPostsPerPageInfo": "Use -1 as value if you need to display all tag posts on page.",
         "themes": "Themes",
@@ -1145,7 +1154,6 @@
             "customCSS": "Custom CSS",
             "customCSSSaveSuccessMsg": "Custom CSS has been successfully saved.",
             "normal": "Normal",
-            "putCustomCSSAMPComment": "Put your custom CSS code here (it will be used only in AMP mode)",
             "putCustomCSSComment": "Put your custom CSS code here"
         },
         "customHTML": "Custom HTML",
@@ -1205,7 +1213,6 @@
     "ui": {
         "aboutPublii": "About Publii",
         "alternativeText": "Alternative text",
-        "AMP": "AMP",
         "appConfiguration": "Application configuration",
         "applyChanges": "Apply changes",
         "authors": "Authors",
@@ -1277,6 +1284,7 @@
         "publiiOnGithub": "View Publii on Github",
         "publishAndClose": "Publish and close",
         "publishPost": "Publish post",
+        "reloadFile": "Reload file",
         "renderFrontPageOnly": "Render front page only",
         "renderFullWebsite": "Render full website",
         "reportBugInSupportDesk": "Report a bug via our support desk",
@@ -1302,6 +1310,7 @@
         "theme": "Theme",
         "tools": "Tools & Plugins",
         "unhide": "Unhide",
+        "updateSlug": "Update slug",
         "uploadInProgress": "Upload in progress...",
         "whatsNew": "What's new?"
     }

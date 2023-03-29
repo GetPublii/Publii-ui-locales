@@ -96,8 +96,6 @@
             "searchInput": "Pole wyszukiwarki",
             "searchContent": "Wyniki wyszukiwania",
             "footer": "Stopka strony",
-            "ampHead": "Sekcja head w AMP",
-            "ampFooter": "Stopka w AMP",
             "beforePost": "Przed każdym wpisem",
             "afterPost": "Po każdym wpisie"
         }
@@ -209,6 +207,7 @@
         "heading4": "Nagłówek 4",
         "heading5": "Nagłówek 5",
         "heading6": "Nagłówek 6",
+        "hideBulkEdit": "Ukryj edycję zbiorczą",
         "hideHelp": "Ukryj Pomoc",
         "hideStats": "Ukryj Statystyki",
         "html": "HTML",
@@ -238,6 +237,7 @@
         "unableToSetSpellCheckerForLanguage": "(!) Nie można ustawić sprawdzania pisowni dla wybranego języka - ",
         "useOrderedList": "Użyj listy uporządkowanej",
         "useUnorderedList": "Użyj listy nieuporządkowanej",
+        "viewBulkEdit": "Edycja zbiorcza",
         "viewHelp": "Pokaż Pomoc",
         "viewStats": "Pokaż Statystyki",
         "wideLine": "Szeroka linia"
@@ -430,6 +430,13 @@
         "unassigned": "Nieprzypisane",
         "unselectItem": "Odznacz"
     },
+    "menuPositionPopup": {
+        "invalidValue": "Nieprawidłowa wartość: wprowadzona wartość nie może być równa 0 i przekraczać domyślnego maksymalnego limitu motywu. Użycie -1 oznacza brak ograniczeń.",
+        "maxLevels": "Maksymalny poziom:",
+        "themeDefaultValue": "Domyślna wartość z motywu:",
+        "title": "Skonfiguruj pozycję menu",
+        "usedBy": "Używane przez inne menu:"
+    },
     "plugins": {
         "addPluginSuccessMessage": "Wtyczka została dodana",
         "deletePlugin": "Usuń wtyczkę",
@@ -520,7 +527,6 @@
         "trashed": "Wyrzucony do kosza",
         "uniqueWords": "Unikalne słowa",
         "updatedOn": "Zaktualizowano",
-        "updateSlug": "Zaktualizuj slug",
         "url": "URL",
         "words": "Słowa"
     },
@@ -528,7 +534,7 @@
         "aboutPublii": "O Publii",
         "currentPubliiVersion": "Wersja",
         "accept": "Akceptuj",
-        "copyright": "Prawa autorskie 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. Wszelkie prawa zastrzeżone.<br>Publli jest zaprojektowane i utrzymywane przez główny zespół we współpracy z <a href=\"https://github.com/dziudek\" target=\"_blank\" rel=\"noopener noreferrer\">Dev Zen</a> i powstało dzięki projektowi Open Source <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> i innemu ",
+        "copyright": "Prawa autorskie 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. Wszelkie prawa zastrzeżone.<br>Publii jest zaprojektowane i utrzymywane przez główny zespół i powstało dzięki projektowi Open Source <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> i innemu ",
         "creditsIntro": "Publii korzysta z następującego oprogramowania Open Source stron trzecich:",
         "dataCollectionInfo": "<strong>Nie zbieramy żadnych </strong>danych osobowych podczas korzystania z aplikacji Publii; również nie przechowujemy, nie śledzimy, nie pozwalamy osobom trzecim na zbieranie danych osobowych o Tobie. ",
         "homepage": "Strona domowa",
@@ -592,6 +598,8 @@
         "cookieAdvancedDescription": "Ta sekcja zawiera opcje wyświetlania wyskakującego okienka z zaawansowanymi ustawieniami plików cookie, w którym użytkownik może zarządzać zgodami dla określonej grupy plików cookie.",
         "createXMLSitemap": "Stwórz XML mapy strony",
         "currentTheme": "Aktualny motyw:",
+        "customElementsInWYSIWYGEditor": "Niestandardowe elementy dostępne w edytorze WYSIWYG",
+        "customElementsInWYSIWYGEditorInfo": "Jeśli edytor WYSIWYG automatycznie usuwa niektóre tagi z Twojego kodu HTML, możesz dodać je tutaj jako niestandardowe elementy.<br> Na przykład: <strong>v-select,v-dropdown</strong>",
         "customFeedTitle": "Własny tytuł kanału",
         "customLanguageCode": "Niestandardowy kod języka:",
         "darkMode": "Tryb ciemny",
@@ -623,9 +631,6 @@
         "embedConsentsDescription": "Ta sekcja umożliwia blokowanie treści ładowanych w ramkach iframe od zewnętrznych dostawców treści, którzy mogą ustawiać pliki cookie. Podając domenę adresu URL iframe np. <strong>youtube.com</strong>, wiadomość, przycisk akceptacji i przypisujac do istniejącej grupy plików cookie, ramka iframe zostanie zastąpiona bannerem informującym odwiedzających, że treść jest zablokowana z powodu ich ustawień zgody (odwiedzający nie wyraził zgodę na rodzaje plików cookie używanych przez element iframe w banerze plików cookie).",
         "embedVideos": "Osadzanie video",
         "enableAdvancedPreview": "Włącz zaawansowany podgląd",
-        "enableAMP": "Włącz AMP",
-        "enableAMPInfo": "AMP (accelerated mobile pages - przyspieszone strony mobilne) tworzy strony, dla Twoich statycznych treści zoptymalizowane pod kątem urządzeń mobilnych, które są szybko renderowane. <br/><strong>Miej na uwadze:</strong> kiedy ta opcja jest włączona Twoja witryna będzie ładować skrypty stron trzecich dostarczone przez Google's AMP CDN.",
-        "ampDeprecatedMessage": "Od następnej wersji aplikacji funkcja AMP zostanie wycofana. Więcej na ten temat można przeczytać na oficjalnym blogu Publii.",
         "enableAutoIndent": "Włącz automatyczne wcięcia",
         "enableCSSCompression": "Włącz kompresję CSS",
         "enableHTMLCompression": "Włącz kompresję HTML",
@@ -926,7 +931,7 @@
         "authenticationMethod": "Metoda uwierzytelnienia",
         "branch": "Gałąź",
         "branchExampleGitHubNote": "Przykłady: <strong>gh-pages</strong>, <strong>docs</strong> lub <strong>main</strong>.",
-        "branchExampleGitLabeNote": "Przykłady: <strong>docs</strong>, <strong>main</strong> lub <strong>master</strong>.",
+        "branchExampleGitLabeNote": "Przykład: <strong>main</strong>.",
         "branchFieldCantBeEmpty": "Pole gałęzi nie może być puste",
         "bucket": "Bucket",
         "bucketFieldCantBeEmpty": "Pole bucket nie może być puste",
@@ -1106,6 +1111,8 @@
     },
     "theme": {
         "addThemeSuccessMessage": "Motyw został dodany.",
+        "authorOptions": "Opcje autorów",
+        "authorOptionsInfo": "Sekcja opcji autora pozwala na ustawienie globalnych opcji dla dodatkowych informacji zawartych w autorach. Zmiany wrpowadzone w tej sekcji będą miały wpływ na wszystkich autorów na Twojej stronie ale możesz również, jeśli tego potrzebujesz, nadpisać ustawienia aplikacji, dla każdego z autorów osobno, w widoku edycji autora.",
         "authorsPostsPerPage": "Autorzy na stronie:",
         "authorsPostsPerPageInfo": "Podaj wartość -1 jeśli chcesz wyświetlać wszystkich autorów na stronie.",
         "changeAppTheme": "Zmień motyw aplikacji",
@@ -1120,7 +1127,7 @@
         "installTheme": "Zainstaluj motyw",
         "leaveBlankToUseDefault": "Pozostaw puste aby użyć wartości domyślnej",
         "postOptions": "Opcje wpisów",
-        "postOptionsInfo": "Sekcja opcji wpisu pozwala na ustawienie globalnych opcji dla dodatkowych informacji zawartych we wpisach. Zmiany wrpowadzone w tej sekcji będą miały wpływ na wszystkie wpisy na Twojej stronie ale możesz również, jeśli ttego potrzebujesz, nadpisać ustawienia aplikacji, dla każdego z wpisów osobno, w widoku edycji wpisu .",
+        "postOptionsInfo": "Sekcja opcji wpisu pozwala na ustawienie globalnych opcji dla dodatkowych informacji zawartych we wpisach. Zmiany wrpowadzone w tej sekcji będą miały wpływ na wszystkie wpisy na Twojej stronie ale możesz również, jeśli tego potrzebujesz, nadpisać ustawienia aplikacji, dla każdego z wpisów osobno, w widoku edycji wpisu.",
         "postsPerPage": "Wpisy na stronie:",
         "postsPerPageInfo": "Podaj wartość -1 jeśli chcesz wyświetlać wszystkie wpisy na stronie.",
         "removeThemeMessage": "Czy na pewno chcesz usunąć motyw {themeName}?",
@@ -1130,6 +1137,8 @@
         "selectTheme": "Wybierz motyw",
         "settingsResetMessage": "Na pewno chcesz zresetować ustawienia motywu?",
         "settingsResetSuccessMessage": "Ustawienia motywu zostały zresetowane",
+        "tagOptions": "Opcje tagów",
+        "tagOptionsInfo": "Sekcja opcji tagu pozwala na ustawienie globalnych opcji dla dodatkowych informacji zawartych w tagach. Zmiany wrpowadzone w tej sekcji będą miały wpływ na wszystkie tagi na Twojej stronie ale możesz również, jeśli tego potrzebujesz, nadpisać ustawienia aplikacji, dla każdego z tagów osobno, w widoku edycji tagu.",
         "tagsPostsPerPage": "Tagi na stronie:",
         "tagsPostsPerPageInfo": "Podaj wartość -1 jeśli chcesz wyświetlać wszystkie tagi na stronie.",
         "themes": "Motywy",
@@ -1145,7 +1154,6 @@
             "customCSS": "Niestandardowy CSS",
             "customCSSSaveSuccessMsg": "Niestandardowy kod CSS zpsatł zapisany.",
             "normal": "Normalny",
-            "putCustomCSSAMPComment": "Tutaj umieść swój niestandardowy kod CSS (będzie użyty tylko w trybie AMP)",
             "putCustomCSSComment": "Tutaj umieść swój niestandardowy kod CSS"
         },
         "customHTML": "Niestandardowy HTML",
@@ -1205,7 +1213,6 @@
     "ui": {
         "aboutPublii": "O Publii",
         "alternativeText": "Tekst alternatywny",
-        "AMP": "AMP",
         "appConfiguration": "Konfiguracja aplikacji",
         "applyChanges": "Zatwierdź zmiany",
         "authors": "Autorzy",
@@ -1277,6 +1284,7 @@
         "publiiOnGithub": "Zobacz Publii na Github",
         "publishAndClose": "Opublikuj i zamknij",
         "publishPost": "Opublikuj wpis",
+        "reloadFile": "Wczytaj ponownie plik",
         "renderFrontPageOnly": "Renderuj tylko stronę główną",
         "renderFullWebsite": "Renderuj całą stronę",
         "reportBugInSupportDesk": "Zgłoś błąd w naszym naszj pomocy technicznej",
@@ -1302,6 +1310,7 @@
         "theme": "Motywy",
         "tools": "Narzędzia & Pluginy",
         "unhide": "Odkryj",
+        "updateSlug": "Zaktualizuj slug",
         "uploadInProgress": "Trwa przesyłanie...",
         "whatsNew": "Co się zmieniło?"
     }

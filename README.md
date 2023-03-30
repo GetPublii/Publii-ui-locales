@@ -34,6 +34,8 @@ A simple tool that allows translators to directly compare their own language fil
 
 All changes between versions are visible in the below diff files:
 
+
+* 29.03.2023 - Publii v.0.42.0 - [diff file](https://github.com/GetPublii/Publii-ui-locales/blob/main/diff-files/v.0.42.0.diff)
 * 01.11.2022 - Publii v.0.41.0 - [diff file](https://github.com/GetPublii/Publii-ui-locales/blob/main/diff-files/v.0.41.0.diff)
 * 07.07.2022 - Publii v.0.40.0 - [diff file](https://github.com/GetPublii/Publii-ui-locales/blob/main/diff-files/v.0.40.0.diff)
 

@@ -96,8 +96,6 @@
             "searchInput": "検索 input",
             "searchContent": "検索 content",
             "footer": "フッダー",
-            "ampHead": "AMP HEAD",
-            "ampFooter": "AMP フッター",
             "beforePost": "各投稿の前",
             "afterPost": "各投稿の後"
         }
@@ -209,6 +207,7 @@
         "heading4": "見出し 4",
         "heading5": "見出し 5",
         "heading6": "見出し 6",
+        "hideBulkEdit": "一括編集を非表示",
         "hideHelp": "ヘルプを非表示",
         "hideStats": "状態を非表示",
         "html": "HTML",
@@ -238,6 +237,7 @@
         "unableToSetSpellCheckerForLanguage": "(!) 選択した言語ではスペルチェックを設定できません - ",
         "useOrderedList": "番号付きリストの使用",
         "useUnorderedList": "箇条書きリストの使用",
+        "viewBulkEdit": "一括編集",
         "viewHelp": "ヘルプを表示",
         "viewStats": "表示状態",
         "wideLine": "幅広い線"
@@ -430,6 +430,13 @@
         "unassigned": "未割り当て",
         "unselectItem": "選択なし"
     },
+    "menuPositionPopup": {
+        "invalidValue": "無効な値：入力した値を 0 にすることはできず、テーマのデフォルトの最大制限を超えることはできません。 制限がない場合は -1 を使用します。",
+        "maxLevels": "最高レベル:",
+        "themeDefaultValue": "テーマデフォルト値:",
+        "title": "メニュー位置の設定",
+        "usedBy": "他のメニューで使用:"
+    },
     "plugins": {
         "addPluginSuccessMessage": "プラグインを追加しました",
         "deletePlugin": "プラグインの削除",
@@ -520,7 +527,6 @@
         "trashed": "ごみ箱",
         "uniqueWords": "単語",
         "updatedOn": "更新日",
-        "updateSlug": "slug を更新",
         "url": "URL",
         "words": "文字"
     },
@@ -528,7 +534,7 @@
         "aboutPublii": "Publii について",
         "currentPubliiVersion": "Version",
         "accept": "Accept",
-        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team with cooperation with <a href=\"https://github.com/dziudek\" target=\"_blank\" rel=\"noopener noreferrer\">Dev Zen</a> and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
         "creditsIntro": "Publii uses the following third-party Open Source Software:",
         "dataCollectionInfo": "<strong>We do not collect any </strong>personal data while you use Publii app; we do not store, track, or allow third parties to collect, personally identifiable information about you. ",
         "homepage": "ホームページ",
@@ -592,6 +598,8 @@
         "cookieAdvancedDescription": "このセクションには、訪問者が特定の Cookie グループの同意を管理できるようにする高度な Cookie 設定を備えたモーダルポップアップを表示するためのオプションが含まれています。",
         "createXMLSitemap": "XML Sitemap の生成",
         "currentTheme": "現在のテーマ:",
+        "customElementsInWYSIWYGEditor": "WYSIWYG エディターで利用できるカスタム要素",
+        "customElementsInWYSIWYGEditorInfo": "WYSIWYG エディターが HTML コードからいくつかのタグを自動的に削除する場合、カスタム要素としてここに追加することができます。<br> 例: <strong>v-select,v-dropdown</strong>",
         "customFeedTitle": "カスタム Feed のタイトル",
         "customLanguageCode": "カスタム言語コード:",
         "darkMode": "ダークモード",
@@ -623,9 +631,6 @@
         "embedConsentsDescription": "このセクションでは、Cookie を設定する可能性のあるサードパーティのコンテンツプロバイダーから iframe にロードされたコンテンツをブロックできます。 iframe URL のドメインを提供することにより、例えば <strong> youtube.com</strong>、メッセージ、承認ボタンなどの必要な要素を入力し、それを既存の Cookie グループに割り当てると、iframe はプレースホルダーに置き換えられ、コンテンツが次の理由でブロックされていることを訪問者に通知します。それらの同意設定（訪問者が Cookie バナーで iframe によって使用される Cookie のタイプに同意していない）",
         "embedVideos": "ビデオの組み込み",
         "enableAdvancedPreview": "拡張プレビューの有効",
-        "enableAMP": "AMP の有効",
-        "enableAMPInfo": "AMP（高速モバイルページ）は、静的コンテンツ用にモバイル向けに最適化されたページを作成し、高速にレンダリングします。 <br /> <strong>注意：</strong> このオプションを有効にすると、ウェブサイトは Google の AMP CDN によって提供されるサードパーティのスクリプトをロードします。",
-        "ampDeprecatedMessage": "次回のアプリリリースから、AMP 機能は非推奨となります。詳細は Publii 公式ブログでご確認ください。",
         "enableAutoIndent": "自動インテントの有効",
         "enableCSSCompression": "CSS 圧縮の有効",
         "enableHTMLCompression": "HTML 圧縮の有効",
@@ -926,7 +931,7 @@
         "authenticationMethod": "認証方法",
         "branch": "ブランチ",
         "branchExampleGitHubNote": "例: <strong>gh-pages</strong>, <strong>docs</strong>, <strong>main</strong>",
-        "branchExampleGitLabeNote": "例: <strong>docs</strong>, <strong>main</strong>, <strong>master</strong>",
+        "branchExampleGitLabeNote": "例: <strong>main</strong>",
         "branchFieldCantBeEmpty": "ブランチ項目を空にすることはできません",
         "bucket": "バケット",
         "bucketFieldCantBeEmpty": "バケット項目を空にすることはできません",
@@ -1106,6 +1111,8 @@
     },
     "theme": {
         "addThemeSuccessMessage": "テーマを追加しました。",
+        "authorOptions": "投稿者オプション",
+        "authorOptionsInfo": "投稿者オプションの項目では、投稿者に追加情報を含める必要があるグローバルオプションを設定できます。 この項目で行った変更は、サイトすべての投稿者に影響しますが、必要に応じて個々の投稿者編集画面からテーマ設定を上書きすることもできます。",
         "authorsPostsPerPage": "1 ページの投稿者投稿数:",
         "authorsPostsPerPageInfo": "すべての投稿者投稿を表示する場合は、-1 を指定します。",
         "changeAppTheme": "アプリケーションテーマの変更",
@@ -1130,6 +1137,8 @@
         "selectTheme": "テーマの選択",
         "settingsResetMessage": "テーマ設定を初期化してよろしいですか？",
         "settingsResetSuccessMessage": "テーマ設定を初期化しました。",
+        "tagOptions": "タグオプション",
+        "tagOptionsInfo": "タグオプションの項目では、タグに追加情報を含める必要があるグローバルオプションを設定できます。 この項目で行った変更は、サイトすべてのタグに影響しますが、必要に応じて、個々のタグ編集画面からテーマ設定を上書きすることもできます。",
         "tagsPostsPerPage": "1 ページのタグ投稿数:",
         "tagsPostsPerPageInfo": "すべてのタグ投稿を表示する場合は、-1 を指定します。",
         "themes": "テーマ",
@@ -1145,7 +1154,6 @@
             "customCSS": "カスタム CSS",
             "customCSSSaveSuccessMsg": "カスタム CSS を保存しました。",
             "normal": "Normal",
-            "putCustomCSSAMPComment": "ここにカスタム CSS コードを配置します (AMPモードでのみ使用されます)",
             "putCustomCSSComment": "ここにカスタム CSS コードを配置します"
         },
         "customHTML": "カスタム HTML",
@@ -1205,7 +1213,6 @@
     "ui": {
         "aboutPublii": "Publii について",
         "alternativeText": "代替テキスト",
-        "AMP": "AMP",
         "appConfiguration": "アプリケーションの設定",
         "applyChanges": "変更を適用",
         "authors": "投稿者",
@@ -1277,6 +1284,7 @@
         "publiiOnGithub": "Publii の Github を表示",
         "publishAndClose": "プレビュー・閉じる",
         "publishPost": "投稿公開",
+        "reloadFile": "ファイルの更新",
         "renderFrontPageOnly": "トップページのみ生成",
         "renderFullWebsite": "全ウェブサイトを生成",
         "reportBugInSupportDesk": "サポートデスクにバグを報告",
@@ -1302,6 +1310,7 @@
         "theme": "テーマ",
         "tools": "ツール・プラグイン",
         "unhide": "表示",
+        "updateSlug": "Slug の更新",
         "uploadInProgress": "アップロード中...",
         "whatsNew": "What's new?"
     }

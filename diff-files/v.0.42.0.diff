@@ -1,0 +1,46 @@
+99,100d98
+<             "ampHead": "AMP Head",
+<             "ampFooter": "AMP Footer",
+211a210
+>         "hideBulkEdit": "Hide Bulk Edit",
+240a240
+>         "viewBulkEdit": "Bulk Edit",
+431a432,438
+>     },
+>     "menuPositionPopup": {
+>         "invalidValue": "Invalid value: the entered value cannot be 0 and exceed the theme's default maximum limit. Use -1 for no restrictions.",
+>         "maxLevels": "Max level:",
+>         "themeDefaultValue": "Theme default value:",
+>         "title": "Configure menu position",
+>         "usedBy": "Used by other menu:"
+523d529
+<         "updateSlug": "Update slug",
+531c537
+<         "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team with cooperation with <a href=\"https://github.com/dziudek\" target=\"_blank\" rel=\"noopener noreferrer\">Dev Zen</a> and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+---
+>         "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+594a601,602
+>         "customElementsInWYSIWYGEditor": "Custom elements available in the WYSIWYG editor",
+>         "customElementsInWYSIWYGEditorInfo": "If the WYSIWYG editor automatically removes some tags from your HTML code, you may add them here as custom elements.<br> For example: <strong>v-select,v-dropdown</strong>",
+626,628d633
+<         "enableAMP": "Enable AMP",
+<         "enableAMPInfo": "AMP (accelerated mobile pages) creates mobile-optimized pages for your static content that render fast. <br/><strong>Please note:</strong> when this option is enabled your website will load third-party scripts provided by Google's AMP CDN.",
+<         "ampDeprecatedMessage": "Starting with the next app release, the AMP feature will be deprecated. More on this can be found on the official Publii blog.",
+929c934
+<         "branchExampleGitLabeNote": "Examples: <strong>docs</strong>, <strong>main</strong> or <strong>master</strong>.",
+---
+>         "branchExampleGitLabeNote": "Example: <strong>main</strong>",
+1108a1114,1115
+>         "authorOptions": "Author options",
+>         "authorOptionsInfo": "The author options section allows you to set global options for what extra information should be included in your authors. Changes made in this section will affect all authors on your site, but you can also override the Theme Settings on the Author Edit screen for each individual author if necessary.",
+1132a1140,1141
+>         "tagOptions": "Tag options",
+>         "tagOptionsInfo": "The Tag options section allows you to set global options for what extra information should be included in your tags. Changes made in this section will affect all tags on your site, but you can also override the Theme Settings on the Tag Edit screen for each individual tag if necessary.",
+1148d1156
+<             "putCustomCSSAMPComment": "Put your custom CSS code here (it will be used only in AMP mode)",
+1208d1215
+<         "AMP": "AMP",
+1279a1287
+>         "reloadFile": "Reload file",
+1304a1313
+>         "updateSlug": "Update slug",

@@ -1,0 +1,8 @@
+{
+	"name": "Nederlands - standaard",
+	"version": "1.2.0",
+	"author": "FastAct",
+	"publiiSupport": "0.41.0",
+    "momentLocale": "nl",
+    "wysiwygTranslation": true
+}

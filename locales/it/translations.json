@@ -96,8 +96,6 @@
             "searchInput": "Search input",
             "searchContent": "Search content",
             "footer": "Footer",
-            "ampHead": "AMP Head",
-            "ampFooter": "AMP Footer",
             "beforePost": "Prima di ogni post",
             "afterPost": "Dopo ogni post"
         }
@@ -210,6 +208,7 @@
         "heading5": "Titolo 5",
         "heading6": "Titolo 6",
         "hideHelp": "Nascondi Aiuto",
+        "hideBulkEdit": "Nascondi Bulk Edit",
         "hideStats": "Nascondi statistiche",
         "html": "HTML",
         "insertGallery": "Inserisci galleria",
@@ -239,6 +238,7 @@
         "useOrderedList": "Lista ordinata",
         "useUnorderedList": "Lista non ordinata",
         "viewHelp": "Visualizza la guida",
+        "viewBulkEdit": "Bulk Edit",
         "viewStats": "Visualizza statistiche",
         "wideLine": "Linea larga"
     },
@@ -257,7 +257,7 @@
         "deleteBackupsConfirmMsg": "Vuoi davvero rimuovere i backup selezionati? Questa azione non può essere annullata.",
         "deleteBackupsErrorMsg": "Si è verificato un errore durante la rimozione dei backup selezionati. Per favore riprova.",
         "deleteBackupsSuccessMsg": "I backup selezionati sono stati rimossi",
-        "dragAndDropBackupFile": "Trascina e rilascia il file di backup qui o",
+        "dragAndDropBackupFile": "Trascina e rilascia il file di backup qui o scegli manualmente il file",
         "dropYourFileHere": "Trascina qui il tuo file",
         "file": "File",
         "fileFromFileManager": "File da File Manager",
@@ -430,6 +430,13 @@
         "insertBefore": "Sposta qui sopra",
         "insertAsChild": "Inserisci come figlio"
     },
+    "menuPositionPopup":{
+        "invalidValue": "Valore non valido: il valore inserito non può essere 0 e superare il limite massimo predefinito del tema. Usa -1 per non avere limiti.",
+        "maxLevels":"Numero massimo di livelli:",
+        "themeDefaultValue":"Valore predefinito del tema:",
+        "title":"Configura la posizione del menu",
+        "usedBy":"Utilizzato dai menu:"
+    },
     "plugins": {
         "addPluginSuccessMessage": "Il Plugin è stato aggiunto",
         "deletePlugin": "Elimina Plugin",
@@ -496,7 +503,7 @@
         "postSlug": "Nome breve (Post slug)",
         "postSlugUpdateButton": "Aggiorna",
         "postSlugLengthWarning": "Nomi brevi più lunghi di 250 caratteri possono portare alla creazione di file corrotti durante il rendering del sito web.",
-        "postSlugTooLong": "Il nome è troppo lungo",
+        "postSlugTooLong": "Il nome breve è troppo lungo",
         "postState": "Stato del post",
         "postStatusChangeSuccessMessage": "Lo stato dei post selezionati è stato modificato",
         "postTemplate": "Modello del post",
@@ -520,7 +527,6 @@
         "trashed": "Cestino",
         "uniqueWords": "Parole uniche",
         "updatedOn": "Aggiornato il",
-        "updateSlug": "Aggiorna il nome breve",
         "url": "URL",
         "words": "Parole"
     },
@@ -546,7 +552,6 @@
         "selectThemeBeforeCreatingPreviewMsg": "Devi selezionare un tema prima di creare un'anteprima del tuo sito web. Vai alla sezione delle impostazioni del sito web e seleziona un tema."
     },
     "settings": {
-        "ampDeprecatedMessage": "A partire dalla prossima versione di Publii la funzione AMP verrà ritirata. Maggiori informazioni su questo possono essere trovate sul blog ufficiale.",
         "addGDPRCookieBanner": "Banner dei cookie (GDPR)",
         "additionalValidElementsInWYSIWYGEditor": "Ulteriori elementi validi nell'editor WYSIWYG",
         "additionalValidElementsInWYSIWYGEditorInfo": "Se l'editor WYSIWYG rimuove automaticamente alcuni tag dal codice HTML, puoi aggiungerli qui come elementi consentiti.<br> Ad esempio: <strong>v-select[*],v-dropdown[*]</strong> abilita i tag personalizzati v-select e v-dropdown con tutti gli attributi.",
@@ -593,6 +598,8 @@
         "cookieAdvancedDescription": "Questa sezione contiene le opzioni per la visualizzazione di un pop-up modale con impostazioni avanzate dei cookie, che consente ai visitatori di gestire i consensi per un gruppo specifico di cookie.",
         "createXMLSitemap": "Crea una mappa XML del sito",
         "currentTheme": "Tema attuale:",
+        "customElementsInWYSIWYGEditor": "Elementi personalizzati disponibili nell'editor WYSIWYG",
+        "customElementsInWYSIWYGEditorInfo": "Se l'editor WYSIWYG rimuove automaticamente alcuni tag dal tuo codice HTML, puoi aggiungerli qui come elementi personalizzati.<br> Ad esempio: <strong>v-select,v-dropdown</strong>",
         "customFeedTitle": "Titolo feed personalizzato",
         "customLanguageCode": "Codice lingua personalizzato:",
         "darkMode": "Modalità scura",
@@ -624,8 +631,6 @@
         "embedConsentsDescription": "Questa sezione consente di bloccare i contenuti caricati negli iframe da fornitori di terze parti che potrebbero impostare cookie. Fornendo il dominio dell'URL dell'iframe, ad es. <strong>youtube.com</strong>, ed assegnandolo ad un gruppo di cookie esistente, gli iframe verranno sostituiti con un segnaposto che informa i visitatori che il contenuto è bloccato a causa delle loro impostazioni di consenso. Se il visitatore non ha acconsentito al tipo di cookie utilizzati, l'iframe non sarà visibile.",
         "embedVideos": "Incorpora video",
         "enableAdvancedPreview": "Abilita anteprima avanzata",
-        "enableAMP": "Abilita AMP",
-        "enableAMPInfo": "AMP (accelerated mobile pages) crea pagine ottimizzate per dispositivi mobili per i tuoi contenuti statici che vengono visualizzati rapidamente. <br/> <strong> Nota: </strong> quando questa opzione è abilitata, il tuo sito web caricherà script di terze parti forniti dalla CDN AMP di Google.",
         "enableAutoIndent": "Abilita il rientro automatico",
         "enableCSSCompression": "Abilita la compressione CSS",
         "enableHTMLCompression": "Abilita la compressione HTML",
@@ -769,7 +774,7 @@
         "privacyPolicyURL": "Link dell'informativa",
         "provideFacebookAppID": "Specifica la <a href=\"https://developers.facebook.com/docs/apps/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook App ID </a>",
         "random": "Casuale",
-        "readAboutOurRecommendedServerSettings": "Per saperne di più sulle configurazioni del server consigliate fare riferimento al seguente <a href=\"https://getpublii.com/docs/recommended-server-settings.html\" target=\"_blank \">articolo</a>.",
+        "readAboutOurRecommendedServerSettings": "Per avere più informazioni sulle configurazioni del server consigliate fare riferimento al seguente <a href=\"https://getpublii.com/docs/recommended-server-settings.html\" target=\"_blank \">articolo</a>.",
         "relatedPostsOptions": "Post correlati da tutti i Tag",
         "relatedPostsOptionsInfo": "Se abilitato i Post correlati verranno generati da tutti i Tag. Se disabilitato i Post correlati verranno generati solo dagli stessi Tag del post corrente.",
         "relatedPostsOrdering": "Ordinamento Post correlati:",
@@ -818,7 +823,7 @@
         "tagsListPage": "Pagina elenco tag",
         "tagsListPageTitleVariables": "Nel titolo poi utilizzae le seguenti variabili: %sitename.",
         "tagsPrefixCannotBeEmpty": "Il prefisso dei tag non può essere vuoto se pretty URL è abilitato.",
-        "themeDoesNotHaveSupportedFeaturesList": "<p>Il file <strong>config.json</strong> del tuo tema non contiene la sezione <strong>supportedFeatures</strong>. Aggiorna il tema o modificalo per includere messaggi sulle funzionalità che non sono supportate. <a href=\"https://getpublii.com/dev/theme-supported-features\" target=\"_blank\" rel=\"noopener noreferrer\">Ulteriori informazioni sulle funzioni supportate</a>.< /p>",
+        "themeDoesNotHaveSupportedFeaturesList": "<p>Il file <strong>config.json</strong> del tuo tema non contiene la sezione <strong>supportedFeatures</strong>. Aggiorna il tema o modificalo per includere messaggi sulle funzionalità che non sono supportate. <a href=\"https://getpublii.com/dev/theme-supported-features\" target=\"_blank\" rel=\"noopener noreferrer\">Ulteriori informazioni sulle funzioni supportate</a>.</p>",
         "themeDoesNotSupport404ErrorPage": "Il tema non supporta la pagina di Errore 404.",
         "themeDoesNotSupportAuthorPages": "Il tema non supporta la pagina Autore.",
         "themeDoesNotSupportErrorPages": "Il tema non supporta le pagine di Errore",
@@ -1106,6 +1111,8 @@
     },
     "theme": {
         "addThemeSuccessMessage": "Il tema è stato aggiunto con successo.",
+        "authorOptions": "Opzioni Autore",
+        "authorOptionsInfo": "Questa sezione ti consente di impostare opzioni globali extra da includere nei tuoi autori. Le modifiche apportate in questa sezione avranno effetto su tutti gli autori del tuo sito. Se necessario potrai ignorarle nella schermata di ogni singolo autore.",
         "authorsPostsPerPage": "Post per pagina Autori:",
         "authorsPostsPerPageInfo": "Imposta -1 se vuoi visualizzare tutti i post nella pagina autori.",
         "changeAppTheme": "Cambia il tema dell'applicazione",
@@ -1130,6 +1137,8 @@
         "selectTheme": "Seleziona il tema",
         "settingsResetMessage": "Vuoi davvero ripristinare le impostazioni del tema?",
         "settingsResetSuccessMessage": "Le impostazioni del tema sono state ripristinate.",
+        "tagOptions": "Opzioni Tag",
+        "tagOptionsInfo": "Questa sezione ti consente di impostare opzioni globali extra da includere nei tuoi tag. Le modifiche apportate in questa sezione avranno effetto su tutti i tag del tuo sito. Se necessario potrai ignorarle nella schermata di ogni singolo tag.",
         "tagsPostsPerPage": "Post per pagina Tag:",
         "tagsPostsPerPageInfo": "Imposta -1 se vuoi visualizzare tutti i post nella pagina dei tag.",
         "themes": "Temi",
@@ -1145,7 +1154,6 @@
             "customCSS": "CSS personalizzato",
             "customCSSSaveSuccessMsg": "Il CSS personalizzato è stato salvato con successo.",
             "normal": "Normale",
-            "putCustomCSSAMPComment": "Inserisci qui il tuo codice CSS personalizzato (verrà utilizzato solo in modalità AMP)",
             "putCustomCSSComment": "Inserisci qui il tuo codice CSS personalizzato"
         },
         "customHTML": "HTML personalizzato",
@@ -1205,7 +1213,6 @@
     "ui": {
         "aboutPublii": "A proposito di Publii",
         "alternativeText": "Testo alternativo",
-        "AMP": "AMP",
         "appConfiguration": "Configurazione dell'applicazione",
         "applyChanges": "Applica i cambiamenti",
         "authors": "Autori",
@@ -1277,6 +1284,7 @@
         "publiiOnGithub": "Visualizza Publii su GitHub",
         "publishAndClose": "Pubblica e chiudi",
         "publishPost": "Pubblica post",
+        "reloadFile": "Ricarica il file",
         "renderFrontPageOnly": "Rendering della frontpage",
         "renderFullWebsite": "Rendering del sito completo",
         "reportBugInSupportDesk": "Segnala un bug tramite il nostro supporto",
@@ -1302,6 +1310,7 @@
         "theme": "Tema",
         "tools": "Strumenti e Plugin",
         "unhide": "Visualizza",
+        "updateSlug": "Aggiorna il nome breve (slug)",
         "uploadInProgress": "Caricamento in corso...",
         "whatsNew": "Cosa c'è di nuovo?"
     }

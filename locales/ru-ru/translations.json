@@ -118,9 +118,9 @@
     "editor": {
         "addHeading": "Добавить заголовок",
         "addLabel": "Добавить название",
-        "alignTextCenter": "Выровнить текст по центру",
-        "alignTextLeft": "Выровнить текст по левому краю",
-        "alignTextRight": "Выровнить текст по правому краю",
+        "alignTextCenter": "Выровнять текст по центру",
+        "alignTextLeft": "Выровнять текст по левому краю",
+        "alignTextRight": "Выровнять текст по правому краю",
         "blockEditorHelpPanelDesc": "Вы можете вставить блок, нажав кнопку <span>+</span> или <span>TAB</span> в новой строке, либо используя сочетания клавиш или синтаксис markdown в новой строке:",
         "blocks": {
             "code": {
@@ -314,7 +314,7 @@
     },
     "image": {
         "addImages": "Добавить изображения",
-        "align": "Выровнить",
+        "align": "Выровнять",
         "centeredImage": "Изображение по центру",
         "columns": "Столбцы:",
         "dropFeaturedImageOr": "Перетащите избранное изображение сюда или",
@@ -1220,7 +1220,7 @@
         "backToTools": "Назад к инструментам",
         "backToPosts": "Посты",
         "basicInformation": "Базовая информация",
-        "beautifyCode": "Украсить код",
+        "beautifyCode": "Улучшить код",
         "cancel": "Отмена",
         "cancelPostWarningMsg": "Вы потеряете все несохраненные изменения. Продолжить?",
         "canonicalURL": "Каноничный URL",

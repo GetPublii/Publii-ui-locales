@@ -96,8 +96,6 @@
             "searchInput": "搜索輸入欄",
             "searchContent": "搜索內容",
             "footer": "Footer",
-            "ampHead": "AMP Head",
-            "ampFooter": "AMP Footer",
             "beforePost": "每篇文章之前",
             "afterPost": "每篇文章之後"
         }
@@ -209,6 +207,7 @@
         "heading4": "標題 4",
         "heading5": "標題 5",
         "heading6": "標題 6",
+        "hideBulkEdit": "隱藏批次編輯",
         "hideHelp": "隱藏幫助",
         "hideStats": "隱藏統計",
         "html": "HTML",
@@ -238,6 +237,7 @@
         "unableToSetSpellCheckerForLanguage": "(!) 無法將拼寫檢查器設置為使用所選語言 —— ",
         "useOrderedList": "使用有序列表",
         "useUnorderedList": "使用無序列表",
+        "viewBulkEdit": "批次編輯",
         "viewHelp": "查看幫助",
         "viewStats": "查看統計",
         "wideLine": "Wide line"
@@ -430,6 +430,13 @@
         "unassigned": "未分配",
         "unselectItem": "取消選擇"
     },
+    "menuPositionPopup": {
+        "invalidValue": "無效值:輸入的值不能為0，且不能超過主題的默認最大限制。使用-1表示無限制。",
+        "maxLevels": "最大值:",
+        "themeDefaultValue": "主題預設值:",
+        "title": "配置菜單位置",
+        "usedBy": "其他菜單使用:"
+    },
     "plugins": {
         "addPluginSuccessMessage": "插件已添加",
         "deletePlugin": "刪除插件",
@@ -520,7 +527,6 @@
         "trashed": "已回收",
         "uniqueWords": "獨特的詞",
         "updatedOn": "更新於",
-        "updateSlug": "更新 Slug",
         "url": "網址",
         "words": "字"
     },
@@ -528,8 +534,7 @@
         "aboutPublii": "關於Publii",
         "currentPubliiVersion": "版本",
         "accept": "接受",
-        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>。\n版權所有。<br>Publli 由核心團隊與 <a href=\"https://github.com/dziudek\" target=\"_blank\" rel=\"noopener noreferrer\">Dev Zen</a 合作設計和維護\n> 並且由<a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a>和其他開源項目製作 ",
-        "creditsIntro": "Publii 使用以下第三方開源軟體：",
+        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",        "creditsIntro": "Publii 使用以下第三方開源軟體：",
         "dataCollectionInfo": "我們不會在您使用 Publii 應用時<strong>收集任何</strong>個人數據；\n我們不會儲存、跟蹤或允許第三方收集有關您的個人身份訊息。 ",
         "homepage": "首頁",
         "license": "許可協議",
@@ -592,6 +597,8 @@
         "cookieAdvancedDescription": "此部分包含顯示高級的 cookie 設置的彈出模式的選項，這樣訪客可以管理特定組的 cookie 的許可。",
         "createXMLSitemap": "創建 XML 站點地圖",
         "currentTheme": "當前主題：",
+        "customElementsInWYSIWYGEditor": "所見即所得編輯器中可用的自訂元素",
+        "customElementsInWYSIWYGEditorInfo": "如果所見即所得編輯器自動從HTML代碼中刪除一些標記，您可以將它們作為自訂元素添加到這裡。<br>例如:<strong>v-select,v-dropdown</strong>",        
         "customFeedTitle": "自訂 Feed 標題",
         "customLanguageCode": "自訂語言代碼：",
         "darkMode": "深色模式",
@@ -623,9 +630,6 @@
         "embedConsentsDescription": "本節允許您阻止從可能設置cookie的第三方內容提供商載入到iFrame中的內容。通過提供iframe URL的域，例如<strong>youtube.com</strong>，填寫所需的元素，如消息、接受按鈕，並將其分配給現有的cookie組，iframe將被替換為占位符，通知訪問者由於其同意設置而阻止了內容（即訪問者未同意iframe在cookie橫幅中使用的cookie類型）。",
         "embedVideos": "嵌入影片",
         "enableAdvancedPreview": "啟用高級預覽",
-        "enableAMP": "啟用 AMP",
-        "enableAMPInfo": "AMP（加速移動頁面）為您的靜態內容創建快速呈現的移動最佳化頁面。 \n<br/><strong>請注意</strong>：啟用此選項後，您的網站將載入由 Google 的 AMP CDN 提供的第三方腳本。",
-        "ampDeprecatedMessage": "從下次應用程序發布開始，AMP功能將被廢棄。關於這一點的更多信息可以在 Publii 官方博客上找到。",
         "enableAutoIndent": "啟用自動縮進",
         "enableCSSCompression": "啟用 CSS 壓縮",
         "enableHTMLCompression": "啟用 HTML 壓縮",
@@ -1106,6 +1110,8 @@
     },
     "theme": {
         "addThemeSuccessMessage": "主題已成功添加。",
+        "authorOptions": "作者選項",
+        "authorOptionsInfo": "作者選項部分允許您為作者中應該包含的額外訊息設定全局選項。在此部分中所做的更改將影響站點上的所有作者，但如果有必要，您也可以在作者編輯螢幕上覆蓋每個作者的主題設置。",
         "authorsPostsPerPage": "作者每頁的文章：",
         "authorsPostsPerPageInfo": "如果您需要在頁面上顯示所有作者的文章，請使用 -1 作為值。",
         "changeAppTheme": "更改應用程式主題",
@@ -1130,6 +1136,8 @@
         "selectTheme": "選擇主題",
         "settingsResetMessage": "您真的要重設主題設置嗎？",
         "settingsResetSuccessMessage": "主題設置已重設。",
+        "tagOptions": "標籤選項",
+        "tagOptionsInfo": "標籤選項部分允許您設置標記中應該包含哪些額外訊息的全局選項。在本節中所做的更改將影響您網站上的所有標籤，但如果有必要，您也可以在標籤編輯螢幕上覆蓋每個單獨標籤的主題設置。",
         "tagsPostsPerPage": "每頁標籤文章：",
         "tagsPostsPerPageInfo": "如果您需要在頁面上顯示所有標籤文章，請使用 -1 作為值。",
         "themes": "主題",
@@ -1145,7 +1153,6 @@
             "customCSS": "自訂 CSS",
             "customCSSSaveSuccessMsg": "自訂 CSS 已成功保存。",
             "normal": "普通的",
-            "putCustomCSSAMPComment": "將您的自訂 CSS 代碼放在這裡（它將僅在 AMP 模式下使用）",
             "putCustomCSSComment": "將您的自訂 CSS 代碼放在這裡"
         },
         "customHTML": "自訂 HTML",
@@ -1205,7 +1212,6 @@
     "ui": {
         "aboutPublii": "關於 Publii",
         "alternativeText": "替代文字",
-        "AMP": "AMP",
         "appConfiguration": "應用程式配置",
         "applyChanges": "應用更改",
         "authors": "作者",
@@ -1277,6 +1283,7 @@
         "publiiOnGithub": "在 Github 上查看 Publii",
         "publishAndClose": "發布並關閉",
         "publishPost": "發布文章",
+        "reloadFile": "重新載入文件",
         "renderFrontPageOnly": "僅渲染首頁",
         "renderFullWebsite": "渲染完整的網站",
         "reportBugInSupportDesk": "通過我們的支援台報告 bug",
@@ -1302,6 +1309,7 @@
         "theme": "主題",
         "tools": "工具 & 插件",
         "unhide": "取消隱藏",
+        "updateSlug": "更新 slug",
         "uploadInProgress": "上傳中...",
         "whatsNew": "有什麼新東西？"
     }

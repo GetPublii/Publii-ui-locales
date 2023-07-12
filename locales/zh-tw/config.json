@@ -1,8 +1,8 @@
 {
     "name": "Chinese - Traditional",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Dyxang",
-    "publiiSupport": "0.41.0",
+    "publiiSupport": "0.42.0",
     "momentLocale": "zh-tw",
     "wysiwygTranslation": true
 }

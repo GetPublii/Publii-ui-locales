@@ -1,0 +1,21 @@
+537c537
+<         "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+---
+>         "copyright": "Copyright 2023 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+552a553,558
+>     },
+>     "repeater": {
+>         "addItem": "Add item",
+>         "duplicateItem": "Duplicate item",
+>         "emptyState": "Click the button to add first element",
+>         "removeItem": "Remove item"
+614a621,622
+>         "disableHomepagePagination": "Disable homepage pagination",
+>         "disableHomepagePaginationInfo": "When enabled, your homepage pagination won't be generated.",
+720a729,734
+>         "noIndexForChatGPTBot": "Block GPTBot bot",
+>         "noIndexForChatGPTUser": "Block ChatGPT-User bot",
+>         "noIndexForChatGPTBotInfo": "When enabled, this option prevents your site content from being indexed by GPTBot bot (<a href=\"https://platform.openai.com/docs/gptbot\" target=\"_blank\">used for crawling</a>). Please note that it will only take effect if you do not use your own robots.txt file.",
+>         "noIndexForChatGPTUserInfo": "When enabled, this option prevents your site content from being indexed by ChatGPT-User bot (<a href=\"https://platform.openai.com/docs/plugins/bot\" target=\"_blank\">used in ChatGPT plugins</a>). Please note that it will only take effect if you do not use your own robots.txt file.",
+>         "noIndexForCommonCrawlBots": "Block Common Crawl bots",
+>         "noIndexForCommonCrawlBotsInfo": "When enabled, this option prevents your site content from being indexed by Common Crawl bots. Please note that it will only take effect if you do not use your own robots.txt file.",

@@ -218,7 +218,7 @@
         "newDraftCreated": "Nuova bozza creata",
         "newPostCreated": "Nuovo post creato",
         "nothingFound": "Nessun blocco trovato",
-        "paragraph":"Paragrafo",
+        "paragraph": "Paragrafo",
         "quote": "Citazione",
         "quoteAuthor": "Autore della citazione",
         "quoteText": "Testo della citazione",
@@ -431,11 +431,11 @@
         "insertAsChild": "Inserisci come figlio"
     },
     "menuPositionPopup":{
-        "invalidValue": "Valore non valido: il valore inserito non può essere 0 e superare il limite massimo predefinito del tema. Usa -1 per non avere limiti.",
-        "maxLevels":"Numero massimo di livelli:",
-        "themeDefaultValue":"Valore predefinito del tema:",
-        "title":"Configura la posizione del menu",
-        "usedBy":"Utilizzato dai menu:"
+        "invalidValue": "Valore non valido: il valore inserito non può essere '0' o superare il limite massimo predefinito del tema. Usa '-1' per non avere limiti.",
+        "maxLevels": "Numero massimo di livelli:",
+        "themeDefaultValue": "Valore predefinito del tema:",
+        "title": "Configura la posizione del menu",
+        "usedBy": "Utilizzato dai menu:"
     },
     "plugins": {
         "addPluginSuccessMessage": "Il Plugin è stato aggiunto",
@@ -551,6 +551,12 @@
         "renderingPleaseWait": "Attendi il completamento del rendering.",
         "selectThemeBeforeCreatingPreviewMsg": "Devi selezionare un tema prima di creare un'anteprima del tuo sito web. Vai alla sezione delle impostazioni del sito web e seleziona un tema."
     },
+    "repeater" : {
+        "addItem": "Aggiungi elemento",
+        "duplicateItem": "Duplica elemento",
+        "emptyState": "Clicca per aggiungere il primo elemento",
+        "removeItem": "Rimuovi elemento"
+    },
     "settings": {
         "addGDPRCookieBanner": "Banner dei cookie (GDPR)",
         "additionalValidElementsInWYSIWYGEditor": "Ulteriori elementi validi nell'editor WYSIWYG",
@@ -612,6 +618,8 @@
         "disableAuthorsPaginationIndexing": "Disabilita l'indicizzazione della paginazione degli autori",
         "disableAuthorsPaginationIndexingInfo": "Se questa opzione è abilitata la paginazione degli autori verrà esclusa dalla mappa del sito e verranno aggiunti i metatag robots <strong>noindex, follow</strong>.",
         "disableAuthorsPaginationInfo": "Se questa opzione è abilitata la paginazione degli autori non verrà generata.",
+        "disableHomepagePagination": "Disabilita la paginazione della home",
+        "disableHomepagePaginationInfo": "Se abilitato la paginazione della home non verrà generata.",
         "disableHomepagePaginationIndexing": "Disabilita l'indicizzazione della paginazione della home page",
         "disableTagsPagination": "Disabilita la paginazione dei tag",
         "disableTagsPaginationIndexing": "Disabilita l'indicizzazione della paginazione dei tag",
@@ -718,6 +726,12 @@
         "loadAtStart": "Carica all'apertura:",
         "metaDescription": "Meta Description:",
         "metaRobots": "Meta Robot:",
+        "noIndexForChatGPTBot": "Blocca il bot GPTBot",
+        "noIndexForChatGPTUser": "Blocca il bot ChatGPT-User",
+        "noIndexForChatGPTBotInfo": "Se abilitata, questa opzione impedisce che i contenuti del tuo sito vengano indicizzati dal bot GPTBot (<a href=\"https://platform.openai.com/docs/gptbot\" target=\"_blank\">utilizzato per la scansione</a>). Tieni presente che avrà effetto solo se non utilizzi il file robots.txt",
+        "noIndexForChatGPTUserInfo": "Se abilitata, questa opzione impedisce che il contenuto del tuo sito venga indicizzato dal bot ChatGPT-User (<a href=\"https://platform.openai.com/docs/plugins/bot\" target=\"_blank\">utilizzato nei plugin ChatGPT</a>). Tieni presente che avrà effetto solo se non utilizzi il file robots.txt.",
+        "noIndexForCommonCrawlBots": "Blocca i più comuni Crawl bots",
+        "noIndexForCommonCrawlBotsInfo": "Se abilitata, questa opzione impedisce che il contenuto del tuo sito venga indicizzato dai più comuni Crawl bots. Tieni presente che avrà effetto solo se non utilizzi il file robots.txt.",
         "noIndexWebsite": "Sito non indicizzato",
         "notSelected": "Non selezionato",
         "numberOfPostsInFeed": "Numero di post nel feed",
@@ -879,15 +893,15 @@
         "restoreFromBackup": {
             "createWebsite": "Crea sito web",
             "invalidBackupContent": "Il file caricato è un backup non valido.",
-            "invalidSiteData":"Il backup caricato è danneggiato.",
-            "iWantChangeName":"Cambia il nome del sito web",
-            "restoreFailed":"Si è verificato un errore durante la creazione del sito Web dal backup. Per favore riprova.",
-            "selectSiteName":"Specifica il nome di un sito",
-            "siteExistsWantOverride":"Alcuni siti Web esistono all'interno del nome della directory che hai scelto. Desideri continuare e potenzialmente perdere tutti i dati dei siti Web precedenti? Il sito Web creato dal backup sovrascriverà il sito esistente con lo stesso nome.",
-            "siteNameCannotBeEmpty":"Il nome del sito Web non può essere vuoto",
-            "unsupportedFormat":"Formato non supportato: utilizzare il file di backup TAR.",
-            "unpackError":"Si è verificato un errore durante l'estrazione del backup. Riprova.",
-            "yesPleaseOverride":"Sì, sovrascrivi."
+            "invalidSiteData": "Il backup caricato è danneggiato.",
+            "iWantChangeName": "Cambia il nome del sito web",
+            "restoreFailed": "Si è verificato un errore durante la creazione del sito Web dal backup. Per favore riprova.",
+            "selectSiteName": "Specifica il nome di un sito",
+            "siteExistsWantOverride": "Alcuni siti Web esistono all'interno del nome della directory che hai scelto. Desideri continuare e potenzialmente perdere tutti i dati dei siti Web precedenti? Il sito Web creato dal backup sovrascriverà il sito esistente con lo stesso nome.",
+            "siteNameCannotBeEmpty": "Il nome del sito Web non può essere vuoto",
+            "unsupportedFormat": "Formato non supportato: utilizzare il file di backup TAR.",
+            "unpackError": "Si è verificato un errore durante l'estrazione del backup. Riprova.",
+            "yesPleaseOverride": "Sì, sovrascrivi."
         },
         "selectedBackupFile": "File di backup selezionato",
         "siteLoadingErrorMsg": "Si è verificato un errore durante il caricamento del sito web selezionato. Si prega di verificare i file del sito web e riprovare.",

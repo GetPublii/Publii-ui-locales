@@ -551,6 +551,12 @@
         "renderingPleaseWait": "Aguarde enquanto o processo de renderização é concluído.",
         "selectThemeBeforeCreatingPreviewMsg": "Você precisa selecionar um tema antes de tentar criar uma visualização do seu site. Acesse a seção de configurações do site e selecione um tema."
     },
+    "repeater": {
+        "addItem": "Adicionar item",
+        "duplicateItem": "Duplicar item",
+        "emptyState": "Clique no botão para adicionar o primeiro elemento",
+        "removeItem": "Remover item"
+    },    
     "settings": {
         "addGDPRCookieBanner": "Habilitar o banner",
         "additionalValidElementsInWYSIWYGEditor": "Elementos válidos adicionais no editor WYSIWYG",
@@ -612,6 +618,8 @@
         "disableAuthorsPaginationIndexing": "Desativar a indexação da paginação de autores",
         "disableAuthorsPaginationIndexingInfo": "Quando habilitado, os arquivos de paginação de autores serão excluídos do mapa do site e terão a metatag “robots” <strong>noindex, follow</strong> adicionada.",
         "disableAuthorsPaginationInfo": "Quando habilitado, a paginação de autores não será gerada.",
+        "disableHomepagePagination": "Desativar paginação da página inicial",
+        "disableHomepagePaginationInfo": "Quando ativado, a paginação da sua página inicial não será gerada.",
         "disableHomepagePaginationIndexing": "Desativar a indexação de paginação para a página inicial",
         "disableTagsPagination": "Desativar paginação de tags",
         "disableTagsPaginationIndexing": "Desativar a indexação de paginação de tags",
@@ -718,6 +726,12 @@
         "loadAtStart": "Carregar no início:",
         "metaDescription": "Meta descrição:",
         "metaRobots": "Meta Robots:",
+        "noIndexForChatGPTBot": "Bloquear o bot GPTBot",
+        "noIndexForChatGPTUser": "Bloquear o bot ChatGPT-User",
+        "noIndexForChatGPTBotInfo": "Quando ativada, esta opção impede que o conteúdo do seu site seja indexado pelo bot GPTBot, (<a href=\"https://platform.openai.com/docs/gptbot\" target=\"_blank\">utilizado para rastreamento</a>). Observe que ela só terá efeito se você não utilizar seu próprio arquivo robots.txt.",
+        "noIndexForChatGPTUserInfo": "Quando ativada, esta opção impede que o conteúdo do seu site seja indexado pelo bot ChatGPT-User, (<a href=\"https://platform.openai.com/docs/plugins/bot\" target=\"_blank\">utilizado nos plugins do ChatGPT</a>). Observe que ela só terá efeito se você não utilizar seu próprio arquivo robots.txt.",
+        "noIndexForCommonCrawlBots": "Bloquear bots de rastreamento comuns",
+        "noIndexForCommonCrawlBotsInfo": "Quando ativada, esta opção impede que o conteúdo do seu site seja indexado pelos bots do Common Crawl. Observe que ela só terá efeito se você não utilizar seu próprio arquivo robots.txt.",        
         "noIndexWebsite": "Não indexar este site",
         "notSelected": "Não selecionado",
         "numberOfPostsInFeed": "Número de posts no feed",

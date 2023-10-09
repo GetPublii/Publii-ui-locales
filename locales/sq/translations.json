@@ -298,7 +298,7 @@
         "uploadFiles": "Ngarkoj skedarët"
     },
     "gdpr": {
-        "addGroup": "Shtoj grup",
+        "addGroup": "Shtoj grupin",
         "embedConsents": {
             "addRule": "Shtoj rregullin",
             "groupButtonLabel": "Etiketa e butonit",
@@ -383,7 +383,7 @@
         "addMenuItem": "Shtoj zë në menu",
         "addNewMenu": "Shtoj menu të re",
         "addNewMenuItem": "Shtoj zë të ri në menu",
-        "addSubmenu": "Shtoj nënmenu",
+        "addSubmenu": "Shtoj nënmenunë",
         "addSubmenuItem": "Shtoj zë në nënmenu",
         "assignedMenu": "Menuja e caktuar",
         "classCSS": "Klasa CSS",
@@ -534,7 +534,7 @@
         "aboutPublii": "Për Publii",
         "currentPubliiVersion": "Versioni",
         "accept": "Pranoj",
-        "copyright": "Kopirajti 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. Gjithë të drejtat janë rezervuar.<br>Publii është ideuar dhe mirëmbahet nga një ekip kryesor, mundësuar falë projektit me burim të lirë <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> dhe ",
+        "copyright": "Kopirajti 2023 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. Gjithë të drejtat janë rezervuar.<br>Publii është ideuar dhe mirëmbahet nga një ekip kryesor, mundësuar falë projektit me burim të lirë <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> dhe ",
         "creditsIntro": "Publii përdor lirisht këto programe kompjuterike nga palët e treta:",
         "dataCollectionInfo": "<strong>Ne nuk mbledhim asgjë</strong> personale kur përdorni aplikacionin Publii; nuk regjistrojmë, nuk gjurmojmë dhe nuk lejojmë as palë të treta që të mbledhin informacione personale të cilat ju identifikojnë. ",
         "homepage": "Faqja zyrtare",
@@ -550,6 +550,12 @@
         "renderingErrorText": "Ka një problem me procesin e shndërrimit të uebsajtit.",
         "renderingPleaseWait": "Lutemi të prisni sa të mbarojë procesi i shndërrimit.",
         "selectThemeBeforeCreatingPreviewMsg": "Para se të gjenerohet uebsajti duhet përzgjedhur motivi i tij. Lutemi të shkoni te seksioni për parametrat e uebsajtit dhe të përzgjidhni motivin."
+    },
+    "repeater": {
+        "addItem": "Shtoj zërin",
+        "duplicateItem": "Dubloj zërin",
+        "emptyState": "Klikoni butonin për të shtuar elementin e parë",
+        "removeItem": "Heq zërin"
     },
     "settings": {
         "addGDPRCookieBanner": "Aktivizoj banerin",
@@ -612,6 +618,8 @@
         "disableAuthorsPaginationIndexing": "Çaktivizoj indeksimin e autorëve të faqosur",
         "disableAuthorsPaginationIndexingInfo": "Kur aktivizohet, skedarët e faqosjes së autorëve do të hiqen nga harta e uebsajtit dhe do u shtohen metaetiketat <strong>noindex, follow</strong> për robotët.",
         "disableAuthorsPaginationInfo": "Kur aktivizohet, faqosja e autorëve nuk do të kryhet.",
+        "disableHomepagePagination": "Çaktivizoj faqosjen e kryefaqes",
+        "disableHomepagePaginationInfo": "Kur aktivizohet, faqosja e kryefaqes nuk do të kryhet.",
         "disableHomepagePaginationIndexing": "Çaktivizoj indeksimin e kryefaqes së faqosur",
         "disableTagsPagination": "Çaktivizoj faqosjen e etiketave",
         "disableTagsPaginationIndexing": "Çaktivizoj indeksimin e etiketave të faqosura",
@@ -718,6 +726,12 @@
         "loadAtStart": "Kur nis:",
         "metaDescription": "Metapërshkrimi:",
         "metaRobots": "Metarobotët:",
+        "noIndexForChatGPTBot": "Bllokoj robotin GPTBot",
+        "noIndexForChatGPTUser": "Bllokoj robotin ChatGPT-User",
+        "noIndexForChatGPTBotInfo": "Ky opsion aktivizohet për të mos lejuar robotin GPTBot që të indeksojë faqen (<a href=\"https://platform.openai.com/docs/gptbot\" target=\"_blank\">të analizojë përmbajtjen</a>). Duhet ditur se kjo vlen vetëm nëse nuk përdorni një skedar robots.txt.",
+        "noIndexForChatGPTUserInfo": "Ky opsion aktivizohet për të mos lejuar robotin ChatGPT-User që të indeksojë faqen (<a href=\"https://platform.openai.com/docs/plugins/bot\" target=\"_blank\">përdoret me fishat ChatGPT</a>). Duhet ditur se kjo vlen vetëm nëse nuk përdorni një skedar robots.txt.",
+        "noIndexForCommonCrawlBots": "Bllokoj robotët e zakonshëm",
+        "noIndexForCommonCrawlBotsInfo": "Ky opsion aktivizohet për të mos lejuar robotët e zakonshëm që të indeksojnë faqen. Duhet ditur se kjo vlen vetëm nëse nuk përdorni një skedar robots.txt.",
         "noIndexWebsite": "Uebsajt i paindeksueshëm",
         "notSelected": "Papërzgjedhur",
         "numberOfPostsInFeed": "Numri i postimeve në fluksin informativ",
@@ -1064,7 +1078,7 @@
         "websiteFilesPreparedInfo": "Skedarët e uebsajtit janë gati. Përdorni butonin \"Marr skedarët e uebsajtit\" <br>për t’i marrë e publikuar.",
         "websiteLinkInvalidMsg": "Ndjesë! Lidhja me uebsajtin duket e pavlefshme.",
         "websiteSynchronization": "Sinkronizimi i uebsajtit",
-        "websiteSynchronizationInfo": "Skedarët dublikatë do të mbishkruhen, si edhe emrat e atyre që ndodhen tashmë në destinacion ose <br>ngjasojnë me skedarët e gjeneruar nga Publii.",
+        "websiteSynchronizationInfo": "Skedarët e dubluar do të mbishkruhen bashkë me ata që ndodhen në destinacion ose <br>ngjasojnë me skedarët e gjeneruar nga Publii.",
         "websiteURL": "URL e uebsajtit",
         "youHaventSelectedAnyThemeInfo": "Nuk keni përzgjedhur asnjë motiv. Lutemi të shkoni fillimisht te Parametrat dhe të përzgjidhni motivin.",
         "yourJSONKey": "Çelësi JSON",

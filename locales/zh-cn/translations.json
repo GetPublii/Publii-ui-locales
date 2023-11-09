@@ -12,7 +12,7 @@
         "authorPage": "作者页面",
         "authorSlugCannotBeEmpty": "作者 slug 不能为空",
         "avatar": "头像",
-        "avatarAndFeaturedImage": "头像和精选图片",
+        "avatarAndFeaturedImage": "头像和推荐图片",
         "cannotRemoveMainAuthor": "无法删除主要作者。",
         "changePostAuthor": "更改文章作者",
         "editAuthor": "编辑作者",
@@ -431,7 +431,7 @@
         "unselectItem": "取消选择"
     },
     "menuPositionPopup": {
-        "invalidValue": "无效值:输入的值不能为0，且不能超过主题的默认最大限制。使用-1表示无限制。",
+        "invalidValue": "无效值：输入的值不能为 0 并超过主题的默认最大限制。输入 -1 设为不受限。",
         "maxLevels": "最大值:",
         "themeDefaultValue": "主题默认值:",
         "title": "配置菜单位置",
@@ -534,7 +534,8 @@
         "aboutPublii": "关于Publii",
         "currentPubliiVersion": "版本",
         "accept": "接受",
-        "copyright": "Copyright 2022 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",        "creditsIntro": "Publii 使用以下第三方开源软件：",
+        "copyright": "版权所有 2023 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>保留所有权利。<br>Publii 是由核心团队设计和维护的， <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> 开源项目和其他项目使其成为可能。 ",
+        "creditsIntro": "Publii 使用以下第三方开源软件：",
         "dataCollectionInfo": "我们不会在您使用 Publii 应用时<strong>收集任何</strong>个人数据；\n我们不会存储、跟踪或允许第三方收集有关您的个人身份信息。 ",
         "homepage": "主页",
         "license": "许可协议",
@@ -549,6 +550,12 @@
         "renderingErrorText": "网站渲染过程中出现错误。",
         "renderingPleaseWait": "渲染过程完成，请稍候。",
         "selectThemeBeforeCreatingPreviewMsg": "在尝试创建网站预览之前，您必须选择一个主题。\n请转到网站设置部分并选择一个主题。"
+    },
+    "repeater": {
+        "addItem": "添加项目",
+        "duplicateItem": "复制项目",
+        "emptyState": "点击按钮添加第一个元素",
+        "removeItem": "删除项目"
     },
     "settings": {
         "addGDPRCookieBanner": "添加 GDPR Cookie 横幅",
@@ -611,6 +618,8 @@
         "disableAuthorsPaginationIndexing": "禁用作者分页索引",
         "disableAuthorsPaginationIndexingInfo": "如果启用此选项，您的标签分页文件将从站点地图中排除，并将添加 <strong>noindex, follow</strong>robots meta 标签。",
         "disableAuthorsPaginationInfo": "如果启用此选项，您的作者分页将不会生成。",
+        "disableHomepagePagination": "禁用主页分页",
+        "disableHomepagePaginationInfo": "如果启用，主页分页将不生成。",
         "disableHomepagePaginationIndexing": "禁用主页分页索引",
         "disableTagsPagination": "禁用标签分页",
         "disableTagsPaginationIndexing": "禁用标签分页索引",
@@ -717,6 +726,12 @@
         "loadAtStart": "启动时载入",
         "metaDescription": "网站简介：",
         "metaRobots": "Meta Robots:",
+        "noIndexForChatGPTBot": "阻止 GPTBot 机器人",
+        "noIndexForChatGPTUser": "阻止 ChatGPT-User 机器人",
+        "noIndexForChatGPTBotInfo": "启用后，将防止您的站点内容被GPTBot bot 索引(<a href=\"https://platform.openai.com/docs/gptbot\" target=\"_blank\">用于crawling</a>)。 请注意，只有不使用自己的 robots.txt 文件时它才会生效。",
+        "noIndexForChatGPTUserInfo": "启用后，将防止您的站点内容被GPTBot bot 索引(<a href=\"https://platform.openai.com/docs/plugins/bot\" target=\"_blank\">用于ChatGPT插件</a>)。 请注意，只有不使用自己的 robots.txt 文件时它才会生效。",
+        "noIndexForCommonCrawlBots": "阻止通用爬虫机器人",
+        "noIndexForCommonCrawlBotsInfo": "启用后，将防止您的站点内容被通用机器人索引。 请注意，只有不使用自己的 robots.txt 文件时，它才会生效。",
         "noIndexWebsite": "无索引网站",
         "notSelected": "未选择",
         "numberOfPostsInFeed": "Feed 中的文章数",

@@ -1,0 +1,32 @@
+74c74
+<             "tokenOrServerAddressInvalid": "Provided token or server address is invalid.",
+---
+>             "tokenOrServerAddressInvalid": "Provided credentials or server/repository address are invalid.",
+97a98
+>             "socialSharing": "Social sharing",
+571a573,574
+>         "appUIZoomLevel": "Interface scale",
+>         "appUIZoomLevelInfo": "Adjust the interface scale to enhance your visibility and comfort while managing your content. This option allows you to scale the user interface to your preferred size, ensuring that text, icons, and other UI elements are easily readable and accessible.",
+946a950
+>         "branchExampleGitNote": "Examples: <strong>main</strong>, <strong>gh-pages</strong> or <strong>docs</strong>.",
+955a960,964
+>         "commitAuthor": "Commit author",
+>         "commitAuthorFieldCantBeEmpty": "Commit author field cannot be empty",
+>         "commitEmail": "Commit author e-mail",
+>         "commitMessage": "Commit message",
+>         "commitMessageFieldCantBeEmpty": "Commit message field cannot be empty",
+965a975,976
+>         "deploymentMethodGitMsg": "For detailed information about how to configure a website using Git, check Publii's online <a href=\"https://getpublii.com/docs/host-static-website-git-repository.html\" target=\"_blank\" rel=\"noopener noreferrer\">documentation</a>.",
+>         "deploymentMethodGithubPagesDeprecated": "Github Pages is deprecated sync method and will be removed in Publii v.0.46. We strongly recommend to migrate your server settings to the Git repository method",
+967a979
+>         "deploymentMethodGitlabPagesDeprecated": "Gitlab Pages is deprecated sync method and will be removed in Publii v.0.46. We strongly recommend to migrate your server settings to the Git repository method",
+975a988
+>         "deprecated": "Deprecated",
+988a1002
+>         "git": "Git",
+989a1004
+>         "githubPages": "GitHub Pages",
+1036a1052,1054
+>         "repositoryUrl": "Repository URL",
+>         "repositoryUrlFieldCantBeEmpty": "Repository URL cannot be empty",
+>         "repositoryUrlNote": "An URL to your Git repository used to store your website files",

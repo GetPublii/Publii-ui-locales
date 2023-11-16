@@ -90,14 +90,15 @@
     },
     "customHTML": {
         "tabs": {
-            "head": "Head",
+            "afterPost": "Dopo ogni post",
+            "beforePost": "Prima di ogni post",
             "body": "Body",
             "comments": "Commenti",
-            "searchInput": "Search input",
-            "searchContent": "Search content",
             "footer": "Footer",
-            "beforePost": "Prima di ogni post",
-            "afterPost": "Dopo ogni post"
+            "head": "Head",
+            "searchContent": "Search content",
+            "searchInput": "Search input",
+            "socialSharing": "Social sharing"
         }
     },
     "date": {
@@ -430,7 +431,7 @@
         "insertBefore": "Sposta qui sopra",
         "insertAsChild": "Inserisci come figlio"
     },
-    "menuPositionPopup":{
+    "menuPositionPopup": {
         "invalidValue": "Valore non valido: il valore inserito non può essere '0' o superare il limite massimo predefinito del tema. Usa '-1' per non avere limiti.",
         "maxLevels": "Numero massimo di livelli:",
         "themeDefaultValue": "Valore predefinito del tema:",
@@ -551,7 +552,7 @@
         "renderingPleaseWait": "Attendi il completamento del rendering.",
         "selectThemeBeforeCreatingPreviewMsg": "Devi selezionare un tema prima di creare un'anteprima del tuo sito web. Vai alla sezione delle impostazioni del sito web e seleziona un tema."
     },
-    "repeater" : {
+    "repeater": {
         "addItem": "Aggiungi elemento",
         "duplicateItem": "Duplica elemento",
         "emptyState": "Clicca per aggiungere il primo elemento",
@@ -569,6 +570,8 @@
         "appSettings": "Impostazioni App",
         "appSettingsSavedMsg": "Le impostazioni dell'App sono state salvate correttamente.",
         "appSettingsSaveErrorMsg": "Si è verificato un errore durante il salvataggio delle impostazioni dell'App. Per favore riprova.",
+        "appUIZoomLevel": "Scala dell'interfaccia",
+        "appUIZoomLevelInfo": "Regola la scala dell'interfaccia per migliorare visibilità e usabilità durante l'uso. Questa opzione ti consente di ridimensionare l'interfaccia utente garantendo che testo, icone e altri elementi siano facilmente leggibili e accessibili.",
         "ascending": "Crescente",
         "authorPage": "Pagina dell'autore",
         "authorPages": "Pagine dell'autore",
@@ -593,7 +596,7 @@
         "codeEditor": "Editor di codice (CodeMirror)",
         "colorTheme": "Colore del tema",
         "content": "Contenuto",
-        "convertToWebp" :"Converti in formato WebP",
+        "convertToWebp": "Converti in formato WebP",
         "convertToWebpInfo": "Abilita questa opzione se desideri convertire tutte le immagini JPG, JPEG e PNG in formato WebP. Una volta abilitate, le miniature delle immagini dovranno essere rigenerate. Nota, questa funzione funziona solo se stai utilizzando la libreria Sharp per generare le miniature.",
         "convertToWebpJimpWarning": "Questa opzione non funziona con Jimp, il motore di ridimensionamento delle immagini attualmente utilizzato. Passa a Sharp nelle impostazioni dell'app.",
         "cookieGroups": "Gruppi di cookie",
@@ -944,8 +947,9 @@
         "apiServerNote": "Modifica questo valore solo se stai utilizzando la tua istanza GitHub (edizione Enterprise).",
         "authenticationMethod": "Metodo di autenticazione",
         "branch": "Branch",
-        "branchExampleGitHubNote": "Esempi <strong>gh-pages</strong>, <strong>docs</strong> or <strong>main</strong>.",
+        "branchExampleGitHubNote": "Esempi: <strong>gh-pages</strong>, <strong>docs</strong> or <strong>main</strong>.",
         "branchExampleGitLabeNote": "Esempi <strong>docs</strong>, <strong>main</strong> or <strong>master</strong>.",
+        "branchExampleGitNote": "Esempi: <strong>main</strong>, <strong>gh-pages</strong> or <strong>docs</strong>.",
         "branchFieldCantBeEmpty": "Il campo Branch non può essere vuoto",
         "bucket": "Bucket",
         "bucketFieldCantBeEmpty": "Il campo Bucket non può essere vuoto",
@@ -953,6 +957,11 @@
         "changeServerType": "Cambia tipo di server",
         "checkingConnection": "Verifica la connessione...",
         "clickToChangeDeploymentMethod": "Fare clic per modificare il metodo di distribuzione attualmente utilizzato",
+        "commitAuthor": "Commit author",
+        "commitAuthorFieldCantBeEmpty": "Il campo Commit author non può essere vuoto",
+        "commitEmail": "Commit author e-mail",
+        "commitMessage": "Commit message",
+        "commitMessageFieldCantBeEmpty": "Il campo Commit message non può essere vuoto",
         "configureServer": "Configura il server",
         "connectedToServer": "Collegato al server",
         "connectingToServer": "Connessione al server...",
@@ -962,6 +971,12 @@
         "connectToServerCantStoreFilesErrorMsg": "Errore! L'applicazione è riuscita a connettersi al server ma non è stata in grado di archiviare i file. Si prega di controllare i permessi dei file sul server",
         "connectToServerErrorMsg": "Errore! L'applicazione non è riuscita a connettersi al tuo server.",
         "connectToServerSuccessMsg": "Perfetto! L'applicazione è riuscita a connettersi al tuo server.",
+        "deploymentMethodGitMsg": "Per informazioni dettagliate su come configurare un sito Web utilizzando Git, consultare <a href=\"https://getpublii.com/docs/host-static-website-git-repository.html\" target=\"_blank\" rel=\"noopener noreferrer\">la pagina di documentazione di Publii</a>.",
+        "deploymentMethodGithubPagesDeprecated": "Github Pages è un metodo di sincronizzazione deprecato e verrà rimosso in Publii v.0.46. Consigliamo vivamente di migrare al metodo del Repository Git",
+        "deploymentMethodGitlabPagesDeprecated": "Gitlab Pages è un metodo di sincronizzazione deprecato e verrà rimosso in Publii v.0.46. Consigliamo vivamente di migrare al metodo del Repository Git",
+        "deprecated": "Deprecato",
+        "git": "Git",
+        "githubPages": "GitHub Pages",
         "deploymentMethodFtpMsg": "Il protocollo FTP utilizza una trasmissione non crittografata, il che significa che qualsiasi dato inviato con esso, inclusi nome utente e password, potrebbe essere letto da chiunque possa intercettare la tua trasmissione. Se possibile si consiglia vivamente di utilizzare i protocolli FTPS o SFTP.",
         "deploymentMethodGithubPagesMsg": "Per informazioni dettagliate su come configurare un sito web utilizzando GitHub Pages consulta la <a href=\"https://getpublii.com/docs/host-static-website-github-pages.html\" target=\"_blank \" rel=\"noopener noreferrer\">documentazione</a>.",
         "deploymentMethodGithubPagesNote": "Questo sarà il percorso del tuo repository GitHub che dovrebbe utilizzare il seguente formato <strong>TUO_USERNAME.github.io/TUO_REPOSITORY_NAME</strong>.<br>Se stai utilizzando un nome di dominio personalizzato imposta questo campo solo sul nome di dominio personalizzato .",
@@ -1033,7 +1048,10 @@
         "remotePathMatchServerOrRootPathNote": "Il percorso dovrebbe corrispondere al percorso del tuo server, ad es. public_html/, public_html/blog/ o il percorso principale, ad es. /home/nomeutente/html_pubblico/.",
         "remotePathMatchServerRootPathNote": "Il percorso dovrebbe corrispondere al percorso principale del server, ad es. /public_html/, /public_html/blog/.",
         "repository": "Repository",
-        "repositoryFieldCantBeEmpty": "Il campo del repository non può essere vuoto",
+        "repositoryFieldCantBeEmpty": "Il campo Repository non può essere vuoto",
+        "repositoryUrl": "Repository URL",
+        "repositoryUrlFieldCantBeEmpty": "Il campo Repository URL non può essere vuoto",
+        "repositoryUrlNote": "Un URL del tuo repository Git utilizzato per archiviare i file del sito web",
         "requireCertificateForConnection": "Richiedi un certificato valido per la connessione",
         "requireFTPPassAlwaysOnSync": "Richiedi la password FTP ogni volta che sincronizzi il tuo sito",
         "s3CompatibleStorage": "S3 compatible storage",
@@ -1050,7 +1068,7 @@
         "serverSettingsSaveSuccessMsg": "Le impostazioni del server sono state salvate con successo.",
         "settings": "Impostazioni",
         "sftp": "SFTP",
-        "sftpKeyNote" : "Si prega di selezionare il file chiave",
+        "sftpKeyNote": "Si prega di selezionare il file chiave",
         "sftpWithKey": "SFTP (con chiave)",
         "sftpWithPassword": "SFTP (con password)",
         "siteFieldCantBeEmpty": "Il campo ID sito non può essere vuoto",
@@ -1186,7 +1204,7 @@
         "thumbnails": {
             "listRegeneratedFiles": "Elenco dei file rigenerati:",
             "processingRegenerateThumbnailsInfo": "Premendo il pulsante Rigenera, saranno generate nuove miniature per le immagini così come definito da un nuovo tema o dalle nuove impostazioni.",
-            "progress": "Avanzamento",
+            "progress": "Avanzamento ",
             "regenerateThumbnails": "Rigenera le miniature",
             "regenerateThumbnailsInfo": "Se hai cambiato tema o hai problemi con le tue immagini reattive puoi rigenerarle usando il pulsante qui sotto. L'operazione potrebbe richiedere del tempo se il tuo sito ha molte immagini, quindi sii paziente.",
             "regenerateThumbnailsNotNecessaryInfo": "Al momento non hai un tema selezionato per questo sito web. La rigenerazione delle miniature non è necessaria.",

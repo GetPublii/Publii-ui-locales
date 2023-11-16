@@ -1,0 +1,12 @@
+772d771
+<             "hidePassword": "Hide password",
+774,775c773
+<             "passwordFieldCantBeEmpty": "The password field cannot be empty.",
+<             "showPassword": "Show password"
+---
+>             "passwordFieldCantBeEmpty": "The password field cannot be empty."
+977a976
+>         "deploymentMethodGitNote": "Please remember, that if you are using custom domain, you must put CNAME file under File Manager in the root files",
+1009a1009,1010
+>         "gitPassword": "Password / Token",
+>         "gitPasswordNote": "If you use 2FA to protect your account, instead of a password, you must use a previously generated access token",

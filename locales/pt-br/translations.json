@@ -769,10 +769,8 @@
         "paginationPhraseInfo": "Define a frase utilizada antes do número da página em um URL, por exemplo, <strong>https://exemplo.com/tags/slug-da-tag/page/2</strong> .<br>",
         "password": {
             "alwaysAskForPassword": "Sempre solicite a senha",
-            "hidePassword": "Esconder a senha",
             "password": "Senha",
-            "passwordFieldCantBeEmpty": "O campo de senha não pode permanecer vazio.",
-            "showPassword": "Exibir senha"
+            "passwordFieldCantBeEmpty": "O campo de senha não pode permanecer vazio."
         },
         "pinterest": "Pinterest",
         "postCreationDate": "Data de criação do post",
@@ -975,6 +973,7 @@
         "deploymentMethodGitMsg": "Para obter informações detalhadas sobre como configurar um site usando o Git, consulte a <a href=\"https://getpublii.com/docs/host-static-website-git-repository.html\" target=\"_blank\" rel=\"noopener noreferrer\">documentação on-line do Publii</a>.",
         "deploymentMethodGithubPagesDeprecated": "O Github Pages é um método de sincronização obsoleto e será removido no Publii v.0.46. É altamente recomendável migrar as configurações de seu servidor para o método de repositório Git",        
         "deploymentMethodGithubPagesMsg": "Para obter informações detalhadas sobre como configurar um site utilizando o Github Pages, consulte a <a href=\"https://getpublii.com/docs/host-static-website-github-pages.html\" target=\"_blank\" rel=\"noopener noreferrer\">documentação</a> online do Publii.",
+        "deploymentMethodGitNote": "Lembre-se de que, se estiver usando um domínio personalizado, você deverá colocar o arquivo CNAME no Gerenciador de arquivos nos arquivos raiz",
         "deploymentMethodGithubPagesNote": "Este será o caminho do seu repositório Github, que deve utilizar o seguinte formato: <strong>NOME_DE_USUARIO.github.io/NOME_DO_REPOSITORIO</strong> .<br> Se você estiver utilizando um nome de domínio personalizado, defina este campo apenas para o nome de domínio personalizado.",
         "deploymentMethodGitlabPagesDeprecated": "O Gitlab Pages é um método de sincronização obsoleto e será removido no Publii v.0.46. É altamente recomendável migrar as configurações de seu servidor para o método de repositório Git",
         "deploymentMethodGitlabPagesMsg": "Para obter informações detalhadas sobre como configurar um site utilizando o GitLab Pages, consulte a <a href=\"https://getpublii.com/docs/host-static-website-gitlab-pages.html\" target=\"_blank\" rel=\"noopener noreferrer\">documentação</a> online do Publii.",
@@ -1007,6 +1006,8 @@
         "gitlabPages": "Páginas do Gitlab",
         "gitlabSyncedPart1": "As alterações nas páginas do Gitlab podem não ser visíveis por alguns minutos após a conclusão da implantação,",
         "gitlabSyncedPart2": "então, por favor, seja paciente.",
+        "gitPassword": "Senha / Token",
+        "gitPasswordNote": "Se você utiliza a 2FA (autenticação de dois fatores) para proteger sua conta, em vez de uma senha, deverá utilizar um token de acesso gerado anteriormente",
         "googleCloud": "Google Cloud",
         "googleCloudPrefixNote": "Seu site pode ser colocado em um subdiretório. Evite utilizar barras no início do nome do prefixo (ou seja, <strong>/blog/</strong> ), pois isso criará um diretório adicional com o nome vazio. Exemplo de prefixo adequado: <strong>blog</strong> .",
         "goToAppSettings": "Acesse as configurações do aplicativo",

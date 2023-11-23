@@ -769,10 +769,8 @@
         "paginationPhraseInfo": "URL のページ番号の前に使用されるフレーズを定義します 例: <strong>https://example.com/tags/tag-slug/page/2</strong><br>",
         "password": {
             "alwaysAskForPassword": "常にパスワードを入力する",
-            "hidePassword": "パスワード非表示",
             "password": "パスワード",
-            "passwordFieldCantBeEmpty": "パスワード項目は必須です。",
-            "showPassword": "パスワード表示"
+            "passwordFieldCantBeEmpty": "パスワード項目は必須です。"
         },
         "pinterest": "Pinterest",
         "postCreationDate": "投稿作成日",
@@ -975,6 +973,7 @@
         "deploymentMethodGitMsg": "Git を使用して Web サイトを構成する方法の詳細については、Publii のオンライン <a href=\"https://getpublii.com/docs/host-static-website-git-repository.html\" target=\"_blank\" rel=\"noopener noreferrer\">ドキュメント</a> を確認してください。",
         "deploymentMethodGithubPagesDeprecated": "Github Pages は非推奨の同期メソッドであり、Publii v.0.46 で削除される予定です。 サーバー設定を Git リポジトリ方式に移行することを強くおすすめします",
         "deploymentMethodGithubPagesMsg": "GitHub Pages を使ったウェブサイトの詳しい設定は Publii オンライン <a href=\"https://getpublii.com/docs/host-static-website-github-pages.html\" target=\"_blank\" rel=\"noopener noreferrer\">ドキュメント</a> を確認して下さい。",
+        "deploymentMethodGitNote": "独自ドメインを使用している場合は、CNAME ファイルをルートファイルのファイルマネージャーに配置する必要があることに注意してください。",
         "deploymentMethodGithubPagesNote": "GitHub のリポジトリパスとなります。以下のフォーマットで記述します: <strong>YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME</strong><br>独自ドメイン名を使用する場合は、このフィールドに独自ドメイン名だけを設定します。",
         "deploymentMethodGitlabPagesDeprecated": "Gitlab Pages は非推奨の同期メソッドであり、Publii v.0.46 で削除される予定です。 サーバー設定を Git リポジトリ方式に移行することを強くおすすめめします。",
         "deploymentMethodGitlabPagesMsg": "GitLab Pages を使った Web サイトの詳しい設定方法は Publii のオンライン <a href=\"https://getpublii.com/docs/host-static-website-gitlab-pages.html\" target=\"_blank\" rel=\"noopener noreferrer\">ドキュメント</a> を確認して下さい。",
@@ -1007,6 +1006,8 @@
         "gitlabPages": "Gitlab Pages",
         "gitlabSyncedPart1": "デプロイ完了後、数分間は Gitlab Pages の変更が表示されないことがあります。 ",
         "gitlabSyncedPart2": "反映までお待ちください。",
+        "gitPassword": "パスワード / トークン",
+        "gitPasswordNote": "パスワードの代わりに 2FA を使用してアカウントを保護する場合は、以前に生成されたアクセス トークンを使用する必要があります",
         "googleCloud": "Google Cloud",
         "googleCloudPrefixNote": "ウェブサイトはサブディレクトリに置かれるかもしれません。プレフィックスの先頭にスラッシュを使用しないでください (例えば <strong>/blog/</strong>) - 空の名前で追加のディレクトリが作成されます。 適切なプレフィックス例: <strong>blog</strong>.",
         "goToAppSettings": "アプリ設定へ",

@@ -1,8 +1,8 @@
 {
     "name": "Shqip",
-    "version": "1.4.0",
+    "version": "1.5.1",
     "author": "Besmir Godolja",
-    "publiiSupport": "0.43.0",
+    "publiiSupport": "0.44.1",
     "momentLocale": "sq",
     "wysiwygTranslation": true
 }

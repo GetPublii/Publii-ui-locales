@@ -1,8 +1,8 @@
 {
     "name": "Español - Chile",
-    "version": "1.5.0",
+    "version": "1.5.1b",
     "author": "Michael Walsh",
-    "publiiSupport": "0.44.0",
+    "publiiSupport": "0.44.4",
     "momentLocale": "es-cl",
     "wysiwygTranslation": true
 }

@@ -372,13 +372,13 @@
       "downloadAttribute":"Atributo \"download\"",
       "insertEditLink":"Insertar/Editar enlace",
       "linkInvalidMsg":"El enlace parece ser inválido.",
-      "linkRelAttribute":"Atributo de enlace \"rel\"",
-      "linkTitleAttribute":"Atributo de enlace \"title\"",
+      "linkRelAttribute":"Atributo \"rel\"",
+      "linkTitleAttribute":"Atributo \"title\"",
       "openInNewTab":"Abrir en una nueva pestaña",
       "previewLinkInBrowser":"Vista previa del enlace en el navegador",
       "previewOnlyExternalLinksMsg":"Solo se puede ver la vista previa de enlaces externos en el editor de entradas",
       "removeLink":"Eliminar enlace",
-      "selectLinkType":"Seleccionar tipo de enlace"
+      "selectLinkType":"Tipo de enlace"
    },
    "menu":{
       "addMenuItem":"Agregar menú",
@@ -1305,7 +1305,7 @@
       "notAvailableInYourTheme":"No disponible en el tema actual",
       "notSet":"No establecido",
       "of":"de",
-      "ok":"OK",
+      "ok":"Aceptar",
       "otherOptions":"Otras opciones",
       "pages":"Páginas",
       "pageTitle":"Título de la página",

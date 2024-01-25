@@ -1129,7 +1129,7 @@
       "tagDataParsingErrorMessage": "Ocurrió un error al analizar los datos de la etiqueta para ID: ",
       "tagHasBeenEdited": "La etiqueta ha sido editada",
       "tagIsNotAllowed": "Esta etiqueta no está permitida",
-      "tagLink": "Enlace a la etiqueta",
+      "tagLink": "Enlace a etiqueta",
       "tagName": "Nombre de la etiqueta:",
       "tagNameCannotBeEmptyErrorMessage": "El nombre de la etiqueta no puede estar vacío. Ingresa un nombre de etiqueta.",
       "tagNameInUseErrorMessage": "El nombre de etiqueta proporcionado está en uso. Inténtalo con otro nombre de etiqueta.",

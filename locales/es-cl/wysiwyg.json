@@ -323,4 +323,17 @@
     "styles": "estilos",
     "{0} characters": "{0} caracteres",
     "{0} words": "{0} palabras"
+    "Cut column": "Cortar columna",
+    "Copy column": "Copiar columna",
+    "Paste column before": "Pegar colonna antes",
+    "Paste column afer": "Pegar colonna después",
+    "grinning": "sonriente",
+    "Blocks": "Bloques",
+    "Insert template": "Insertar plantilla",
+    "Full image": "Imagen completa",
+    "Wide image": "Imagen ancha",
+    "Left-aligned image": "Alineada a la izquierda",
+    "Right-aligned image": "Alineada a la derecha",
+    "Centered image": "Alineada a la centro",
+    "Alternative description": "Descripción alternativa"
 }

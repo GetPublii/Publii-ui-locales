@@ -1145,7 +1145,7 @@
    "theme":{
       "addThemeSuccessMessage":"El tema se agregó con éxito.",
       "authorOptions":"Opciones de autor",
-      "authorOptionsInfo":"La sección de opciones de autor le permite establecer opciones globales para la información adicional que se debe incluir en sus autores. Los cambios realizados en esta sección afectarán a todos los autores de tu sitio, pero también puede anular la Configuración del tema en la pantalla Editar autor para cada autor individual si es necesario.",
+      "authorOptionsInfo":"La sección de opciones de autor te permite establecer opciones globales para la información adicional que se debe incluir en sus autores. Los cambios realizados en esta sección afectarán a todos los autores de tu sitio, pero también puede anular la Configuración del tema en la pantalla Editar autor para cada autor individual si es necesario.",
       "authorsPostsPerPage":"Autores por página:",
       "authorsPostsPerPageInfo":"Usa -1 como valor si necesitas mostrar las entradas de todos los autores en la página.",
       "changeAppTheme":"Cambiar el tema de la aplicación",

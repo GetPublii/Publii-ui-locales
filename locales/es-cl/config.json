@@ -1,7 +1,7 @@
 {
     "name": "Español - Chile",
-    "version": "1.5.1b",
-    "author": "Michael Walsh",
+    "version": "1.6.0",
+    "author": "Michael Walsh, Julvenzor",
     "publiiSupport": "0.44.4",
     "momentLocale": "es-cl",
     "wysiwygTranslation": true

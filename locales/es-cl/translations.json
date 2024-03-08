@@ -1233,7 +1233,7 @@
          "usedTaxonomyForPosts":"Taxonomía usada para entradas:",
          "useMainAuthor":"Usar autor principal de Publii",
          "wpImporter":"Importador de WordPress",
-         "wpImportGoToRegenerateMsg":"Tus datos de WordPress se importaron. La regeneración de miniaturas puede ser necesaria si ya seleccionó un tema."
+         "wpImportGoToRegenerateMsg":"Tus datos de WordPress se importaron. La regeneración de miniaturas puede ser necesaria si ya seleccionaste un tema."
       }
    },
    "toolsPlugin":{

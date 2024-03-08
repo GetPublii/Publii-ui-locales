@@ -27,8 +27,8 @@
       "removeAuthorsSuccessMessage":"Se eliminaron los autores seleccionados.",
       "selectAuthor":"Seleccionar autor",
       "selectAuthorPage":"Seleccionar página de autor",
-      "themeDoesNotSupportFeaturedImagesForAuthors":"Tu plantilla no admite imágenes destacadas para autores",
-      "whenYouUseGravatarYourSiteVisitorsWillQueryAThirdPartyServer":"Cuando uses el servicio Gravatar, ten en cuenta que los visitantes de tu sitio necesitarán cargar datos de un sitio de terceros para cargar su avatar.",
+      "themeDoesNotSupportFeaturedImagesForAuthors":"Tu tema no admite imágenes destacadas para autores",
+      "whenYouUseGravatarYourSiteVisitorsWillQueryAThirdPartyServer":"Cuando uses el servicio Gravatar, ten en cuenta que los visitantes de tu sitio necesitarán cargar datos desde un sitio de terceros para cargar su avatar.",
       "toUseThisOptionEnableIndexingAuthorPages":"Para usar esta opción, activa primero la indexación de páginas de autor en configuración de SEO.",
       "useGravatarMessage":"Usa <a href=\"https://gravatar.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Gravatar</a> para agregar la imagen del avatar del autor",
       "useGravatarServiceMessage":"Para utilizar el servicio de Gravatar, por favor, indica el correo electrónico del autor.",
@@ -77,7 +77,7 @@
       "site":{
          "noConfigurationForResponsiveImages":"No hay datos de configuración para imágenes adaptables.",
          "noImagesToRegenerate":"No hay imágenes que regenerar",
-         "noThemeSelected":"No hay una plantilla de sitio seleccionada"
+         "noThemeSelected":"No hay un tema seleccionado"
       },
       "sureYouWantQuit":"¿Seguro que quieres salir? \nSe perderán todos los cambios no guardados.",
       "wpImport":{
@@ -459,7 +459,7 @@
       "all":"Todo",
       "changePostDate":"Cambiar fecha de entrada",
       "characters":"Caracteres",
-      "configureThemeBeforeGeneratingPreview":"Se debe seleccionar y configurar una plantilla para este sitio antes de poder generar una vista previa de esta entrada.",
+      "configureThemeBeforeGeneratingPreview":"Se debe seleccionar y configurar un tema para este sitio antes de poder generar una vista previa de esta entrada.",
       "currentDefaultTemplate":"Plantilla por defecto actual",
       "customPostTypes":"Tipos de entradas personalizadadas",
       "drafts":"En borrador",
@@ -468,8 +468,8 @@
       "duplicatePostSuccessMessage":"Las entradas seleccionadas se duplicaron",
       "editorBlock":"Editor de bloque",
       "editorBlockInfo":"Un editor moderno e intuitivo con soporte para Markdown y teclas de método abreviado para facilitar una redacción fácil, sin tener que preocuparse por HTML o elementos de código.",
-      "editorBlockNotSupportedEditPostInfo":"La plantilla actual no soporta el editor de bloques utilizado en esta entrada. Se podría mostrar erróneamente esta entrada.",
-      "editorBlockNotSupportedNewPostInfo":"La plantilla actual no soporta el editor de bloques utilizado en esta entrada. Se podría mostrar erróneamente esta entrada.",
+      "editorBlockNotSupportedEditPostInfo":"El tema actual no soporta el editor de bloques utilizado en esta entrada. Se podría mostrar erróneamente esta entrada.",
+      "editorBlockNotSupportedNewPostInfo":"El tema actual no soporta el editor de bloques utilizado en esta entrada. Se podría mostrar erróneamente esta entrada.",
       "editorBlockUse":"Usar el editor de bloques",
       "editorMarkdown":"Editor de Markdown",
       "editorMarkdownInfo": "Este editor de Markdown es compatible con la sintaxis Markdown abreviada para producir contenido rápidamente. Es óptimo para proyectos extensos sin formato o diseño involucrado, como documentación.",
@@ -550,7 +550,7 @@
       "rendering": "Generando...",
       "renderingErrorText": "Se produjo un error durante el proceso de generación del sitio web.",
       "renderingPleaseWait": "Por favor, espera mientras se completa el proceso de generación.",
-      "selectThemeBeforeCreatingPreviewMsg": "Debes seleccionar una plantilla antes de crear una vista previa del sitio. Por favor, ve a la sección «Configuración del Sitio» y elige una plantilla."
+      "selectThemeBeforeCreatingPreviewMsg": "Debes seleccionar un tema antes de crear una vista previa del sitio. Por favor, ve a la sección «Configuración del Sitio» y elige un tema."
    },
    "repeater": {
       "addItem": "Agregar elemento",
@@ -1158,7 +1158,7 @@
       "getMoreThemes":"Obtener más temas",
       "goToThemesManager":"Ir al administrador de temas",
       "installTheme":"Instalar tema",
-      "leaveBlankToUseDefault":"Dejar en blanco para usar el valor predeterminado",
+      "leaveBlankToUseDefault":"Déjalo en blanco para usar el valor predeterminado",
       "postOptions":"Opciones de entrada",
       "postOptionsInfo":"La sección «Opciones de entrada» te permite establecer opciones globales sobre qué información adicional debe incluirse en tus entradas. Los cambios realizados en esta sección afectarán todas las entradas en tu sitio, pero también puedes anular la configuración de la aplicación en la entrada. Edita las opciones de cada entrada individual si es necesario.",
       "postsPerPage":"Entradas por página:",

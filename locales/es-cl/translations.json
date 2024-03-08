@@ -1140,7 +1140,7 @@
       "tagStatusChangeSuccessMessage": "Se cambió el estado de las etiquetas seleccionadas",
       "tagWillNotAppearInGeneratedTagLists": "La etiqueta no aparecerá en ninguna lista de etiquetas generada, como entradas o páginas de etiquetas.",
       "thisTagIsHidden": "Esta etiqueta está oculta",
-      "toUseThisOptionEnableIndexingTagPages":"Para usar esta opción, primero habilite la indexación de páginas de etiquetas en la configuración de SEO"
+      "toUseThisOptionEnableIndexingTagPages":"Para usar esta opción, primero habilita la indexación de páginas de etiquetas en la configuración de SEO"
    },
    "theme":{
       "addThemeSuccessMessage":"El tema se agregó con éxito.",

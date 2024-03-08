@@ -639,7 +639,7 @@
       "editorFontSize": "Tamaño de la fuente (px)",
       "editors": "Editores",
       "embedConsents": "Insertar consentimientos de contenido",
-      "embedConsentsDescription": "Esta sección te permite bloquear contenido cargado en 'iframes' de proveedores de contenido de terceros que pueden configurar 'cookies'. Al proporcionar el dominio de la URL de 'iframe', por ejemplo, <strong>youtube.com</strong>, complete el formulario requerido elementos como un mensaje, un botón de aceptar y asignándolo a un grupo de 'cookies' existente, los 'iframe's se reemplazarán con un marcador de posición que informa a los visitantes que el contenido está bloqueado debido a su configuración de consentimiento (es decir, que el visitante no ha dado su consentimiento a los tipos de 'cookies' utilizadas por el 'iframe' en el aviso de 'cookies').",
+      "embedConsentsDescription": "Esta sección te permite bloquear contenido cargado en 'iframes' de proveedores de contenido de terceros que pueden configurar 'cookies'. Al proporcionar el dominio de la URL de 'iframe', por ejemplo, <strong>youtube.com</strong>, complete el formulario requerido elementos como un mensaje, un botón de aceptar y asignándolo a un grupo de 'cookies' existente, los 'iframes' se reemplazarán con un marcador de posición que informa a los visitantes que el contenido está bloqueado debido a su configuración de consentimiento (es decir, que el visitante no ha dado su consentimiento a los tipos de 'cookies' utilizadas por el 'iframe' en el aviso de 'cookies').",
       "embedVideos": "Inserción de vídeos",
       "enableAdvancedPreview": "Habilitar vista previa avanzada",
       "enableAutoIndent": "Habilitar sangría automática",

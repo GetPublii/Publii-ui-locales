@@ -72,7 +72,7 @@
          "retrievingHandlerOfRemoteFilesTree":"Recuperando el manejador del árbol de archivos remoto...",
          "retrievingRemoteFilesTree":"Recuperando el árbol de archivos remoto...",
          "tokenOrServerAddressInvalid":"El token proporcionado o la dirección del servidor no son válidos.",
-         "tooManyFilesInfo":"El sitio web contiene más de 4000 elementos ({numberOfFiles} archivos y directorios). Actualmente, nuestra despligue de Páginas de GitHub ofrece soporte para sitios con hasta 4000 elementos."
+         "tooManyFilesInfo":"El sitio web contiene más de 4000 elementos ({numberOfFiles} archivos y directorios). Actualmente, nuestro despliegue de páginas de GitHub ofrece soporte para sitios con hasta 4000 elementos."
       },
       "site":{
          "noConfigurationForResponsiveImages":"No hay datos de configuración para imágenes adaptables.",

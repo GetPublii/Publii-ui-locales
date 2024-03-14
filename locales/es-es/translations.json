@@ -1093,7 +1093,7 @@
       "usernameFieldCantBeEmpty": "El campo de nombre de usuario no puede estar vacío.",
       "usernameOrganization": "Nombre de usuario/organización",
       "visitWebsite": "Visita el sitio web",
-      "visitYourWebsite": "Visita tu sitio web",
+      "visitYourWebsite": "Visitar sitio web",
       "websiteFilesPreparedInfo": "Los archivos de tu sitio web han sido preparados. Use el botón \"Obtener archivos del sitio web\" a continuación <br>para obtener sus archivos para implementarlos manualmente.",
       "websiteLinkInvalidMsg": "¡Lo sentimos! El enlace del sitio web parece no ser válido.",
       "websiteSynchronization": "Sincronización del sitio web",

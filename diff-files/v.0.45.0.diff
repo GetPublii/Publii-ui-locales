@@ -1,0 +1,34 @@
+538c538
+<         "copyright": "Copyright 2023 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+---
+>         "copyright": "Copyright 2024 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+665a666,667
+>         "experimentalFeatureAppFtpAlt": "Use alternative FTP library for deployment",
+>         "experimentalFeatureAppFtpAltDesc": "Try this, especially if your hosting uses IPv6 for server address",
+675a678
+>         "feedsRelativeUrlsInfo": "To view RSS/JSON feed settings please disable the 'Use relative URLs' option in the Server Settings; the feed won't be generated for your website otherwise.",
+676a680
+>         "feedUpdatedDateType": "Post update date set as:",
+679a684,691
+>         "gConsentModeDefaultState": "Default state",
+>         "gConsentModeEnabled": "Enable Google Consent Mode",
+>         "gConsentMode": {
+>             "addGroup": "Add cookies group settings",
+>             "cookieGroup": "Cookies group",
+>             "description": "This section allows you to specify the default state of the Google Consent Mode and specify signals which will be sent when specific cookies group will be accepted by user. Use these options if you need compatibility with Google Consent Mode. If you are not using Google Analytics, Google Ads or similar tools, most probably you do not need to enable this feature.",
+>             "title": "Google Consent Mode"
+>         },
+821a834
+>         "sitemapRelativeUrlsInfo": "To view sitemap settings please disable the 'Use relative URLs' option in the Server Settings; the sitemap won't be generated for your website otherwise.",
+974c987
+<         "deploymentMethodGithubPagesDeprecated": "Github Pages is deprecated sync method and will be removed in Publii v.0.46. We strongly recommend to migrate your server settings to the Git repository method",
+---
+>         "deploymentMethodGithubPagesDeprecated": "Github Pages is deprecated sync method and will be removed in Publii v.0.47. We strongly recommend to migrate your server settings to the Git repository method",
+978c991
+<         "deploymentMethodGitlabPagesDeprecated": "Gitlab Pages is deprecated sync method and will be removed in Publii v.0.46. We strongly recommend to migrate your server settings to the Git repository method",
+---
+>         "deploymentMethodGitlabPagesDeprecated": "Gitlab Pages is deprecated sync method and will be removed in Publii v.0.47. We strongly recommend to migrate your server settings to the Git repository method",
+1323c1336
+<         "reportBugInSupportDesk": "Report a bug via our support desk",
+---
+>         "reportBugInSupportDesk": "Report a bug via our forum",

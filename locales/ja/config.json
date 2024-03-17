@@ -1,8 +1,8 @@
 {
     "name": "Japanese - default",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "author": "BALLOON | FU-SEN (Keiichi Shiga)",
-    "publiiSupport": "0.44.1",
+    "publiiSupport": "0.45.0",
     "momentLocale": "ja",
     "wysiwygTranslation": true
 }

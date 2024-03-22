@@ -125,33 +125,33 @@
         "blockEditorHelpPanelDesc": "Puoi inserire un blocco facendo clic su <span>+</span> o <span>TAB</span> in una nuova riga, oppure digitando le seguenti scorciatoie o sintassi markdown su una nuova riga:",
         "blocks": {
             "code": {
-                "idTooltip": "Questo valore sarà utilizzato come codice ID"
+                "idTooltip": "Attributo ID applicato al tag contenitore <pre> del codice."
             },
             "cssClassesLabel": "Classe CSS",
-            "cssClassesTooltip": "Queste classi CSS verranno aggiunte nell'attributo class del campo",
+            "cssClassesTooltip": "Classi CSS aggiunte al tag html.\nSi possono utilizzare più nomi di classi separate da spazio.",
             "embed": {
                 "idTooltip": "Questo valore verrà utilizzato come ID di incorporamento"
             },
             "gallery": {
-                "idTooltip": "Questo valore verrà utilizzato come ID galleria"
+                "idTooltip": "Attributo ID applicato al tag contenitore <div> della gallery."
             },
             "header": {
-                "customIdLabel": "Usa ID personalizzato",
-                "customIdTooltip": "Abilita questa opzione se desideri utilizzare un tuo ID, invece dell'ID generato automaticamente",
-                "idTooltip": "Questo valore verrà utilizzato come ID del titolo"
+                "customIdLabel": "Usa un ID personalizzato",
+                "customIdTooltip": "Abilita questa opzione se desideri utilizzare un tuo ID invece dell'ID generato automaticamente.",
+                "idTooltip": "Attributo ID applicato al tag <hx> del titolo."
             },
             "html": {
-                "idTooltip": "Questo valore verrà utilizzato come ID HTML"
+                "idTooltip": "Attributo ID applicato al tag contenitore <div> del codice html personalizzato."
             },
             "idLabel": "ID",
             "image": {
-                "idTooltip": "Questo valore verrà utilizzato come ID immagine"
+                "idTooltip": "Attributo ID applicato al tag contenitore <figure> dell'immagine."
             },
             "list": {
-                "idTooltip": "Questo valore verrà utilizzato come ID elenco"
+                "idTooltip": "Attributo ID applicato al tag contenitore <ul> o <ol> della lista."
             },
             "paragraph": {
-                "idTooltip": "Questo valore verrà utilizzato come ID paragrafo",
+                "idTooltip": "Attributo ID applicato al tag <p> del paragrafo.",
                 "styleLabel": "Stile paragrafo",
                 "styles": {
                     "highlight": "Highlight",
@@ -162,13 +162,13 @@
                 "styleTooltip": "Seleziona uno stile aggiuntivo per il paragrafo"
             },
             "quote": {
-                "idTooltip": "Questo valore verrà utilizzato come ID citazione"
+                "idTooltip": "Attributo ID applicato al tag contenitore <figure> della citazione."
             },
             "separator": {
-                "idTooltip": "Questo valore verrà utilizzato come ID separatore"
+                "idTooltip": "Attributo ID applicato al tag <hr> del separatore."
             },
             "toc": {
-                "idTooltip": "Questo valore verrà utilizzato come ID sommario"
+                "idTooltip": "Attributo ID applicato al tag contenitore <div> del sommario."
             }
         },
         "cantSavePostWithEmptyTitle": "Non puoi salvare un post con un titolo vuoto.",
@@ -209,13 +209,13 @@
         "heading5": "Titolo 5",
         "heading6": "Titolo 6",
         "hideHelp": "Nascondi Aiuto",
-        "hideBulkEdit": "Nascondi Bulk Edit",
+        "hideBulkEdit": "Nascondi Editor blocchi",
         "hideStats": "Nascondi statistiche",
         "html": "HTML",
         "insertGallery": "Inserisci galleria",
         "list": "Elenco",
         "markdown": "Markdown editor",
-        "markdownHelpPanelDesc": "Puoi gestire facilmente intestazioni, stili di testo o creare altri elementi HTML utilizzando le seguenti scorciatoie da tastiera o la sintassi markdown:",
+        "markdownHelpPanelDesc": "Con il markdown editor puoi gestire facilmente intestazioni, stili di testo o creare altri elementi HTML utilizzando le seguenti scorciatoie da tastiera o la sintassi markdown:",
         "newDraftCreated": "Nuova bozza creata",
         "newPostCreated": "Nuovo post creato",
         "nothingFound": "Nessun blocco trovato",
@@ -239,7 +239,7 @@
         "useOrderedList": "Lista ordinata",
         "useUnorderedList": "Lista non ordinata",
         "viewHelp": "Visualizza la guida",
-        "viewBulkEdit": "Bulk Edit",
+        "viewBulkEdit": "Editor Blocchi",
         "viewStats": "Visualizza statistiche",
         "wideLine": "Linea larga"
     },
@@ -316,7 +316,7 @@
     "image": {
         "addImages": "Aggiungi immagini",
         "align": "Allinea",
-        "centeredImage": "Immagine centrata",
+        "centeredImage": "Centrata",
         "columns": "Colonne:",
         "dropFeaturedImageOr": "Trascina qui l'immagine in primo piano oppure",
         "dropToUploadPhotoOr": "Trascina qui l'immagine oppure",
@@ -325,8 +325,8 @@
         "enterCaption": "Inserisci didascalia",
         "fiveColumns": "5 colonne",
         "fourColumns": "4 colonne",
-        "fullWidth": "Immagine larga",
-        "fullWidthImage": "Immagine a larghezza intera",
+        "fullWidth": "Larghezza intera (full-width)",
+        "fullWidthImage": "Larghezza intera (full-width)",
         "image": "Immagine",
         "imageAlternativeText": "Testo alternativo",
         "imageCaption": "Didascalia",
@@ -344,7 +344,7 @@
         "twoColumns": "2 colonne",
         "uploading": "Caricamento",
         "wide": "Largo",
-        "wideImage": "Larghezza intera",
+        "wideImage": "Larga",
         "yourGalleryIsEmpty": "La galleria è vuota"
     },
     "langs": {
@@ -663,6 +663,8 @@
         "experimentalFeaturesWarning": "Siamo sempre alla ricerca di modi per migliorare la nostra app. Questa sezione contiene funzionalità sperimentali progettate per estendere le funzionalità di Publii. Dal momento che sono sperimentali non possiamo garantire che funzioneranno correttamente. Attivala a tuo rischio.",
         "experimentalFeatureAppAutoBeautifySourceCode": "Migliora automaticamente l'aspetto del codice nell'editor WYSIWYG",
         "experimentalFeatureAppAutoBeautifySourceCodeDesc": "Questa funzione migliora automaticamente la leggibilità del codice sorgente visualizzato nell'editor WYSIWYG",
+        "experimentalFeatureAppFtpAlt":"Utilizza la libreria FTP alternativa per la distribuzione",
+        "experimentalFeatureAppFtpAltDesc":"Prova questa impostazione, soprattutto se il tuo hosting utilizza IPv6 per l'indirizzo del server",
         "externalImages": "Immagini esterne",
         "externalPage": "Pagina esterna",
         "facebook": "Facebook",
@@ -673,10 +675,20 @@
         "fallbackLogoImageInfo": "Il logo deve rientrare nel formato 60 × 600 pixel.",
         "featuredPostsOrderBy": "Post in primo piano ordinati per:",
         "featuredPostsOrdering": "Ordinamento Post in primo piano:",
+        "feedsRelativeUrlsInfo":"Per visualizzare le impostazioni del feed RSS/JSON, disabilita l'opzione \"Utilizza URL relativi\" nelle Impostazioni del server; altrimenti il feed non verrà generato per il tuo sito web.",
         "feedTitle": "Titolo del feed:",
+        "feedUpdatedDateType":"Data di aggiornamento del Post impostata come:",
         "filesLocation": "Posizione dei file",
         "footerText": "Testo a piè di pagina",
         "frontpage": "Prima pagina",
+        "gConsentModeDefaultState":"Stato predefinito",
+        "gConsentModeEnabled":"Abilita la Modalità di Consenso di Google",
+        "gConsentMode": {
+            "addGroup":"Aggiungi le impostazioni del gruppo di cookie",
+            "cookieGroup":"Gruppo di cookie",
+            "description":"Questa sezione consente di specificare lo stato predefinito della Modalità di Consenso di Google e di specificare i segnali che verranno inviati quando uno specifico gruppo di cookie verrà accettato dall'utente. Utilizza queste opzioni se hai bisogno della compatibilità con la Modalità di Consenso di Google. Se non utilizzi Google Analytics, Google Ads o strumenti simili, molto probabilmente non è necessario abilitare questa funzione.",
+            "title":"Modalità di Consenso di Google (Google Consent Mode)"
+        },
         "GDPR": "GDPR",
         "gdprBannerPosition": {
             "centered": "Centrato",
@@ -769,10 +781,8 @@
         "paginationPhraseInfo": "Specifica il prefisso che appare prima del numero di pagina negli URL, es. <strong>https://example.com/tags/tag-slug/PAGINA/2</strong>.<br>",
         "password": {
             "alwaysAskForPassword": "Chiedi sempre la password",
-            "hidePassword": "Nascondi password",
             "password": "Password",
-            "passwordFieldCantBeEmpty": "La password non può essere vuota.",
-            "showPassword": "Mostra password"
+            "passwordFieldCantBeEmpty": "La password non può essere vuota."
         },
         "pinterest": "Pinterest",
         "postCreationDate": "Data di creazione",
@@ -821,6 +831,7 @@
         "showPrivacyPolicyLink": "Mostra il link alla privacy policy (informativa sulla privacy)",
         "sitemap": "Sitemap",
         "sitemapLinkInfo": "Puoi trovare sitemap del sito XML qui <a href=\"{sitemapLink}\" class=\"sitemap-external-link\" target=\"_blank\" rel=\"noopener noreferrer\">sitemap.xml</ a>",
+        "sitemapRelativeUrlsInfo": "Per visualizzare le impostazioni della mappa del sito, disabilita l'opzione \"Utilizza URL relativi\" nelle Impostazioni del server; altrimenti la mappa del sito non verrà generata per il tuo sito web.",
         "siteSettings": "Impostazioni",
         "siteSettingsSaveDuplicateNameErrorMessage": "Il nome del sito è già in uso. Prova con un altro nome.",
         "siteSettingsSaveEmptyNameErrorMessage": "Il nome del sito non può essere vuoto. Inserisci un nome.",
@@ -981,6 +992,7 @@
         "deploymentMethodGithubPagesMsg": "Per informazioni dettagliate su come configurare un sito web utilizzando GitHub Pages consulta la <a href=\"https://getpublii.com/docs/host-static-website-github-pages.html\" target=\"_blank \" rel=\"noopener noreferrer\">documentazione</a>.",
         "deploymentMethodGithubPagesNote": "Questo sarà il percorso del tuo repository GitHub che dovrebbe utilizzare il seguente formato <strong>TUO_USERNAME.github.io/TUO_REPOSITORY_NAME</strong>.<br>Se stai utilizzando un nome di dominio personalizzato imposta questo campo solo sul nome di dominio personalizzato .",
         "deploymentMethodGitlabPagesMsg": "Per informazioni dettagliate su come configurare un sito web utilizzando GitLab Pages consulta la <a href=\"https://getpublii.com/docs/host-static-website-gitlab-pages.html\" target=\"_blank online di Publii \" rel=\"noopener noreferrer\">documentazione</a>.",
+        "deploymentMethodGitNote":"Ricorda che se utilizzi un dominio personalizzato devi inserire il file CNAME nella root directory con il Gestore file",
         "deploymentMethodGoogleCloudMsg": "Per informazioni dettagliate su come configurare un sito web utilizzando Google Cloud consulta la <a href=\"https://getpublii.com/docs/make-static-website-google-cloud.html\" target=\"_blank \" rel=\"noopener noreferrer\">documentazione</a>.",
         "deploymentMethodNetlifyMsg": "Per informazioni dettagliate su come configurare un sito web utilizzando Netlify consulta la <a href=\"https://getpublii.com/docs/build-a-static-website-with-netlify.html\" target=\" _blank\" rel=\"noopener noreferrer\">documentazione</a>.",
         "deploymentMethodS3Msg": "Per informazioni dettagliate su come configurare un sito web utilizzando S3 consulta la <a href=\"https://getpublii.com/docs/setup-static-website-hosting-amazon-s3.html\" target=\" online di Publii _blank\" rel=\"noopener noreferrer\">documentazione</a>.",
@@ -1007,6 +1019,8 @@
         "gitlabPages": "Pagine GitLab",
         "gitlabSyncedPart1": "Le modifiche alle pagine GitLab potrebbero non essere visibili per alcuni minuti dopo il completamento della distribuzione,",
         "gitlabSyncedPart2": "quindi per favore sii paziente.",
+        "gitPassword": "Password / Token",
+        "gitPasswordNote":"Se utilizzi 2FA per proteggere il tuo account, invece della Password, devi utilizzare il Token di accesso generato in precedenza",
         "googleCloud": "Google Cloud",
         "googleCloudPrefixNote": "Il tuo sito web potrebbe essere inserito in una sottocartella. Si prega di non utilizzare barre all'inizio del nome del prefisso (ad esempio <strong>/blog/</strong>) poiché sarà creata una cartella aggiuntiva vuota. Esempio di prefisso corretto: <strong>blog</strong>.",
         "goToAppSettings": "Vai alle impostazioni dell'App",

@@ -1,0 +1,192 @@
+16a17
+>         "changePageAuthor": "Change page author",
+101c102,103
+<             "afterPost": "After every post"
+---
+>             "afterPost": "After every post",
+>             "afterPage": "After every page"
+106a109
+>         "changePagePublicationDate": "Change page publication date",
+174a178
+>         "cantSavePageWithEmptyTitle": "You cannot save a page with an empty title.",
+219a224
+>         "newPageCreated": "New page has been created",
+440a446,518
+>     "page": {
+>         "addNewPage": "Add new page",
+>         "addPageTitle": "Add page title",
+>         "all": "All",
+>         "closeHierarchy": "Close edit",
+>         "changePageDate": "Change page date",
+>         "cleanUrlsDisabled": "Activate 'Pretty URLs' in the Site settings to unlock the Edit hierarchy option. This will allow you to easily manage the parent-child relationships between your pages.",
+>         "editHierarchy": "Edit hierarchy",
+>         "configureThemeBeforeGeneratingPreview": "A theme must be selected and configured for this website before a preview of this page may be generated.",
+>         "currentDefaultTemplate": "Current default template",
+>         "customPageTypes": "Custom Page Types",
+>         "drafts": "Drafts",
+>         "duplicate": "Duplicate",
+>         "duplicatePageErrorMessage": "An error occurred during duplication of the selected pages. Please try again.",
+>         "duplicatePageSuccessMessage": "Selected pages have been duplicated",
+>         "editorBlock": "Block editor",
+>         "editorBlockInfo": "A modern and intuitive editor with shortkey and markdown support to make blogging easy, with no need to worry about HTML or other code elements.",
+>         "editorBlockNotSupportedEditPageInfo": "The current theme does not support the block editor used in this page. This page may be rendered incorrectly to the output files.",
+>         "editorBlockNotSupportedNewPageInfo": "The current theme does not support the block editor used in this page. This page may be rendered incorrectly to the output files.",
+>         "editorBlockUse": "Use Block editor",
+>         "editorMarkdown": "Markdown editor",
+>         "editorMarkdownInfo": "This editor supports Markdown syntax as shorthand for producing content quickly; great for extensive, no-frills projects such as documentation.",
+>         "editorMarkdownUse": "Use Markdown editor",
+>         "editorWYSIWYG": "WYSIWYG editor",
+>         "editorWYSIWYGInfo": "This editor provides a familiar word-processing experience, with additional tools for users that want to control every aspect of their page content.",
+>         "editorWYSIWYGUse": "Use WYSIWYG editor",
+>         "editPageAnyway": "Edit page anyway",
+>         "filterOrSearchPages": "Filter or search pages...",
+>         "insertActions": "Insert selected page",
+>         "insertAfter": "after",
+>         "insertAsChild": "as subpage",
+>         "insertBefore": "before",
+>         "isHomepage": "Homepage",
+>         "markAsDraft": "Mark as draft",
+>         "markAsFeatured": "Mark as featured",
+>         "markAsUnfeatured": "Mark as unfeatured",
+>         "modificationDate": "Modification date",
+>         "moveItem": "Move",
+>         "moveToTrash": "Move to trash",
+>         "noPagesMatchingYourCriteria": "There are no pages matching your criteria.",
+>         "noParentPage": "No parent",
+>         "openEditorAnyway": "Open editor anyway",
+>         "page": "Page",
+>         "pageAuthor": "Page author",
+>         "pageLink": "Page link",
+>         "pageName": "Page name:",
+>         "pages": "Pages",
+>         "pageSettings": "Page settings",
+>         "pageSlug": "Page slug",
+>         "pageSlugLengthWarning": "Page slugs longer than 250 characters can lead to the creation of broken files during website rendering.",
+>         "pageSlugTooLong": "Page slug is too long",
+>         "pageSlugUpdateButton": "Update",
+>         "pageState": "Page state",
+>         "pageStatusChangeSuccessMessage": "Status of the selected pages has been changed",
+>         "pageTemplate": "Page template",
+>         "parentPage": "Parent page",
+>         "publicationDate": "Publication date",
+>         "publish": "Publish",
+>         "published": "Published",
+>         "removePageMessage": "Do you really want to remove the selected pages? This cannot be undone.",
+>         "removePageSuccessMessage": "Selected pages have been removed",
+>         "selectPage": "Select page",
+>         "setAsParent": "Set as parent",
+>         "setAsSubpage": "Set as subpage",
+>         "setCustomPageDate": "Set custom post date",
+>         "status": "Status",
+>         "thisPageIsADraft": "This page is a draft",
+>         "title": "Title",
+>         "trashed": "Trashed",
+>         "unselectItem": "Unselect",
+>         "updatedOn": "Updated on",
+>         "url": "URL"
+>     },
+578c656
+<         "authorPageTitleVariables": "The following variables can be used in the Author Page Title: %authorname, %sitename.",
+---
+>         "authorPageTitleVariables": "The following variables can be used: %authorname, %sitename.",
+580a659,660
+>         "authorPrefixInfoExtended": "Defines the prefix that appears before the author slug in a URL e.g. <strong>https://example.com/POSTS_PREFIX/AUTHORS_PREFIX/author-slug</strong>.<br>",
+>         "authorsPrefixAfterPostsPrefix": "Put authors prefix after posts prefix",
+598a679,680
+>         "continueSync": "Continue and sync",
+>         "continueSyncNoRemoteFiles": "Publii is unable to find remote files list on your server. If you will continue the sync process, ALL generated website files will be uploaded to your server. You can cancel the sync process to check the reason of your issue and then try again.",
+609a692
+>         "currentThemeHasOverrides": "It seems that you override the theme files, and your custom theme modifications might not fully align with the updated version. Updating your theme requires reviewing and merging these files. Click 'OK' to proceed with the update and address any potential issues later, or 'Cancel' to review your customizations first.",
+659c742
+<         "errorPageTitleVariables": "The following variables can be used in the Error Page Title: %sitename.",
+---
+>         "errorPageTitleVariables": "The following variables can be used: %sitename.",
+683c766,767
+<         "frontpage": "Frontpage",
+---
+>         "frontpage": "Homepage",
+>         "frontpagePageCannotBeEmpty": "Homepage selection cannot be empty.",
+723a808,809
+>         "hideCustomExcerptsOnPagePages": "Hide custom excerpts on pages",
+>         "hideCustomExcerptsOnPagePagesInfo": "When enabled, your pages won't display text which is placed above the \"Read more\" element in the editor.",
+775a862
+>         "pageAsFrontpage": "Select page",
+778c865
+<         "pageTitleVariables": "The following variables can be used in the Page Title: %posttitle, %sitename, %authorname",
+---
+>         "pageTitleVariables": "The following variables can be used: %pagetitle, %sitename, %authorname",
+791c878
+<         "postPageTitleVariables": "The following variables can be used in the Post Page Title: %posttitle, %sitename, %authorname.",
+---
+>         "postPageTitleVariables": "The following variables can be used: %posttitle, %sitename, %authorname.",
+792a880
+>         "postsIndex": "Posts Index",
+794a883,884
+>         "postPrefixInfo": "The prefix entered here will be added before the post slug in the URL. For example, https://example.com/POSTS_PREFIX/post-slug. This option is necessary if you set a <a href=\"#\" data-internal-link=\"SEO\">page as the homepage</a> and need post pagination. In this case, post pagination will be available at https://example.com/POSTS_PREFIX/page/X. Additionally, tags will be rendered under https://example.com/POSTS_PREFIX/TAG_PREFIX/tag-slug.",
+>         "postsPrefix": "Posts prefix",
+819c909
+<         "searchPageTitleVariables": "The following variables can be used in the Search Page Title: %sitename.",
+---
+>         "searchPageTitleVariables": "The following variables can be used: %sitename.",
+830c920
+<         "showPostSlugsOnTheListing": "Show post slugs on the listing",
+---
+>         "showPostSlugsOnTheListing": "Show slugs on the post/page listings",
+848c938
+<         "tagPageTitleVariables": "The following variables can be used in the Tag Page Title: %tagname, %sitename.",
+---
+>         "tagPageTitleVariables": "The following variables can be used: %tagname, %sitename.",
+850c940,941
+<         "tagPrefixInfo": "Prefixes entered here will be added before the tag slug in the URL e.g. <strong>https://example.com/TAG_PREFIX/tag-slug</strong>.<br>This prefix is also used to generate the tags list page (if supported in your theme) e.g. <strong>https://example.com/TAG_PREFIX/index.html</strong>.",
+---
+>         "tagPrefixInfo": "Prefixes entered here will be added before the tag slug in the URL e.g. <strong>https://example.com/TAGS_PREFIX/tag-slug</strong>.<br>This prefix is also used to generate the tags list page (if supported in your theme) e.g. <strong>https://example.com/TAGS_PREFIX/index.html</strong>.",
+>         "tagPrefixInfoExtended": "Prefixes entered here will be added before the tag slug in the URL e.g. <strong>https://example.com/POSTS_PREFIX/TAGS_PREFIX/tag-slug</strong>.<br>This prefix is also used to generate the tags list page (if supported in your theme) e.g. <strong>https://example.com/POSTS_PREFIX/TAGS_PREFIX/index.html</strong>.",
+852c943,944
+<         "tagsListPageTitleVariables": "The following variables can be used in the Tags List Page Title: %sitename.",
+---
+>         "tagsListPageTitleVariables": "The following variables can be used: %sitename.",
+>         "tagsPrefixAfterPostsPrefix": "Put tags prefix after posts prefix",
+876a969,970
+>         "usePageAsFrontpage": "Set page as homepage",
+>         "usePageAsFrontpageNotice": "When enabled, the selected page will become your website's homepage, accessible at your main web address (the root URL). Note that leaving the <a href=\"#\" data-internal-link=\"URLs\">Posts prefix</a> empty will disable posts pagination.",
+878c972
+<         "usePrettyURLsInfo": "When enabled, your post URLs won't contain the .html suffix e.g. it will change URLs from <strong>https://example.com/post.html</strong> to <strong>https://example.com/post/</strong>.",
+---
+>         "usePrettyURLsInfo": "When enabled, your post URLs won't contain the .html suffix e.g. it will change URLs from <strong>https://example.com/post.html</strong> to <strong>https://example.com/post/</strong>. For pages hierarchy wont't be visible in the URL if this option is disabled",
+888a983
+>         "youMustSelectFrontpage": "You must specify page used as homepage",
+984a1080
+>         "deploymentMethodFilesPubliiMsg": "Selected deployment method uses <strong>files.publii.json</strong> file for sync. Consider access protection for this file in your server configuration if required - <a href=\"https://getpublii.com/docs/recommended-server-settings.html#sync-file\" target=\"_blank\">read more</a>",
+987d1082
+<         "deploymentMethodGithubPagesDeprecated": "Github Pages is deprecated sync method and will be removed in Publii v.0.47. We strongly recommend to migrate your server settings to the Git repository method",
+991d1085
+<         "deploymentMethodGitlabPagesDeprecated": "Gitlab Pages is deprecated sync method and will be removed in Publii v.0.47. We strongly recommend to migrate your server settings to the Git repository method",
+1165a1260
+>         "defaultPageTemplate": "Default page template",
+1174a1270,1271
+>         "pageOptions": "Page options",
+>         "pageOptionsInfo": "The Page options section allows you to set global options for what extra information should be included in your pages. Changes made in this section will affect all pages on your site, but you can also override the App Settings on the Page Edit screen for each individual page if necessary.",
+1265a1363
+>         "backToPages": "Pages",
+1270c1368
+<         "cancelPostWarningMsg": "You will lose all unsaved changes - do you want to continue?",
+---
+>         "cancelWarningMsg": "You will lose all unsaved changes - do you want to continue?",
+1282a1381
+>         "enablePrettyURLs": "Enable pretty URLs",
+1285c1384
+<         "frontpageLink": "Frontpage link",
+---
+>         "frontpageLink": "Homepage link",
+1302a1402
+>         "learnMore": "Learn More",
+1323a1424
+>         "pagesSupportNotEnabledMessage": "Your current theme does not support pages. Please choose a theme with built-in page support or update your existing theme to include this functionality. Detailed information on implementing page support in your theme can be found by clicking the 'Learn More' button below.",
+1328c1429
+<         "previewFrontPageOnly": "Preview front page only",
+---
+>         "previewFrontPageOnly": "Preview homepage only",
+1334c1435
+<         "renderFrontPageOnly": "Render front page only",
+---
+>         "renderFrontPageOnly": "Render homepage only",

@@ -1,8 +1,8 @@
 {
 	"name": "Français - par défaut",
-	"version": "1.4.0",
-	"author": "Benoit SALLÉ et Arthur UBERTI",
-	"publiiSupport": "0.44.1",
+	"version": "1.7.0",
+	"author": "Benoit SALLÉ, Arthur UBERTI et StiglarG",
+	"publiiSupport": "0.46.0",
 	"momentLocale": "fr",
 	"wysiwygTranslation": true
 }

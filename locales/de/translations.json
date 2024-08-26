@@ -269,7 +269,7 @@
         "editorBlockNotSupportedNewPageInfo": "Das aktuelle Thema unterstützt den auf dieser Seite verwendeten Block-Editor nicht. Diese Seite wird in den Ausgabedateien möglicherweise nicht korrekt dargestellt.",
         "editorBlockUse": "Block-Editor verwenden",
         "editorMarkdown": "Markdown-Editor",
-        "editorMarkdownInfo": "This editor supports Markdown syntax as shorthand for producing content quickly; great for extensive, no-frills projects such as documentation.",
+        "editorMarkdownInfo": "Dieser Editor unterstützt die Markdown-Syntax als Abkürzung für die schnelle Erstellung von Inhalten; ideal für umfangreiche, schnörkellose Projekte wie Dokumentationen.",
         "editorMarkdownUse": "Markdown-Editor verwenden",
         "editorWYSIWYG": "WYSIWYG-Editor",
         "editorWYSIWYGInfo": "Dieser Editor bietet ein vertrautes Textverarbeitungserlebnis mit zusätzlichen Tools für Benutzer, die jeden Aspekt ihres Seiteninhalts kontrollieren möchten.",

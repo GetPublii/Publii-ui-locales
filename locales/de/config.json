@@ -1,8 +1,8 @@
 {
     "name": "German - default",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "Johannes Keyser, Sebastian Wiemer, Simon99de",
-    "publiiSupport": "0.45.0",
+    "publiiSupport": "0.46.1",
     "momentLocale": "de",
     "wysiwygTranslation": true
 }

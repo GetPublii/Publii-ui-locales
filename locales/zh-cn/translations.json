@@ -100,7 +100,8 @@
             "footer": "Footer",
             "beforePost": "每篇文章之前",
             "afterPost": "每篇文章之后",
-            "afterPage": "每篇页面之后"
+            "afterPage": "每个页面之后"
+
         }
     },
     "date": {
@@ -403,9 +404,9 @@
         "externalURL": "外部网址",
         "hideThisMenuItem": "隐藏此菜单项",
         "insertActions": "插入所选项目：",
-        "insertAfter": "往后",
+        "insertAfter": "after",
         "insertAsChild": "作为子菜单",
-        "insertBefore": "往前",
+        "insertBefore": "before",
         "internalLink": "内部链接",
         "items": "项目",
         "label": "标签",
@@ -486,7 +487,7 @@
         "noParentPage": "没有父级",
         "openEditorAnyway": "打开编辑器",
         "page": "页面",
-        "pageAuthor": "页面坐作者",
+        "pageAuthor": "页面作者",
         "pageLink": "页面链接",
         "pageName": "页面名称:",
         "pages": "页面",
@@ -498,7 +499,7 @@
         "pageState": "页面状态",
         "pageStatusChangeSuccessMessage": "选中的页面状态已变更",
         "pageTemplate": "页面模板",
-        "parentPage": "腹肌页面",
+        "parentPage": "父级页面",
         "publicationDate": "发布日期",
         "publish": "发布",
         "published": "已发布",

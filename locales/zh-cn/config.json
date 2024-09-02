@@ -1,8 +1,8 @@
 {
 	"name": "Chinese - Simplified",
-	"version": "1.0.0",
-	"author": "Meteor",
+	"version": "1.2.1",
+	"author": "Dyxang, Meteor",
 	"publiiSupport": "0.46.1",
-    	"momentLocale": "zh-cn",
-    	"wysiwygTranslation": false
+    "momentLocale": "zh-cn",
+    "wysiwygTranslation": true
 }

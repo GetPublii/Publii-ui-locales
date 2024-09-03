@@ -970,7 +970,7 @@
         "usePageAsFrontpage": "Definir a página como página inicial",
         "usePageAsFrontpageNotice": "Quando habilitado, a página selecionada se tornará a página inicial do seu site, acessível no endereço principal (a URL raiz). Observe que deixar o <a href=\"#\" data-internal-link=\"URLs\">Prefixo dos posts</a> em branco desativará a paginação de posts.",
         "usePrettyURLs": "Utilize URLs atraentes",
-        "usePrettyURLsInfo": "Quando habilitado, as URLs dos seus posts não conterão o sufixo .html. Por exemplo: as URLs serão alteradas de <strong>https://example.com/post.html</strong> para <strong>https://example.com/post/</strong>. Para páginas, a hierarquia não será visível na URL se essa opção estiver desativada.",
+        "usePrettyURLsInfo": "Quando habilitado, as URLs dos seus posts não conterão o sufixo .html. Por exemplo: as URLs serão alteradas de <strong>https://exemplo.com/post.html</strong> para <strong>https://exemplo.com/post/</strong>. Para páginas, a hierarquia não será visível na URL se essa opção estiver desativada.",
         "useSiteGlobalSettings": "Utilizar configurações globais do site",
         "useTitlesAndTags": "Utilize títulos e tags",
         "useWideScrollbars": "Utilize barras de rolagem mais largas",

@@ -655,7 +655,7 @@
         "authorPageTitleVariables": "As seguintes variáveis podem ser utilizadas: %authorname, %sitename.",
         "authorPrefix": "Prefixo do autor:",
         "authorPrefixInfo": "Define o prefixo que aparece antes do slug do autor em uma URL, por exemplo, <strong>https://exemplo.com/PREFIXO_DO_AUTOR/slug-do-autor</strong> .<br>",
-        "authorPrefixInfoExtended": "Define o prefixo que aparece antes do slug do autor em uma URL, por exemplo, <strong>https://examplo.com/PREFIXO_DO_POST/PREFIXO_DO_AUTOR/slug-do-autor</strong>.<br>",
+        "authorPrefixInfoExtended": "Define o prefixo que aparece antes do slug do autor em uma URL, por exemplo, <strong>https://exemplo.com/PREFIXO_DO_POST/PREFIXO_DO_AUTOR/slug-do-autor</strong>.<br>",
         "authorsPrefixAfterPostsPrefix": "Inserir o prefixo dos autores após o prefixo dos posts",
         "authorsPrefixCannotBeEmpty": "O prefixo dos autores não pode permanecer vazio.",
         "authorsPrefixCannotEqualTagsPrefix": "O prefixo dos autores não pode ser igual ao prefixo das tags.",

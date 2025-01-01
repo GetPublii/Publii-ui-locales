@@ -99,7 +99,7 @@
          "socialSharing": "Compartir en redes sociales",
          "footer":"Pie",
          "beforePost":"Antes de cada entrada",
-         "afterPost":"Después de cada entrada"
+         "afterPost":"Después de cada entrada",
          "afterPage": "Después de cada página"
       }
    },
@@ -767,7 +767,7 @@
    "footerText": "Texto de pie de página",
    "frontpage": "Página de inicio",
    "frontpagePageCannotBeEmpty": "La página de inicio no puede estar vacía.",
-   "gConsentModeDefaultState": Estado por defecto",
+   "gConsentModeDefaultState": "Estado por defecto",
    "gConsentModeEnabled": "Habilitar el modo consentimiento de Google",
    "gConsentMode": {
        "addGroup": "Añadir ajustes al grupo de «cookies»",

@@ -1,8 +1,8 @@
 {
     "name": "Español - España",
-    "version": "1.6.0",
-    "author": "Michael Walsh, Drake Galley",
-    "publiiSupport": "0.44.4",
+    "version": "1.7.3",
+    "author": "Michael Walsh, Adrián López Galera",
+    "publiiSupport": "0.46.3",
     "momentLocale": "es-es",
     "wysiwygTranslation": true
 }

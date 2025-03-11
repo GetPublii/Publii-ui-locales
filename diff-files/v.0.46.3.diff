@@ -1,0 +1,25 @@
+33a34
+>         "url": "URL",
+925c926
+<         "showPostSlugsOnTheListing": "Show slugs on the post/page listings",
+---
+>         "showPostSlugsOnTheListing": "Show slugs across all listing views",
+977c978
+<         "usePrettyURLsInfo": "When enabled, your post URLs won't contain the .html suffix e.g. it will change URLs from <strong>https://example.com/post.html</strong> to <strong>https://example.com/post/</strong>. For pages hierarchy wont't be visible in the URL if this option is disabled",
+---
+>         "usePrettyURLsInfo": "When enabled, your post URLs won't contain the .html suffix e.g. it will change URLs from <strong>https://example.com/post.html</strong> to <strong>https://example.com/post/</strong>. For pages hierarchy won't be visible in the URL if this option is disabled",
+1020a1022
+>         "siteDescription": "Site description (internal)",
+1113c1115
+<         "git": "Git",
+---
+>         "git": "Git Repository",
+1118c1120
+<         "gitlabPages": "Gitlab Pages",
+---
+>         "gitlabPages": "GitLab Pages",
+1255c1257,1258
+<         "toUseThisOptionEnableIndexingTagPages": "To use this option, first enable indexing of tag pages in SEO settings."
+---
+>         "toUseThisOptionEnableIndexingTagPages": "To use this option, first enable indexing of tag pages in SEO settings.",
+>         "url": "URL"

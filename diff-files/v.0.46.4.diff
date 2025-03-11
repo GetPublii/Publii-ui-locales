@@ -1,0 +1,16 @@
+186c186
+<             "toHeader": "Header",
+---
+>             "toHeader": "Heading",
+209c209
+<         "header": "Header",
+---
+>         "header": "Heading",
+619c619
+<         "copyright": "Copyright 2024 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+---
+>         "copyright": "Copyright 2025 <a href=\"https://tidycustoms.net\" target=\"_blank\" rel=\"noopener noreferrer\">TidyCustoms</a>. All rights reserved.<br>Publii is designed and maintained by core team and is made possible by the <a href=\"https://electronjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Electron</a> Open Source project and other ",
+869d868
+<         "pageName": "Page name",
+985a985
+>         "websiteName": "Website name",

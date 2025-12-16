@@ -22,6 +22,7 @@ Translations of the Publii app UI in different languages
 | [uk-UA :arrow_down:](https://github.com/GetPublii/Publii-ui-locales/blob/main/downloads/0.39.0/uk-ua.zip)     | Ukrainian<br>:ukraine: Ukraine                    | 0.39.0    | :white_check_mark: | 1.0.0   | :white_check_mark: | [Andrew Notea](https://github.com/andrewnotea)                  |
 | [zh-CN :arrow_down:](https://github.com/GetPublii/Publii-ui-locales/blob/main/downloads/0.46.1/zh-cn.zip)     | Chinese (Simplified)<br>:cn: China                | 0.46.1    | :white_check_mark: | 1.2.2  | :white_check_mark: | [Dyxang](https://github.com/dyxang), [Meteor](https://github.com/coolf233)                              |
 | [zh-TW :arrow_down:](https://github.com/GetPublii/Publii-ui-locales/blob/main/downloads/0.46.1/zh-tw.zip)     | Chinese (Traditional)<br>:taiwan: Taiwan          | 0.46.1    | :white_check_mark: | 1.2.2   | :white_check_mark: | [Dyxang](https://github.com/dyxang)                             |
+| [ru-RU :arrow_down:](https://github.com/GetPublii/Publii-ui-locales/blob/main/downloads/0.46.3/ru-ru.zip)     | Russian <br>🇷🇺 Russia         | 0.46.3    | :white_check_mark: | 0.0.1   | :white_check_mark: | [Sofonov Evgeniy](https://github.com/oldgin)                             |
 
 Legend for status: :pencil2: - development, :white_check_mark: - production, :mag: - in review
 

@@ -1311,6 +1311,7 @@
       "goToThemesManager":"Ir al administrador de temas",
       "installTheme":"Instalar tema",
       "leaveBlankToUseDefault":"Dejar en blanco para usar el valor predeterminado",
+      "newVersionAvailable": "Nueva versión disponible",
       "pageOptions": "Opciones de las páginas",
       "pageOptionsInfo": "La sección «Opciones de las páginas» te permite establecer opciones globales sobre qué información adicional debe incluirse en tus páginas. Los cambios realizados en esta sección afectarán todas las páginas en tu sitio, pero también puedes sobrescribir estos ajustes en el apartado de editar página para cada página individual.",
       "postOptions":"Opciones de las entradas",

@@ -1,9 +1,10 @@
 {
     "name": "Español - España",
-    "version": "1.7.3",
+    "version": "1.8.1",
     "author": "Michael Walsh, Adrián López Galera",
     "publiiSupport": "0.47.4",
     "momentLocale": "es-es",
     "wysiwygTranslation": true
 }
+
 

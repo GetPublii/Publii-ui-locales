@@ -586,7 +586,7 @@
       "editorMarkdown":"Editor de «markdown»",
       "editorMarkdownInfo": "Este editor de «markdown» es compatible con la sintaxis de «markdown» abreviada para producir contenido rápidamente. Es óptimo para proyectos extensos sin formato o diseño involucrado, como documentación.",
       "editorMarkdownUse": "Usar el editor de «markdown»",
-      "editorWYSIWYG": "editor tradicional",
+      "editorWYSIWYG": "Editor tradicional",
       "editorWYSIWYGInfo": "Este editor proporciona una experiencia similar a la de un procesador de textos, con herramientas adicionales para usuarios que desean controlar cada aspecto del contenido de su página.",
       "editorWYSIWYGUse": "Usar el editor tradicional",
       "editPostAnyway": "Editar entrada de todos modos",

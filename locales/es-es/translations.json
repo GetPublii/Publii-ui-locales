@@ -453,7 +453,7 @@
         "latestVersion": "Última versión",
         "currentVersion": "Versión actual",
         "checkUpdates": "Comprobar actualizaciones",
-        "consentInfo": "Recibirás notificaciones para avisarte del lanzamiento de nuevas versiones. Si no quieres recibirlas, puedes deshabilitarlas",
+        "consentInfo": "Recibirás notificaciones para avisarte del lanzamiento de nuevas versiones. Si no quieres recibirlas, puedes deshabilitarlas.",
         "consentReject": "Haz clic aquí para retirar tu consentimiento.",
         "consentStateTitle": "Habilitar notificaciones de nuevas versiones",
         "consentStateDescription": "Publii puede comprobar si existen actualizaciones y avisarte de que están disponibles. Con este fin se realiza una conexión a los servidores de Publli, la cual incluye la dirección IP de tu dispositivo. Esta información se usa únicamente para proporcionarte un aviso y no se almacena. Puedes deshabilitar esta opción en cualquier momento en la configuración de la aplicación.",

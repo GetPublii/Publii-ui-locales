@@ -64,31 +64,31 @@
     },
     "server": {
       "branchDoesNotExist": "Cabang yang dipilih tidak ditemukan.",
-      # "creatingNewRemoteFilesTree": "Creating new remote files tree...",
-      "finishingDeploymentProcess": "Finishing the deployment process...",
-      "getInfoAboutLatestCommit": "Get information about the latest commit...",
-      "preparingFilesTreeToUpload": "Preparing file tree for upload...",
-      "repositoryDoesNotExist": "Selected repository does not exist.",
-      "requestLimitExceededInfo": "Your API request limit was exceeded ({remaining} requests left). Please wait till {resetTime} UTC and then try again.",
-      "requestTimeout": "Request timeout.",
-      "retrievingHandlerOfRemoteFilesTree": "Retrieving remote file tree handler...",
-      "retrievingRemoteFilesTree": "Retrieving the remote file tree...",
-      "tokenOrServerAddressInvalid": "Provided credentials or server/repository address are invalid.",
-      "tooManyFilesInfo": "Your website contains over 4000 items ({numberOfFiles} files and directories). Currently our Github Pages implementation only supports websites with up to 4000 items."
+      "creatingNewRemoteFilesTree": "Membuat struktur berkas baru pada remote...",
+      "finishingDeploymentProcess": "Menyelesaikan proses pengunggahan...",
+      "getInfoAboutLatestCommit": "Memuat informasi mengenai perubahan terbaru...",
+      "preparingFilesTreeToUpload": "Mempersiapan struktur berkas untuk pengunggahan...",
+      "repositoryDoesNotExist": "Lokasi penyimpanan yang dipilih tidak ditemukan.",
+      "requestLimitExceededInfo": "Batas akses penggunaan API telah terlampaui (tersisa {remaining} permintaan). Silahkan tunggu hingga {resetTime} UTC untuk mencoba lagi.",
+      "requestTimeout": "Permintaan habis waktu.",
+      "retrievingHandlerOfRemoteFilesTree": "Mengunduh peta struktur berkas dari remote...",
+      "retrievingRemoteFilesTree": "Mengunduh struktur berkas dari remote...",
+      "tokenOrServerAddressInvalid": "Informasi koneksi yang disertakan untuk server/lokasi penyimpanan ada kekeliruan.",
+      "tooManyFilesInfo": "Terdapat lebih dari 4000 hal, tepatnya ({numberOfFiles} berkas dan direktori). Sedangkan implementasi Github Pages kami saat ini hanya mendukung situs berisi maksimal 4000 hal."
     },
     "site": {
-      "noConfigurationForResponsiveImages": "There is no configuration data for responsive images",
-      "noImagesToRegenerate": "There are no images to regenerate",
-      "noThemeSelected": "No theme selected"
+      "noConfigurationForResponsiveImages": "Tidak ditemukan adanya pengaturan untuk gambar tersesuai",
+      "noImagesToRegenerate": "Tidak ada gambar untuk diperbaharui",
+      "noThemeSelected": "Tidak ada tema yang dipilih"
     },
-    "sureYouWantQuit": "Are you sure you want to quit? \nAll unsaved changes will be lost.",
+    "sureYouWantQuit": "Apakah yakin ingin menutup Publii? \nSemua perubahan yang belum disimpan akan hilang.",
     "wpImport": {
-      "authorsProgressInfo": "Importing Penuliss ({progress} / {total})",
-      "imageDownloadError": "An error occurred during downloading of the image: {image}",
-      "imagesProgressInfo": "Downloading images ({progress} / {total})",
-      "pagesProgressInfo": "Importing pages ({progress} / {total})",
-      "postsProgressInfo": "Importing posts ({progress} / {total})",
-      "tagsProgressInfo": "Importing tags ({progress} / {total})"
+      "authorsProgressInfo": "Mengimpor penulis ({progress} / {total})",
+      "imageDownloadError": "Terjadi kendala dalam proses mengunduh gambar: {image}",
+      "imagesProgressInfo": "Mengunduh gambar ({progress} / {total})",
+      "pagesProgressInfo": "Mengimpor laman ({progress} / {total})",
+      "postsProgressInfo": "Mengimpor artikel ({progress} / {total})",
+      "tagsProgressInfo": "Mengimpor kategori ({progress} / {total})"
     }
   },
   "customHTML": {

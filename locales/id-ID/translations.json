@@ -38,33 +38,33 @@
   },
   "core": {
     "archive": {
-      "destinationNotExists": "Specified output destination not exists",
-      "errorDuringCreatingTAR": "An error occurred during TAR archive creation. Please try again.",
-      "errorDuringCreatingZIP": "An error occurred during ZIP archive creation. Please try again."
+      "destinationNotExists": "Lokasi tujuan yang dipilih tidak ditemukan.",
+      "errorDuringCreatingTAR": "Terjadi kendala dalam proses membuat arsip TAR, silahkan coba lagi.",
+      "errorDuringCreatingZIP": "Terjadi kendala dalam proses membuat arsip ZIP, silahkan coba lagi."
     },
     "backup": {
-      "destinationDirectoryDoesNotExists": "Destination directory does not exist",
-      "errorDuringFileSaveProcess": "An error occurred during the file saving process",
-      "errorDuringReadingBackupFile": "An error occurred during reading of the backup file",
-      "fileDoesNotExists": "Backup file does not exist",
-      "fileIsCorrupted": "The backup file is corrupted - aborting the restore process.",
-      "locationDoesNotExists": "Backup location does not exist",
-      "temporaryDirectoryDoesNotExists": "Temporary directory does not exist"
+      "destinationDirectoryDoesNotExists": "Lokasi tujuan tidak ditemukan.",
+      "errorDuringFileSaveProcess": "Terjadi kendala dalam proses menyimpan.",
+      "errorDuringReadingBackupFile": "Terjadi kendala dalam proses membaca berkas cadangan.",
+      "fileDoesNotExists": "Berkas cadangan tidak ada.",
+      "fileIsCorrupted": "Berkas cadangan rusak - membatalkan proses pemulihan.",
+      "locationDoesNotExists": "Lokasi pencadangan tidak ditemukan.",
+      "temporaryDirectoryDoesNotExists": "Lokasi sementara tidak ditemukan."
     },
     "credits": {
-      "errorLoadingLicenseMsg": "An error occurred during loading of the license. Please try again."
+      "errorLoadingLicenseMsg": "Terjadi kendala dalam proses memuat lisensi, silahkan coba lagi."
     },
     "images": {
-      "responsiveImagesDisabled": "Responsive images are disabled under site settings - all responsive images have been removed."
+      "responsiveImagesDisabled": "Gambar tersesuai (responsif) dimatikan pada pengaturan situs - seluruh gambar tersesuai telah disingkirkan."
     },
     "rendering": {
-      "renderingProcessCrashed": "Rendering process crashed",
-      "renderingProcessCrashedMsg": "For more information, check the rendering-errors.log and rendering-process.log files under Tools -> Log viewer.",
-      "renderingProcessFailed": "Rendering process failed"
+      "renderingProcessCrashed": "Proses penerbitan berhenti.",
+      "renderingProcessCrashedMsg": "Untuk informasi lebih lanjut, silahkan lihat berkas rendering-errors.log dan rendering-process.log pada menu Alat -> Lihat Log.",
+      "renderingProcessFailed": "Proses penerbitan gagal"
     },
     "server": {
-      "branchDoesNotExist": "Selected branch does not exist.",
-      "creatingNewRemoteFilesTree": "Creating new remote files tree...",
+      "branchDoesNotExist": "Cabang yang dipilih tidak ditemukan.",
+      # "creatingNewRemoteFilesTree": "Creating new remote files tree...",
       "finishingDeploymentProcess": "Finishing the deployment process...",
       "getInfoAboutLatestCommit": "Get information about the latest commit...",
       "preparingFilesTreeToUpload": "Preparing file tree for upload...",

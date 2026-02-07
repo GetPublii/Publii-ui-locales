@@ -1,8 +1,8 @@
 {
 	"name": "Italiano",
-	"version": "1.7.2",
-	"author": "Vittorio Ramponi - mywebpassion.it",
-	"publiiSupport": "0.46.0",
+	"version": "1.8.1",
+	"author": "Vittorio Ramponi - mywebpassion.it, dturrilginfotech-cloud",
+	"publiiSupport": "0.47.0",
     "momentLocale": "it",
-    "wysiwygTranslation": true
+    "wysiwygTranslation": false
 }

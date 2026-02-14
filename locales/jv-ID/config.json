@@ -1,8 +1,8 @@
 {
-	"name": "Bahasa Indonesia",
+	"name": "Boso Jowo",
 	"version": "0.1",
 	"author": "Bene Samaritan",
 	"publiiSupport": "0.47.5",
-	"momentLocale": "id-ID",
+	"momentLocale": "jv-ID",
 	"wysiwygTranslation": true
 }

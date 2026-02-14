@@ -1,0 +1,8 @@
+{
+	"name": "Slovak",
+	"version": "1.8.0",
+	"author": "Marián Varga",
+	"publiiSupport": "0.47.0",
+    "momentLocale": "sk",
+    "wysiwygTranslation": true
+}

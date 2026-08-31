@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" id="flag-icons-ru">
+    <path d="M0 320H640V480H0V320Z" fill="red"/>
+    <path d="M0 160H640V320H0V160Z" fill="blue"/>
+    <path d="M0 0H640V160H0V0Z" fill="white"/>
+</svg>

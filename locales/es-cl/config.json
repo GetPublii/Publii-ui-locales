@@ -1,8 +1,8 @@
 {
     "name": "Español - Chile",
-    "version": "1.6.0",
-    "author": "Michael Walsh, Drake Galley",
-    "publiiSupport": "0.44.4",
+    "version": "1.48.1",
+    "author": "Michael Walsh",
+    "publiiSupport": "0.48.0",
     "momentLocale": "es-cl",
     "wysiwygTranslation": true
 }
